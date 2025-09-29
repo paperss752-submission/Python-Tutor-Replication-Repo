@@ -1,6 +1,8 @@
 # Online Python Tutor: Quantitative results and visualizations
 
-For anonymity of human subjects, raw text data is not included here -- please email the authors at [icse2026.806@gmail.com](icse2026.806@gmail.com). 
+We have included a sample of raw text chat data here. Full data will be avaliable upon publication of the paper.
+
+The raw text data can be found in `chat-samples/`, including three examples of excluded text data for reviewers discretion.
 
 The processed data in `annotations-data-analysis/derived-dataframes/` is valid input to the GLMER analysis script in `annotations-data-analysis`.
 
