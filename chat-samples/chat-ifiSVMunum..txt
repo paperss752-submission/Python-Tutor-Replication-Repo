@@ -1,0 +1,203 @@
+----------------
+INITIAL State
+
+class Profile:
+def __init__(self, name, age, desc):                     #Adding in three members for now: name, age, and description
+self.name = name
+self.age = age
+self.desc = desc
+
+def displayProfile(self):                                #method displayProfile takes in no parameters, and prints
+print("Name: " + self.name)                          #what is desired in a "nice" way.
+print("--------------------")
+print("Age: " + str(self.age))
+print("Desc: " + self.desc)
+
+p1 = Profile("John", 36, "I am a cheese connoisseur.")       #Giving the class three profiles for now
+p2 = Profile("Sally", 42, "I like the finest of wines.")
+p3 = Profile("Gary", 44, "I like long walks on the beach.")
+
+Yninput = input("Would you like to change anything? (Y/N)")
+if Yninput == "Y":
+Yinput = input("What would you like to change? (Name, Age, or Desc? )")
+if Yinput == "Name":
+currentname = input("What is your current name? ")
+if currentname == Profile.name:
+print("Hello" + Profile.name)
+
+
+----------------------
+2019-12-01T00:47:12.386Z Person 0:  (hello)
+2019-12-01T00:47:26.926Z Person 1:  (hello)
+
+######################### 2019-12-01T00:47:29.025Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T00:47:46.263Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T00:47:56.712Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T00:48:08.063Z EXECUTED CODE : Person 0 #########################
+2019-12-01T00:49:02.217Z Person 1:  (bye)
+
+######################### 2019-12-01T00:51:20.825Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T00:51:30.288Z EXECUTED CODE : Person 0 #########################
+2019-12-01T00:51:39.304Z Person 2:  (hello)
+
+######################### 2019-12-01T00:51:41.830Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T00:51:49.879Z EXECUTED CODE : Person 0 #########################
+2019-12-01T00:52:12.309Z Person 2: Hi
+2019-12-01T00:52:19.494Z Person 0: Hello
+2019-12-01T00:52:21.663Z Person 2: Need help with something?
+2019-12-01T00:52:26.912Z Person 0: Yea haha
+2019-12-01T00:52:42.759Z Person 0: I am trying to, instead of p1 here, check all instances of name in profile
+2019-12-01T00:53:36.118Z Person 2: You mean you want to iterate through each Profile object you've already created?
+2019-12-01T00:53:49.145Z Person 0: right, through each "name"
+2019-12-01T00:54:19.145Z Person 0: basically to identify who they are
+2019-12-01T00:55:58.476Z Person 2: I'm a little confused by the disconnect between the prompts and what you would like to do. (It doesn't look like you change name or another attribute anywhere.) So when it gets to line 22, you would want it to check if there exists a Profile with that name and then print 'Hello [Name]'?
+2019-12-01T00:57:19.019Z Person 0: So basically, I first want to check to see if they are currently in the "database", and if they are, I want to give them the option to change either their name, age, or description
+2019-12-01T00:57:23.800Z Person 0: Does that make sense?
+2019-12-01T00:57:32.484Z Person 2: It does.
+2019-12-01T00:57:52.712Z Person 0: okay
+2019-12-01T00:57:55.733Z Person 2: You need a "database" then. :)
+2019-12-01T00:58:17.293Z Person 0: like a function?
+2019-12-01T00:58:42.316Z Person 2: Like an iterable
+2019-12-01T00:59:26.972Z Person 0: an iterable?
+2019-12-01T01:00:18.881Z Person 2: A datatype you can iterate through. A list will probably do just fine for this case, though a dict might be easier to navigate.
+2019-12-01T01:00:29.224Z Person 3:  (hello)
+2019-12-01T01:00:46.324Z Person 0: oh, haha I haven't done dicts yet, so I'll use a list for now
+2019-12-01T01:00:50.893Z Person 2: Okay :)
+2019-12-01T01:01:02.152Z Person 3:  (bye)
+2019-12-01T01:01:10.308Z Person 0: would that work?
+2019-12-01T01:01:13.682Z Person 2: Sure
+2019-12-01T01:02:41.552Z Person 2: How do you iterate through a list?
+2019-12-01T01:03:26.062Z Person 4:  (hello)
+2019-12-01T01:03:27.907Z Person 4:  (bye)
+2019-12-01T01:03:37.665Z Person 0: would that work?
+2019-12-01T01:04:04.681Z Person 2: Do you think it will? Run it and see
+
+######################### 2019-12-01T01:04:27.561Z EXECUTED CODE : Person 0 #########################
+2019-12-01T01:04:31.380Z Person 2: It is never faster to ask a human "does my code work?" than to just run your code
+
+######################### 2019-12-01T01:04:40.685Z EXECUTED CODE : Person 0 #########################
+2019-12-01T01:04:41.737Z Person 5:  (hello)
+
+######################### 2019-12-01T01:04:50.200Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T01:04:59.751Z EXECUTED CODE : Person 0 #########################
+2019-12-01T01:05:10.512Z Person 2: (But there are several issues)
+2019-12-01T01:05:13.240Z Person 5:  (bye)
+2019-12-01T01:05:32.336Z Person 0: it appears so
+2019-12-01T01:05:48.950Z Person 2: So on line 25, what is currentname?
+2019-12-01T01:06:21.113Z Person 0: an input from the user?
+2019-12-01T01:06:33.841Z Person 2: No
+2019-12-01T01:06:51.528Z Person 2: What does line 24 do?
+2019-12-01T01:06:54.769Z Person 6:  (hello)
+2019-12-01T01:07:08.359Z Person 2: Let's slow down for just a sec
+2019-12-01T01:07:17.212Z Person 0: ok
+2019-12-01T01:07:23.785Z Person 2: And give the variable in your for loop a meaningful name
+2019-12-01T01:07:38.572Z Person 2: What does 'for [blank] in database' do?
+2019-12-01T01:07:52.499Z Person 0: iterates through the list?
+2019-12-01T01:07:58.436Z Person 2: And what's it a list of?
+2019-12-01T01:08:06.373Z Person 0: 3 elements?
+2019-12-01T01:08:12.311Z Person 2: Which are...?
+2019-12-01T01:08:18.870Z Person 0: p1,p2,p3
+2019-12-01T01:08:23.555Z Person 2: Are those names?
+2019-12-01T01:08:32.689Z Person 2: There we go :)
+2019-12-01T01:08:36.395Z Person 2: I like person
+2019-12-01T01:08:47.681Z Person 2: So, do you know what 'is' does?
+2019-12-01T01:08:54.309Z Person 0: nope
+2019-12-01T01:08:56.840Z Person 0: ill be honest
+2019-12-01T01:09:10.622Z Person 2: Thanks for being honest
+2019-12-01T01:09:48.885Z Person 2: Do you know what you should do if you don't know what a keyword in a programming language does, before you put it in your code?
+2019-12-01T01:09:57.641Z Person 0: look it up
+2019-12-01T01:10:05.411Z Person 2: Thumbs up :)
+2019-12-01T01:10:12.115Z Person 2: So what does is do?
+2019-12-01T01:10:33.542Z Person 2: is and == are both syntactically valid, you just want to make the appropriate choice
+2019-12-01T01:11:24.245Z Person 0: is checks to see if they are the referring to the same object?
+2019-12-01T01:11:29.718Z Person 2: Yep
+2019-12-01T01:11:38.405Z Person 2: Okay, so == is a better choice here
+2019-12-01T01:11:44.170Z Person 0: cool
+2019-12-01T01:11:46.732Z Person 2: Now, what is person and what is currentname?
+2019-12-01T01:12:11.524Z Person 0: person is the p1,p2,p3
+2019-12-01T01:12:20.172Z Person 0: currentname is the input from the user
+2019-12-01T01:12:49.284Z Person 2: Will they ever be of equal value?
+2019-12-01T01:13:11.824Z Person 6:  (bye)
+2019-12-01T01:13:13.513Z Person 0: no, because person is 3 elements?
+2019-12-01T01:13:27.304Z Person 2: No, person isn't 3 elements
+2019-12-01T01:13:37.398Z Person 2: database is a list of 3 elements
+2019-12-01T01:13:48.830Z Person 2: person is only ever one Profile object at a time
+2019-12-01T01:13:51.582Z Person 0: right, but doesn't p1 have 3 elements in it?
+2019-12-01T01:14:02.069Z Person 2: Have you worked with for loops much before?
+2019-12-01T01:14:09.228Z Person 0: somewhat
+2019-12-01T01:14:09.667Z Person 2: It has three attributes
+2019-12-01T01:14:57.200Z Person 0: would it be like that?
+2019-12-01T01:15:02.265Z Person 2: What's person[1]?
+2019-12-01T01:15:19.329Z Person 0: I was thinking that it would make a 2d list
+2019-12-01T01:15:28.155Z Person 0: but I think I'm on the wrong track
+2019-12-01T01:16:04.900Z Person 2: So, a tip
+2019-12-01T01:16:55.122Z Person 2: If you don't know what something in your code is, and you can't figure it out by looking at the code, you should try to find out :) Logging is the better way to do that, but print statements will work in a pinch
+
+######################### 2019-12-01T01:17:11.242Z EXECUTED CODE : Person 0 #########################
+2019-12-01T01:17:27.624Z Person 0: I've definetly printed stuff out before haha
+
+######################### 2019-12-01T01:17:31.394Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T01:17:38.344Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T01:17:47.257Z EXECUTED CODE : Person 0 #########################
+2019-12-01T01:18:43.484Z Person 0: would it be person.name?
+2019-12-01T01:18:48.819Z Person 2: Try it and see :)
+
+######################### 2019-12-01T01:19:35.051Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T01:19:43.842Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T01:19:49.915Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T01:19:58.929Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-12-01T01:20:06.308Z EXECUTED CODE : Person 0 #########################
+2019-12-01T01:20:31.304Z Person 0: I think it worked
+2019-12-01T01:20:37.685Z Person 2: Well done
+2019-12-01T01:21:08.274Z Person 0: So I can use this to check to modify the others, right?
+2019-12-01T01:21:14.710Z Person 2: Gotta go now :) You're on the right track
+2019-12-01T01:21:24.199Z Person 0: haha alright, thanks!!!
+2019-12-01T01:21:25.378Z Person 2: Yep, with this check you know you're on the right object
+2019-12-01T01:21:28.960Z Person 2:  (bye)
+2019-12-01T01:21:39.762Z Person 0:  (bye)
+----------------
+FINAL STATE CODE
+
+class Profile:
+def __init__(self, name, age, desc):                     #Adding in three members for now: name, age, and description
+self.name = name
+self.age = age
+self.desc = desc
+
+def displayProfile(self):                                #method displayProfile takes in no parameters, and prints
+print("Name: " + self.name)                          #what is desired in a "nice" way.
+print("--------------------")
+print("Age: " + str(self.age))
+print("Desc: " + self.desc)
+
+p1 = Profile("John", 36, "I am a cheese connoisseur.")       #Giving the class three profiles for now
+p2 = Profile("Sally", 42, "I like the finest of wines.")
+p3 = Profile("Gary", 44, "I like long walks on the beach.")
+
+database = [p1,p2,p3]
+
+Yninput = input("Would you like to change anything? (Y/N)")
+if Yninput == "Y":
+Yinput = input("What would you like to change? (Name, Age, or Desc? )")
+if Yinput == "Name":
+currentName = input("What is your current name? ")
+for person in database:
+if person.name == currentName:
+print("Hello" + currentName)
+# if person == currentName:
+#     print("Hello " + currentName)
+
+
+----------------------

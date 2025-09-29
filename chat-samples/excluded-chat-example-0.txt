@@ -1,0 +1,176 @@
+2019-11-29T15:31:49.118Z Person 0:  (hello)
+2019-11-29T15:38:17.301Z Person 1:  (hello)
+2019-11-29T15:38:30.445Z Person 0: hi
+2019-11-29T15:38:42.990Z Person 1:  (bye)
+2019-11-29T15:59:07.133Z Person 2:  (hello)
+2019-11-29T15:59:14.661Z Person 0: hi
+2019-11-29T16:00:02.547Z Person 2: hi
+2019-11-29T16:00:42.334Z Person 0: possible ?
+2019-11-29T16:01:03.222Z Person 2: ui
+2019-11-29T16:01:05.131Z Person 2:  (bye)
+2019-11-29T16:01:19.958Z Person 3:  (hello)
+2019-11-29T16:01:27.863Z Person 0: hi
+2019-11-29T16:01:43.069Z Person 3: hi
+
+----------------2019-11-29T16:03:02.692Z CODE CHANGE -----------------------------
+There are five multiple choice questions.
+When you choose the answer at random,
+
+Write a simulation program to find the probability of
+not getting a single one, one, two, three, four, and all five problems.
+
+Print out the results in the following format,
+but save the results to a file.
+
+Calculate the mathematical probabilities first
+and compare them with the simulation results.
+
+Mathematical probability calculation program
+The mathematical probability can be calculated using
+
+f(x) = nCxP^x(1-P)^n-x , x = 0,1,2,3 ------n
+nCx = n!/x!(n-x)!
+
+Experimental probability calculation program by simulation
+
+-The number of simulation runs to obtain the experimental
+probability is input from the user. Write iterations (using a while loop).
+
+
+
+-When the number of simulations is 10 / 100,000 / 10 million / 10 million
+/ 10 million times each,
+Calculate and print the probability for the correct answer.
+
+-Use a list and print the odds up to six decimal places!
+
+Example of output
+
+================================================================================
+
+Number of correct answers : 0 , 1 , 2 , 3 , 4 , 5
+
+================================================================================
+
+f(x) : 0.237305 0.395508 0.263672 0.087891 0.014648 0.000977
+
+================================================================================
+
+Number of simulation ( 1000): 0.218000 0.421000 0.259000 0.091000 0.011000 0.000000
+
+================================================================================
+Number of simulation( 100000): 0.236456 0.395316 0.264778 0.087714 0.014802 0.000934
+
+================================================================================
+
+Number of simulation(1000000): 0.237925 0.395436 0.263595 0.087459 0.014605 0.000980
+
+================================================================================
+----------------------
+2019-11-29T16:03:06.212Z Person 3:  (bye)
+2019-11-29T16:03:13.516Z Person 4:  (hello)
+2019-11-29T16:03:19.633Z Person 4:  (bye)
+2019-11-29T16:04:02.805Z Person 5:  (hello)
+2019-11-29T16:04:04.609Z Person 0: hi
+2019-11-29T16:05:07.756Z Person 5:  (bye)
+2019-11-29T16:15:44.191Z Person 6:  (hello)
+2019-11-29T16:16:02.669Z Person 6:  (bye)
+2019-11-29T16:21:01.684Z Person 7:  (hello)
+2019-11-29T16:21:05.838Z Person 0: hi
+2019-11-29T16:21:28.075Z Person 7:  (bye)
+2019-11-29T16:33:17.798Z Person 8:  (hello)
+2019-11-29T16:33:41.247Z Person 8:  (bye)
+2019-11-29T16:42:09.147Z Person 9:  (hello)
+2019-11-29T16:43:11.685Z Person 10:  (hello)
+2019-11-29T16:43:19.447Z Person 9:  (bye)
+2019-11-29T16:43:20.684Z Person 10: hey
+2019-11-29T16:43:24.065Z Person 0: hi
+2019-11-29T16:43:30.628Z Person 10: sup?
+2019-11-29T16:43:37.408Z Person 0: possible ?
+2019-11-29T16:43:44.194Z Person 10: sure
+2019-11-29T16:43:56.625Z Person 0: omg lol
+2019-11-29T16:43:58.995Z Person 10: I^m a student from [REDACTED CITY] :)
+2019-11-29T16:44:21.105Z Person 0: i`m 1st grade in college
+2019-11-29T16:44:24.817Z Person 0: [REDACTED COUNTRY]
+2019-11-29T16:44:39.023Z Person 10: oh nice, which college ?
+2019-11-29T16:44:49.095Z Person 0: engineering
+2019-11-29T16:45:03.368Z Person 10: [REDACTED CITY]?
+2019-11-29T16:45:12.914Z Person 0: nope
+2019-11-29T16:45:22.738Z Person 0: [REDACTED CITY]
+2019-11-29T16:45:31.842Z Person 0: [REDACTED NUMBER] people live in
+2019-11-29T16:45:39.154Z Person 0: the center of [REDACTED CITY]
+2019-11-29T16:45:45.314Z Person 10: crazy
+2019-11-29T16:45:56.366Z Person 10: what a world i like you
+2019-11-29T16:45:57.099Z Person 0: but [REDACTED CITY] is [REDACTED NUMBER]
+2019-11-29T16:46:04.763Z Person 0: ..
+2019-11-29T16:46:05.445Z Person 10: you ga
+2019-11-29T16:46:24.372Z Person 10: youre nice
+2019-11-29T16:46:30.499Z Person 0: oh
+2019-11-29T16:46:30.675Z Person 10: muss los buddy
+2019-11-29T16:46:33.851Z Person 0: [REDACTED NUMBER] m
+2019-11-29T16:46:35.396Z Person 10:  (bye)
+2019-11-29T16:46:35.718Z Person 0: [REDACTED NUMBER]
+2019-11-29T16:46:47.955Z Person 0: [REDACTED CITY] is [REDACTED NUMBER]m
+2019-11-29T16:47:14.165Z Person 0: i major in industrial management engineering
+2019-11-29T16:50:01.266Z Person 11:  (hello)
+
+######################### 2019-11-29T16:50:13.983Z EXECUTED CODE : Person 11 #########################
+2019-11-29T16:50:32.717Z Person 11:  (bye)
+2019-11-29T16:50:52.616Z Person 0:  (bye)
+----------------
+FINAL STATE CODE
+
+There are five multiple choice questions.
+When you choose the answer at random,
+
+Write a simulation program to find the probability of
+not getting a single one, one, two, three, four, and all five problems.
+
+Print out the results in the following format,
+but save the results to a file.
+
+Calculate the mathematical probabilities first
+and compare them with the simulation results.
+
+Mathematical probability calculation program
+The mathematical probability can be calculated using
+
+f(x) = nCxP^x(1-P)^n-x , x = 0,1,2,3 ------n
+nCx = n!/x!(n-x)!
+
+Experimental probability calculation program by simulation
+
+-The number of simulation runs to obtain the experimental
+probability is input from the user. Write iterations (using a while loop).
+
+
+
+-When the number of simulations is 10 / 100,000 / 10 million / 10 million
+/ 10 million times each,
+Calculate and print the probability for the correct answer.
+
+-Use a list and print the odds up to six decimal places!
+
+Example of output
+
+================================================================================
+
+Number of correct answers : 0 , 1 , 2 , 3 , 4 , 5
+
+================================================================================
+
+f(x) : 0.237305 0.395508 0.263672 0.087891 0.014648 0.000977
+
+================================================================================
+
+Number of simulation ( 1000): 0.218000 0.421000 0.259000 0.091000 0.011000 0.000000
+
+================================================================================
+Number of simulation( 100000): 0.236456 0.395316 0.264778 0.087714 0.014802 0.000934
+
+================================================================================
+
+Number of simulation(1000000): 0.237925 0.395436 0.263595 0.087459 0.014605 0.000980
+
+================================================================================
+----------------------

@@ -1,0 +1,397 @@
+PERSON 0 : (hello)
+
+######################### EXECUTED CODE : Person 0 #########################
+PERSON 1 : (hello)
+PERSON 1 : "pass" means "this function does nothing"
+PERSON 1 : do you know how to write a for loop?
+PERSON 0 : yes, like this:
+for item in 'Python':
+print(item)
+for item in ['John', 'Smith']:
+print(item)
+PERSON 1 : ok, so I have defined for you a function named findSumFor which takes an argument named "elements"; now, write a for loop that loops over all the items in "elements" and just performs "pass" as the body of the loop
+PERSON 2 : (hello)
+PERSON 2 : (bye)
+PERSON 0 : should I make it private?
+PERSON 1 : it's up to you
+PERSON 1 : making it private means if I get called away, no one else is going to see that you need help, but it also means no one else will disrupt the conversation
+PERSON 0 : I'll leave it open for now
+PERSON 1 : inside of findSumFor, write a for loop that loops over "elements", with "pass" as the body of the loop
+PERSON 1 : you should be looping over elements, not over findSumFor
+PERSON 0 : I'm not quite sure what to type to be honest
+PERSON 1 : for thing in list:
+PERSON 0 : oh okay
+PERSON 1 : you can try running it and see the error, if that will help you see what's going on
+PERSON 0 : like this?
+PERSON 3 : (hello)
+PERSON 1 : click the "Visualize Execution" button to run your code
+
+######################### EXECUTED CODE : Person 0 #########################
+PERSON 1 : so why did that error out?
+PERSON 3 : (bye)
+PERSON 1 : read the error message in red under the code
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 1 : ok, no errors
+PERSON 1 : now we can try calling your code to see if it works
+PERSON 1 : (it obviously won't, but the visualize will be more helpful once you call your code)
+PERSON 1 : the function name is findSumFor
+
+######################### EXECUTED CODE : Person 0 #########################
+
+######################### EXECUTED CODE : Person 0 #########################
+PERSON 4 : (hello)
+
+######################### EXECUTED CODE : Person 0 #########################
+----------------
+CODE CHANGE : Person 1
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor()
+----------------------
+PERSON 1 : ok, look at the error message again and try to figure out what's wrong
+----------------
+CODE CHANGE : Person 0
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor(elements)
+----------------------
+----------------
+CODE CHANGE : Person 4
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor(eleme)
+----------------------
+----------------
+CODE CHANGE : Person 4
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor()
+----------------------
+PERSON 4 : (bye)
+----------------
+CODE CHANGE : Person 0
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor(elements)
+----------------------
+----------------
+CODE CHANGE : Person 1
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor()
+----------------------
+PERSON 1 : what is missing?
+
+######################### EXECUTED CODE : Person 0 #########################
+----------------
+CODE CHANGE : Person 1
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+array1 = [23, 11, 34]
+array2 = [9, 22, 65]
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor()
+----------------------
+----------------
+CODE CHANGE : Person 0
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+array1 = [23, 11, 34]
+array2 = [9, 22, 65]
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor(x)
+----------------------
+----------------
+CODE CHANGE : Person 1
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+array1 = [23, 11, 34]
+array2 = [9, 22, 65]
+
+def findSumFor(elements):
+for x in list:
+
+pass
+
+findSumFor()
+----------------------
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 1 : you have to pass an argument
+
+######################### EXECUTED CODE : Person 1 #########################
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 1 : see how it says "missing 1 required positional argument"?
+PERSON 0 : so the numbers are arguments for the name
+PERSON 1 : you define a function named findSumFor that takes one argument
+PERSON 5 : (hello)
+PERSON 1 : when you call that function, if you don't pass the argument, it's an error
+PERSON 6 : (hello)
+PERSON 6 : (bye)
+PERSON 1 : lol - someone is just giving you the answer instead of teaching you
+PERSON 5 : well im not his teacher
+PERSON 0 : why would total = 0?
+PERSON 5 : total += x
+PERSON 5 : means
+PERSON 5 : total = total + x
+PERSON 5 : you know what happens when you try to do total + x when total doesnt exist
+PERSON 1 : they're just setting an initial value
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 0 : like a placeholder?
+PERSON 5 : initial value
+PERSON 1 : they're preventing that error
+PERSON 0 : ahh okay
+PERSON 1 : you have to assign a value to the variable before you're allowed to read from it
+PERSON 1 : So try to reconstruct it on your own
+PERSON 7 : (hello)
+PERSON 0 : like that?
+PERSON 1 : I'm not sure why you keep defining global variables - that's not at all relevant to your problem
+PERSON 1 : let's walk through it
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 0 : I'm just not sure how to program in Python to be honest
+PERSON 1 : first it's going to read the definition of findSumFor
+PERSON 0 : yes please
+PERSON 1 : now that's done, it's going to call it
+PERSON 1 : you can see "elements" is a list of 3 ints: 1, 2, and 3
+PERSON 1 : we passed it in as an argument, so it gets bound to the argument name inside the function
+PERSON 1 : anywhere between line 7 and the end of the function, the name "elements" refers to whatever value we passed in when we called findSumFor
+PERSON 1 : does that make sense?
+PERSON 0 : yes
+PERSON 1 : ok, so how many times will your for loop execute?
+PERSON 0 : three?
+PERSON 1 : correct - because there are 3 items in the list 'elements'
+PERSON 1 : and what will "x" be on the first loop iteration
+PERSON 8 : (hello)
+PERSON 0 : 1?
+PERSON 8 : (bye)
+PERSON 1 : hit the "Forward" button and see if you're right
+PERSON 0 : program terminated
+PERSON 1 : only hit it once
+PERSON 1 : see how it moves through the values?
+PERSON 0 : yeah, it cycles through the values
+PERSON 1 : ok, so if you want to sum the items in the list, what do you need to do instead of just doing a "pass"?
+PERSON 0 : add them (=)
+PERSON 0 : (+)
+PERSON 1 : go ahead and try writing the code
+PERSON 0 : I'm not sure on how to add them
+PERSON 1 : Just give it a try and we can talk about why it does or doesn't work
+PERSON 1 : just try something - anything at all
+PERSON 1 : here, I'll give you a suggestion that won't work, so maybe it will start an idea
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 0 : x = sum(x)?
+PERSON 1 : sure
+PERSON 1 : like I said, it doesn't work
+
+######################### EXECUTED CODE : Person 0 #########################
+PERSON 1 : Here I'm trying to call python's built-in function "sum" and pass the current value to it, and assign the result back into the variable named x
+PERSON 1 : Python gives me an error because the built-in function "sum" needs an iterable, and I passed it an integer
+PERSON 1 : so we know that won't work - what's something else you could try?
+PERSON 0 : x = sum(elements)
+PERSON 1 : ok, let's try it
+PERSON 1 : stop defining global variables
+PERSON 1 : we're not to that point yet
+PERSON 9 : (hello)
+PERSON 0 : sum(elements)
+PERSON 1 : try it
+PERSON 1 : we're letting him try things to see how they work or don't work
+PERSON 9 : I see
+PERSON 1 : he's supposed to be learning this stuff, so I don't want to spoonfeed an answer
+PERSON 9 : my bad
+PERSON 1 : also, your assertion on why it's "wrong" is not even correct ;)
+
+######################### EXECUTED CODE : Person 1 #########################
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 1 : notice how it's not doing anything?
+PERSON 1 : we didn't save the result anywhere
+PERSON 0 : another variable to save it
+PERSON 1 : so edit the code and assign the result somewhere
+PERSON 1 : not there
+PERSON 1 : line 10
+
+######################### EXECUTED CODE : Person 1 #########################
+PERSON 9 : Dude if someone is this clueless, I would rather write the code and explain it to him
+PERSON 1 : user_4cc - feel free, then
+PERSON 9 : I think this is rather a torture
+PERSON 1 : (bye)
+PERSON 0 : I have to learn it as the assessor also then wants the explanation in code comments
+PERSON 9 : If he had known what to do, he won't ask here
+PERSON 0 : It's a shame he left
+PERSON 0 : Thank you for offering help to me
+PERSON 0 : please continue
+PERSON 10 : (hello)
+PERSON 9 : let us teach you in a different way
+PERSON 11 : (hello)
+PERSON 10 : (bye)
+PERSON 5 : yes
+PERSON 5 : dont use
+PERSON 5 : sum
+PERSON 5 : list
+PERSON 5 : int
+PERSON 5 : float
+PERSON 5 : as names
+PERSON 9 : do not write until I finish my comment
+PERSON 9 : done
+PERSON 9 : go ahead and update total
+PERSON 11 : (bye)
+PERSON 9 : remember total is the sum of the current value and the previous sum
+PERSON 12 : (hello)
+PERSON 9 : Are you clear about what we are doing?
+PERSON 0 : I'm not sure
+PERSON 12 : (bye)
+PERSON 9 : It is okay
+PERSON 0 : increasing total with current value x
+PERSON 9 : yes
+PERSON 0 : ok
+PERSON 0 : print?
+PERSON 9 : print does not return to the caller
+PERSON 9 : It rather displays to the screen or the console
+PERSON 13 : (hello)
+PERSON 13 : (bye)
+PERSON 9 : Have you ever seen anyone using return keyword
+PERSON 14 : (hello)
+PERSON 9 : (bye)
+PERSON 0 : (bye)
+PERSON 14 : :O
+PERSON 7 : (bye)
+PERSON 14 : (bye)
+PERSON 5 : (bye)
+PERSON 0 : (hello)
+PERSON 15 : (hello)
+PERSON 16 : (hello)
+PERSON 17 : (hello)
+PERSON 15 : (bye)
+PERSON 0 : thank you!
+PERSON 17 : now try it
+
+######################### EXECUTED CODE : Person 0 #########################
+PERSON 17 : I will explain if you have any confusion
+PERSON 0 : how would I explain line 27
+PERSON 0 : as a comment
+PERSON 0 : display result or something else?
+
+######################### EXECUTED CODE : Person 17 #########################
+PERSON 0 : I would also like to ask the user for three numbers as an array befirehand
+PERSON 16 : (bye)
+PERSON 0 : *beforehand
+PERSON 17 : (bye)
+PERSON 18 : (hello)
+PERSON 18 : (bye)
+PERSON 0 : help
+PERSON 19 : (hello)
+PERSON 19 : (bye)
+
+######################### EXECUTED CODE : Person 0 #########################
+PERSON 0 : (bye)
+----------------
+FINAL STATE CODE
+
+# write a function called findSumFor
+# that computes and prints the sum
+# of the numbers in a given list/array
+# using a for-loop.
+
+def findSumFor(elements):
+# Create a variable here and initialize it with zero
+# the variable holds the running sum
+total = 0 # It is not acceptable to use python keywords as a variable
+# because you cannot use the function sum from here on
+# this is an excellent indentifier choice
+# now let us move into the loop
+
+for x in elements:
+# update the total variable here
+# as the loop trace the list.
+# hint: previous value is total
+# current value is x.
+total = total + x # excellent, but you missed one thing
+# remember we are trying to update total
+# When we finished adding the elements of the list,
+# we need to return the result to the caller.
+# do so here please.
+return total
+
+#
+print(findSumFor([1,2,3]))
+----------------------

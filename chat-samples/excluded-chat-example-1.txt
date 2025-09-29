@@ -1,0 +1,88 @@
+----------------
+INITIAL STATE CODE
+
+int main() {
+
+return 0;
+}
+----------------------
+2019-10-03T13:33:26.977Z PERSON 0 : (hello)
+2019-10-03T13:33:35.897Z PERSON 0 : (bye)
+2019-10-03T13:33:40.516Z PERSON 0 : (hello)
+2019-10-03T13:33:56.404Z PERSON 1 : (hello)
+2019-10-03T13:34:03.533Z PERSON 1 : (bye)
+2019-10-03T13:34:42.175Z PERSON 0 : please someone hel me with y python code
+2019-10-03T13:35:50.429Z PERSON 0 : (bye)
+2019-10-03T13:35:52.814Z PERSON 0 : (hello)
+2019-10-03T13:40:05.844Z PERSON 0 : (bye)
+2019-10-03T13:40:12.094Z PERSON 0 : (hello)
+2019-10-03T13:40:20.048Z PERSON 0 : (bye)
+2019-10-03T13:40:28.225Z PERSON 0 : (hello)
+2019-10-03T13:44:51.912Z PERSON 0 : (bye)
+2019-10-03T13:44:54.735Z PERSON 0 : (hello)
+2019-10-03T13:47:48.609Z PERSON 2 : (hello)
+2019-10-03T13:47:58.038Z PERSON 2 : hi
+2019-10-03T13:48:05.660Z PERSON 0 : hi sir
+2019-10-03T13:48:14.006Z PERSON 0 : i need help woth this code
+2019-10-03T13:48:19.064Z PERSON 3 : (hello)
+2019-10-03T13:48:23.946Z PERSON 2 : oh yeah?
+2019-10-03T13:48:27.503Z PERSON 2 : what's going on here
+2019-10-03T13:48:32.820Z PERSON 3 : Can I have you snap pls ?
+2019-10-03T13:48:41.296Z PERSON 3 : or insta ?
+2019-10-03T13:48:42.744Z PERSON 3 : (bye)
+2019-10-03T13:49:00.360Z PERSON 0 : its image processing
+2019-10-03T13:49:11.272Z PERSON 0 : pls explain by step by step
+2019-10-03T13:49:25.390Z PERSON 2 : hmm, you want me to explain it to you?
+2019-10-03T13:49:32.165Z PERSON 0 : yeah
+2019-10-03T13:49:38.757Z PERSON 2 : where did yuo find this code?
+2019-10-03T13:49:42.988Z PERSON 2 : is there not an explanation there?
+2019-10-03T13:49:47.271Z PERSON 0 : nope
+2019-10-03T13:49:56.748Z PERSON 4 : (hello)
+2019-10-03T13:49:57.731Z PERSON 0 : do you understand it
+2019-10-03T13:50:19.133Z PERSON 4 : understand what? the code?
+2019-10-03T13:50:24.657Z PERSON 0 : yeah
+2019-10-03T13:50:33.517Z PERSON 0 : that filter array part
+2019-10-03T13:50:49.693Z PERSON 0 : and the colour part inside for loop
+2019-10-03T13:50:56.774Z PERSON 2 : does this run?
+2019-10-03T13:51:02.878Z PERSON 2 : i don't see what "op" is
+2019-10-03T13:51:05.047Z PERSON 0 : yep but not here
+2019-10-03T13:51:17.357Z PERSON 4 : (bye)
+2019-10-03T13:52:28.093Z PERSON 0 : ?
+2019-10-03T13:52:28.211Z PERSON 2 : yeah, not too sure dude
+2019-10-03T13:52:37.583Z PERSON 2 : just from looking at it, i cannot see what "op" is at all
+2019-10-03T13:52:45.987Z PERSON 0 : its option
+2019-10-03T13:52:53.482Z PERSON 2 : oh it's the int input down below
+2019-10-03T13:52:59.374Z PERSON 0 : yep
+2019-10-03T13:53:05.006Z PERSON 2 : dodgy scope
+2019-10-03T13:53:35.018Z PERSON 2 : ok
+2019-10-03T13:53:41.827Z PERSON 2 : so each item in the filter list refers to an option
+2019-10-03T13:53:49.772Z PERSON 0 : yeah
+2019-10-03T13:54:14.979Z PERSON 0 : so hows the filter is declared with certain numbers
+2019-10-03T13:54:28.708Z PERSON 0 : what it has to  do with the options
+2019-10-03T13:56:37.473Z PERSON 5 : (hello)
+2019-10-03T13:57:10.509Z PERSON 5 : (bye)
+2019-10-03T13:57:29.387Z PERSON 0 : ?
+2019-10-03T13:57:43.290Z PERSON 2 : you understand 11-19 right?
+2019-10-03T13:57:56.400Z PERSON 2 : it's selecting pixels in a grid of 9
+2019-10-03T13:58:08.820Z PERSON 2 : with 123 being bottom left to top left
+2019-10-03T13:58:12.028Z PERSON 2 : 456 middle bottom to middle top
+2019-10-03T13:58:13.519Z PERSON 2 : etc
+2019-10-03T13:58:40.053Z PERSON 6 : (hello)
+2019-10-03T13:58:56.363Z PERSON 6 : (bye)
+2019-10-03T13:59:04.025Z PERSON 2 : i'm not sure how np.zeros work
+2019-10-03T13:59:07.061Z PERSON 2 : probably googleable
+2019-10-03T13:59:21.214Z PERSON 2 : line 24-29 is just making sure the ints are between 0 and 255
+2019-10-03T13:59:21.266Z PERSON 0 : kk
+2019-10-03T13:59:24.865Z PERSON 2 : and if not, changing them to those values
+2019-10-03T13:59:47.179Z PERSON 2 : i have a feeling this isn't very good code
+2019-10-03T14:00:26.485Z PERSON 2 : i haven't used the PIL library though, or numpy too much
+2019-10-03T14:00:34.405Z PERSON 2 : but i imagine there's a much easier way to do this
+2019-10-03T14:02:53.363Z PERSON 2 : good luck dude
+2019-10-03T14:03:02.735Z PERSON 7 : (hello)
+2019-10-03T14:03:06.382Z PERSON 2 : (bye)
+2019-10-03T14:03:14.013Z PERSON 8 : (hello)
+2019-10-03T14:03:15.239Z PERSON 8 : (bye)
+
+#########################  2019-10-03T14:03:23.559Z EXECUTED CODE : Person 7 #########################
+2019-10-03T14:03:36.884Z PERSON 7 : Hi!
+2019-10-03T14:04:00.504Z PERSON 7 : (bye)

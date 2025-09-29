@@ -1,0 +1,194 @@
+----------------
+INITIAL State
+
+def min_path(path):
+lista = path
+print(lista)
+for x in range(len(path)-1):
+
+if (path[x] == "LEFT" and path[x + 1]=="RIGHT") or (path[x] == "RIGHT" and path[x + 1]=="LEFT"):
+lista.remove(path[x])
+lista.remove(path[x +1])
+if (path[x] == "UP" and path[x + 1]=="DOWN") or (path[x] == "DOWN" and path[x + 1]=="UP"):
+lista.remove(path[x])
+lista.remove(path[x +1])
+print(lista)
+
+return path
+----------------------
+2019-11-26T01:09:28.666Z Person 0:  (hello)
+
+######################### 2019-11-26T01:09:40.588Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-11-26T01:10:32.765Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-11-26T01:11:42.632Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-11-26T01:14:12.014Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-11-26T01:15:42.020Z EXECUTED CODE : Person 0 #########################
+2019-11-26T01:16:49.432Z Person 1:  (hello)
+
+######################### 2019-11-26T01:17:18.214Z EXECUTED CODE : Person 0 #########################
+2019-11-26T01:17:36.266Z Person 0: hey
+2019-11-26T01:17:56.900Z Person 0: this exercise is always giving me list index out of range
+2019-11-26T01:18:10.710Z Person 1: what are you trying to accomplish
+2019-11-26T01:18:31.284Z Person 0: i have to delete all the redundant paths
+2019-11-26T01:18:40.442Z Person 0: like left and right next
+2019-11-26T01:18:46.022Z Person 0: or vice versa
+2019-11-26T01:18:54.492Z Person 0: up and down or down and up
+
+######################### 2019-11-26T01:19:56.116Z EXECUTED CODE : Person 0 #########################
+2019-11-26T01:20:03.218Z Person 2:  (hello)
+2019-11-26T01:20:11.425Z Person 1: so if you have right, left are you only supposed to remove left
+2019-11-26T01:20:21.386Z Person 0: no
+2019-11-26T01:20:30.326Z Person 0: i'm supposed to remove both
+2019-11-26T01:20:33.124Z Person 1: okay
+2019-11-26T01:20:47.345Z Person 2: what about
+2019-11-26T01:20:52.195Z Person 2: up right down left ?
+2019-11-26T01:20:55.420Z Person 1: so the output for this is just supposed to be up?
+2019-11-26T01:21:02.825Z Person 0: i need to remove all the redudant paths
+2019-11-26T01:21:06.972Z Person 0: yes
+
+######################### 2019-11-26T01:21:10.492Z EXECUTED CODE : Person 1 #########################
+2019-11-26T01:21:13.528Z Person 0: and it's ok in this test
+2019-11-26T01:21:15.383Z Person 2: i see
+2019-11-26T01:21:25.480Z Person 0: but in others tests this way it's not correct
+2019-11-26T01:21:29.288Z Person 1: give a test where it doesn't work
+2019-11-26T01:21:32.298Z Person 0: other*
+2019-11-26T01:21:37.310Z Person 3:  (hello)
+2019-11-26T01:21:44.334Z Person 2: wouldnt it be easier to just use coordinates and then find the end position
+
+######################### 2019-11-26T01:21:52.831Z EXECUTED CODE : Person 0 #########################
+2019-11-26T01:22:05.668Z Person 3:  (bye)
+2019-11-26T01:22:20.952Z Person 0: maybe ahah
+2019-11-26T01:22:52.476Z Person 0: let me try with coordinates
+2019-11-26T01:23:14.433Z Person 2: although it'd probably take longer maybe?
+2019-11-26T01:23:20.916Z Person 1: you're working with a list that you are removing elements from. you should refrain from doing that
+2019-11-26T01:23:59.415Z Person 0: yes
+2019-11-26T01:24:06.307Z Person 0: i know
+2019-11-26T01:24:19.651Z Person 0: i started this exercise not the best way
+2019-11-26T01:24:33.824Z Person 0: i'll try to use coordinates
+2019-11-26T01:25:10.007Z Person 1: how about adding the ones that work to a list
+2019-11-26T01:25:33.135Z Person 1: so if x works then add it to the list. that way you're not getting index out of range
+2019-11-26T01:26:08.423Z Person 4:  (hello)
+2019-11-26T01:26:16.064Z Person 4: oop
+2019-11-26T01:26:17.590Z Person 4: hello
+2019-11-26T01:27:02.694Z Person 0: ih
+2019-11-26T01:27:04.244Z Person 0: hi*
+2019-11-26T01:27:19.636Z Person 4: what's the issue here?
+2019-11-26T01:34:10.953Z Person 1: does left left, right right, etc. work or no
+2019-11-26T01:34:42.215Z Person 4: what even is this doing
+2019-11-26T01:34:49.585Z Person 2: its supposed to return
+2019-11-26T01:34:53.097Z Person 2: left up left
+2019-11-26T01:34:54.486Z Person 2: right?
+2019-11-26T01:35:19.220Z Person 1: it checks for redudant paths. and yes i believe it's supposed to return that
+2019-11-26T01:35:26.821Z Person 4:  (bye)
+2019-11-26T01:35:50.434Z Person 2: ok
+2019-11-26T01:35:52.385Z Person 2: i know 2 ways
+2019-11-26T01:36:13.550Z Person 0: tell me please xd
+2019-11-26T01:36:20.704Z Person 2: second one is slower
+2019-11-26T01:36:41.596Z Person 2: the order is irrelevant though right?
+2019-11-26T01:36:43.773Z Person 2: up left
+left up
+2019-11-26T01:36:45.016Z Person 2: same thing
+2019-11-26T01:37:04.701Z Person 0: yes
+2019-11-26T01:37:39.767Z Person 0: i just don't understand the return
+2019-11-26T01:37:43.905Z Person 0: in the 1st function
+2019-11-26T01:37:50.959Z Person 0: but the rest is very good!
+2019-11-26T01:38:05.925Z Person 2: multiplying a list repeats the element
+2019-11-26T01:38:06.324Z Person 2: so
+2019-11-26T01:38:09.219Z Person 2: ['UP'] * 10
+2019-11-26T01:38:18.732Z Person 2: would be ['UP', 'UP',...]
+2019-11-26T01:38:19.979Z Person 2: 10 ups
+2019-11-26T01:38:29.527Z Person 2: ver is going to be either up or down
+2019-11-26T01:38:30.802Z Person 0: ahhhhhh
+2019-11-26T01:38:32.635Z Person 0: i get it
+2019-11-26T01:38:41.838Z Person 5:  (hello)
+2019-11-26T01:39:36.213Z Person 5:  (bye)
+2019-11-26T01:39:40.169Z Person 6:  (hello)
+2019-11-26T01:39:59.790Z Person 0: bro
+2019-11-26T01:40:07.035Z Person 6: hey bro
+2019-11-26T01:40:10.948Z Person 0: oh u change the 1st
+2019-11-26T01:40:16.489Z Person 0: it wasnt working x)
+
+######################### 2019-11-26T01:40:21.978Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-11-26T01:40:39.936Z EXECUTED CODE : Person 2 #########################
+2019-11-26T01:42:00.784Z Person 6: what is this supposed to return
+2019-11-26T01:45:29.738Z Person 6: you need to use absolute value
+2019-11-26T01:45:34.482Z Person 0: omg wtf
+2019-11-26T01:45:47.612Z Person 0: all the private tests passed
+2019-11-26T01:45:54.336Z Person 0: but the public ones failed
+2019-11-26T01:46:01.994Z Person 0: nvm i got 100% now x)
+2019-11-26T01:46:07.090Z Person 2:  (bye)
+2019-11-26T01:46:18.082Z Person 0: because only the private count
+2019-11-26T01:46:26.085Z Person 1:  (bye)
+2019-11-26T01:48:13.556Z Person 6:  (bye)
+2019-11-26T01:48:38.713Z Person 7:  (hello)
+2019-11-26T01:48:41.524Z Person 8:  (hello)
+2019-11-26T01:48:44.268Z Person 7:  (bye)
+
+######################### 2019-11-26T01:48:59.640Z EXECUTED CODE : Person 8 #########################
+2019-11-26T01:49:06.552Z Person 8:  (bye)
+2019-11-26T01:50:21.544Z Person 0:  (bye)
+----------------
+FINAL STATE CODE
+
+'''
+def min_path(path):
+lista = path
+print(lista)
+for x in range(len(path)-1):
+if len(lista) == 1:
+return path
+elif (path[x] == "LEFT" and path[x + 1]=="RIGHT") or (path[x] == "RIGHT" and path[x + 1]=="LEFT"):
+lista.remove(path[x+1])
+lista.remove(path[x])
+if len(lista) == 1:
+return path
+elif (path[x] == "UP" and path[x + 1]=="DOWN") or (path[x] == "DOWN" and path[x + 1]=="UP"):
+lista.remove(path[x+1])
+lista.remove(path[x])
+if len(lista) == 1:
+return path
+print(lista)
+
+return path
+print(min_path(['LEFT', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'UP', 'LEFT']))
+'''
+def min_path1(path):
+x, y = 0, 0
+for item in path:
+if item=='UP':
+y +=1
+elif item=='DOWN':
+y -=1
+elif item=='RIGHT':
+x +=1
+elif item=='LEFT':
+x -= 1
+'''
+hor = 'RIGHT' if x >= 0 else 'LEFT'
+ver = 'UP' if y >=0 else 'DOWN'
+return [ver]*abs(y) + [hor]*abs(x)
+'''
+return ['UP']*y + ['DOWN']*(-y) + ['RIGHT']*x + ['LEFT']*(-x)
+
+print(min_path1(['LEFT', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'UP', 'LEFT']))
+
+
+def min_path2(path):
+result = []
+opp = {'UP':'DOWN', 'RIGHT':'LEFT', 'DOWN':'UP', 'LEFT':'RIGHT'}
+for item in path:
+opposite = opp[item]
+if opposite in result:
+result.remove(opposite)
+else:
+result.append(item)
+return result
+
+print(min_path2(['LEFT', 'LEFT', 'UP', 'RIGHT', 'DOWN', 'UP', 'LEFT']))
+
+----------------------

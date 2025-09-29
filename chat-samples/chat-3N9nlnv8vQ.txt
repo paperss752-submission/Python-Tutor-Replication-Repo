@@ -1,0 +1,174 @@
+----------------
+INITIAL State
+
+results = []
+list = ["shore", "mixes", "cerebelum", "axe", "taxes", "sixez", "lyx"]
+pattern = "_ixe_"
+
+def filter(list, pattern)
+if len(list) == len(patern):
+
+
+"""
+i need to print all the words in the pattern _ixe_
+and add them to results = []
+"""
+----------------------
+2019-11-26T12:15:10.370Z Person 0:  (hello)
+2019-11-26T12:15:40.440Z Person 1:  (hello)
+2019-11-26T12:15:44.988Z Person 2:  (hello)
+2019-11-26T12:16:23.675Z Person 0: Hi, help me please :)
+2019-11-26T12:17:04.712Z Person 3:  (hello)
+2019-11-26T12:17:11.106Z Person 3:  (bye)
+2019-11-26T12:17:37.654Z Person 1:  (bye)
+2019-11-26T12:17:42.719Z Person 2:  (bye)
+2019-11-26T12:18:26.942Z Person 0:  (bye)
+
+----------------
+INITIAL State
+
+results = []
+list = ["shore", "mixes", "cerebelum", "axe", "taxes", "sixez", "lyx"]
+pattern = "_ixe_"
+
+def filter(list, pattern)
+if len(list) == len(patern):
+
+
+"""
+i need to print all the words in the pattern _ixe_
+and add them to results = []
+output:
+
+mixes, sixez
+
+"""
+----------------------
+2019-11-26T12:18:30.774Z Person 0:  (hello)
+2019-11-26T12:20:22.766Z Person 2:  (hello)
+2019-11-26T12:20:23.347Z Person 2:  (bye)
+2019-11-26T12:27:01.199Z Person 4:  (hello)
+2019-11-26T12:27:10.926Z Person 4: Hi
+2019-11-26T12:27:17.762Z Person 0: Hi
+2019-11-26T12:27:24.314Z Person 0: can you help?
+2019-11-26T12:27:36.438Z Person 4: I can have a look
+
+######################### 2019-11-26T12:29:15.112Z EXECUTED CODE : Person 4 #########################
+
+######################### 2019-11-26T12:29:26.671Z EXECUTED CODE : Person 4 #########################
+
+######################### 2019-11-26T12:29:36.549Z EXECUTED CODE : Person 4 #########################
+
+######################### 2019-11-26T12:29:46.182Z EXECUTED CODE : Person 4 #########################
+2019-11-26T12:30:17.825Z Person 4: would you prefer this to be more verbose in loop?
+2019-11-26T12:30:24.417Z Person 4: as i have written as list comprehension
+2019-11-26T12:30:42.456Z Person 0: if i want to to this to any given pattern?
+2019-11-26T12:30:50.605Z Person 0: not just for _ix_
+2019-11-26T12:31:07.120Z Person 4: so you mean there may be any number of _ in the pattern?
+2019-11-26T12:31:45.443Z Person 0: exactly
+2019-11-26T12:33:01.710Z Person 0: what zip does?
+2019-11-26T12:33:15.831Z Person 4: joins two lists
+2019-11-26T12:33:23.943Z Person 4: like first tiem on first list with first item on second list
+2019-11-26T12:33:33.004Z Person 4: or you want it simpler than this?
+2019-11-26T12:33:56.412Z Person 0: i think it is good
+2019-11-26T12:33:59.493Z Person 0: let's test it
+2019-11-26T12:34:10.002Z Person 4: one second
+2019-11-26T12:34:38.627Z Person 5:  (hello)
+2019-11-26T12:34:44.021Z Person 5:  (bye)
+2019-11-26T12:35:07.485Z Person 0: okay
+2019-11-26T12:36:58.880Z Person 0: are you here?
+2019-11-26T12:37:54.953Z Person 4: can do like this
+
+######################### 2019-11-26T12:37:57.432Z EXECUTED CODE : Person 4 #########################
+2019-11-26T12:38:24.669Z Person 0: does it work?
+2019-11-26T12:38:38.265Z Person 4: yeah
+2019-11-26T12:38:53.678Z Person 4: So lets mes a new pattern
+2019-11-26T12:38:56.628Z Person 0: looks complicated
+2019-11-26T12:39:08.933Z Person 0: for me level
+
+######################### 2019-11-26T12:39:09.456Z EXECUTED CODE : Person 4 #########################
+2019-11-26T12:39:13.575Z Person 0: my*
+2019-11-26T12:39:21.958Z Person 4: ok can simplyfy it
+2019-11-26T12:39:30.598Z Person 0: thanks
+
+######################### 2019-11-26T12:41:09.697Z EXECUTED CODE : Person 0 #########################
+2019-11-26T12:42:16.359Z Person 4: like this
+
+######################### 2019-11-26T12:42:23.733Z EXECUTED CODE : Person 4 #########################
+
+######################### 2019-11-26T12:42:37.120Z EXECUTED CODE : Person 4 #########################
+
+######################### 2019-11-26T12:42:52.497Z EXECUTED CODE : Person 4 #########################
+2019-11-26T12:43:01.478Z Person 4: So the code says
+2019-11-26T12:43:08.381Z Person 4: for each word in or words list
+2019-11-26T12:43:14.633Z Person 4: check if the word and pattern are same length
+2019-11-26T12:43:34.490Z Person 4: then loop over the chars in pattern
+2019-11-26T12:43:39.919Z Person 4: and check them agains the chars in word
+2019-11-26T12:43:55.735Z Person 4: if the pattern char is not an _ and thepattern char doesnt match the word char then match is false
+2019-11-26T12:44:04.581Z Person 4: if match is true add this word to the results
+2019-11-26T12:44:07.742Z Person 0: why is the condition:
+char != word[index]
+2019-11-26T12:44:23.413Z Person 4: cause if the char in the pattern doesnt match the char in the word then match is false
+2019-11-26T12:44:41.847Z Person 0: oh okay
+2019-11-26T12:45:08.398Z Person 0: what happens if the pattern == "_____" without any chars
+2019-11-26T12:45:30.924Z Person 4: then it will match if word lengths are same
+
+######################### 2019-11-26T12:45:40.967Z EXECUTED CODE : Person 4 #########################
+2019-11-26T12:45:48.678Z Person 4: here i have put 3 _
+2019-11-26T12:45:54.841Z Person 4: so you see it matches all words of 3 letters
+2019-11-26T12:46:00.773Z Person 0: excellent
+2019-11-26T12:46:10.713Z Person 0: i will try to test it in my environment
+2019-11-26T12:52:38.529Z Person 0: hi
+2019-11-26T12:52:56.416Z Person 0: i get the results in loop
+2019-11-26T12:53:15.772Z Person 4: ??
+2019-11-26T12:53:55.440Z Person 0: it prints the results' list without stopping
+2019-11-26T12:54:10.087Z Person 0: just a second
+2019-11-26T12:54:10.179Z Person 4: what do you mean?
+2019-11-26T12:54:13.491Z Person 4: there is only one print line
+2019-11-26T12:54:16.119Z Person 4: and thats not in the loop
+2019-11-26T12:54:54.402Z Person 0: oh sorry my bad
+2019-11-26T12:54:58.666Z Person 0: it was idented
+2019-11-26T12:55:15.911Z Person 0: works perfect
+2019-11-26T12:55:40.793Z Person 0: thank you very much!
+2019-11-26T12:55:46.941Z Person 4: no probs
+2019-11-26T12:56:24.459Z Person 0: thanks for your time
+2019-11-26T12:56:26.572Z Person 0: you saved me
+2019-11-26T12:56:33.090Z Person 0: university is tough
+2019-11-26T12:56:37.490Z Person 4: yeah
+2019-11-26T12:56:46.599Z Person 4: hopefully the solution makes snese to you and is understandable and readable
+2019-11-26T12:56:57.415Z Person 0: yes, it is great!
+2019-11-26T12:57:12.677Z Person 0: see you around
+2019-11-26T12:57:18.845Z Person 4:  (bye)
+2019-11-26T12:57:21.923Z Person 0:  (bye)
+----------------
+FINAL STATE CODE
+
+words = ["shore", "mixes", "cerebelum", "axe", "taxes", "sixez", "lyx"]
+pattern = "___"
+
+
+def match_words(words, pattern):
+results = []
+for word in words:
+if len(word) == len(pattern):
+match = True
+for index, char in enumerate(pattern):
+if char != '_' and char != word[index]:
+match = False
+break
+if match:
+results.append(word)
+
+return results
+
+print(match_words(words, pattern))
+
+"""
+i need to print all the words in the pattern _ixe_
+and add them to results = []
+output:
+
+mixes, sixez
+
+"""
+----------------------

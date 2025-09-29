@@ -1,0 +1,74 @@
+----------------
+INITIAL State
+
+How to print the longest line in the file in Python can you guide me
+----------------------
+2019-11-27T14:40:57.766Z Person 0:  (hello)
+2019-11-27T14:41:10.790Z Person 0: Can you help me in the above question
+
+----------------
+INITIAL State
+
+int main() {
+
+return 0;
+}
+----------------------
+2019-11-27T14:41:29.616Z Person 1:  (hello)
+2019-11-27T14:41:29.697Z Person 2:  (hello)
+2019-11-27T14:41:30.992Z Person 3:  (hello)
+2019-11-27T14:41:43.761Z Person 2: wassup
+2019-11-27T14:41:50.828Z Person 4:  (hello)
+2019-11-27T14:41:59.745Z Person 5:  (hello)
+2019-11-27T14:42:03.330Z Person 6:  (hello)
+2019-11-27T14:42:05.521Z Person 4:  (bye)
+2019-11-27T14:42:07.942Z Person 2:  (bye)
+2019-11-27T14:42:09.870Z Person 5:  (bye)
+2019-11-27T14:42:13.201Z Person 6: emmanuelle elle suce bien
+2019-11-27T14:42:17.579Z Person 1:  (bye)
+2019-11-27T14:42:22.431Z Person 0: In Python
+2019-11-27T14:42:23.102Z Person 7:  (hello)
+2019-11-27T14:42:23.382Z Person 5:  (hello)
+2019-11-27T14:42:52.771Z Person 7:  (bye)
+2019-11-27T14:43:06.847Z Person 6:  (bye)
+2019-11-27T14:43:08.008Z Person 5:  (bye)
+2019-11-27T14:43:28.466Z Person 8:  (hello)
+2019-11-27T14:43:29.432Z Person 3:  (bye)
+2019-11-27T14:43:33.397Z Person 8: hello
+2019-11-27T14:43:37.529Z Person 0: file IO Handling using python
+2019-11-27T14:43:42.248Z Person 9:  (hello)
+2019-11-27T14:43:44.365Z Person 8: india ?
+
+2019-11-27T14:43:46.086Z Person 9: hii
+2019-11-27T14:43:48.202Z Person 0: longest character in the file
+2019-11-27T14:43:51.178Z Person 8: cunniiii
+2019-11-27T14:44:01.335Z Person 9: snap?
+2019-11-27T14:44:02.863Z Person 10:  (hello)
+2019-11-27T14:44:15.458Z Person 11:  (hello)
+2019-11-27T14:44:18.943Z Person 11: boug
+2019-11-27T14:44:24.437Z Person 10: mreuf
+2019-11-27T14:44:32.173Z Person 9: manon tes moche mais t es bonne
+2019-11-27T14:44:34.969Z Person 10: bv ca mboug
+2019-11-27T14:44:38.492Z Person 8: grave
+2019-11-27T14:44:38.788Z Person 12:  (hello)
+2019-11-27T14:44:41.541Z Person 13:  (hello)
+2019-11-27T14:44:47.484Z Person 8: ggg
+2019-11-27T14:44:49.226Z Person 12: french [REDACTED inappropriate WORD]
+2019-11-27T14:44:57.292Z Person 10: kikikikikikikik
+2019-11-27T14:45:02.908Z Person 11:  (bye)
+2019-11-27T14:45:04.763Z Person 10:  (bye)
+2019-11-27T14:45:06.690Z Person 12: go kiss renault [REDACTED inappropriate WORD]
+2019-11-27T14:45:07.286Z Person 9:  (bye)
+2019-11-27T14:45:09.900Z Person 12: yessss
+2019-11-27T14:45:10.362Z Person 13:  (bye)
+2019-11-27T14:45:16.358Z Person 12:  (bye)
+2019-11-27T14:45:35.851Z Person 8:  (bye)
+2019-11-27T14:45:48.733Z Person 0:  (bye)
+----------------
+FINAL STATE CODE
+
+int main() {
+
+return 0;
+}
+----------------------

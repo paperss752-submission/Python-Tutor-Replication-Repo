@@ -1,0 +1,1628 @@
+----------------
+INITIAL State
+
+import random
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+
+sorted_list = auxiliary(nums)
+print (sorted_list)
+
+----------------------
+2019-10-24T22:23:35.584Z Person 0:  (hello)
+2019-10-24T22:23:44.191Z Person 0:  (bye)
+
+----------------
+INITIAL State
+
+import random
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+
+sorted_list = auxiliary(nums)
+print (sorted_list)
+
+----------------------
+2019-10-24T22:23:45.140Z Person 0:  (hello)
+2019-10-24T22:23:49.268Z Person 0:  (bye)
+
+----------------
+INITIAL State
+
+import random
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+
+sorted_list = auxiliary(nums)
+print (sorted_list)
+
+----------------------
+2019-10-24T22:23:50.637Z Person 0:  (hello)
+2019-10-24T22:24:20.977Z Person 0:  (bye)
+
+----------------
+INITIAL State
+
+import random
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k]<minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+
+sorted_list = auxiliary(nums)
+print (sorted_list)
+
+----------------------
+2019-10-24T22:31:22.913Z Person 0:  (hello)
+
+######################### 2019-10-24T22:31:51.758Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:31:53.818Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:31:56.251Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:32:08.232Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:32:33.880Z Person 1:  (hello)
+
+######################### 2019-10-24T22:32:34.038Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:32:35.157Z EDITED CODE : Person 1 #########################
+2019-10-24T22:32:42.109Z Person 1: Hi
+2019-10-24T22:32:45.212Z Person 0: hi
+2019-10-24T22:32:52.900Z Person 0: need some help with this selection sort
+2019-10-24T22:33:02.612Z Person 1: Okay
+2019-10-24T22:33:06.111Z Person 0: it will sort the numbers but then return "none" rather than the list
+2019-10-24T22:33:06.171Z Person 1: What's up?
+2019-10-24T22:33:10.288Z Person 2:  (hello)
+
+######################### 2019-10-24T22:33:10.451Z EDITED CODE : Person 2 #########################
+
+######################### 2019-10-24T22:33:11.589Z EDITED CODE : Person 2 #########################
+2019-10-24T22:33:20.701Z Person 1: Is there a return statement?
+2019-10-24T22:33:42.646Z Person 0: oh i must've forgot let me add and see if that will fix it
+
+######################### 2019-10-24T22:33:48.876Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:33:48.940Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:33:50.432Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:33:50.492Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:33:50.492Z EDITED CODE : Person 2 #########################
+
+######################### 2019-10-24T22:33:53.682Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:33:53.734Z EDITED CODE : Person 2 #########################
+
+######################### 2019-10-24T22:33:53.751Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:33:55.292Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:33:55.356Z EDITED CODE : Person 2 #########################
+
+######################### 2019-10-24T22:33:55.464Z EDITED CODE : Person 1 #########################
+
+----------------2019-10-24T22:33:57.370Z CODE CHANGE -----------------------------
+import random
+def auxiliary(L):
+for j in range (0, (len(L)-1)):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k]<minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+return L
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+
+sorted_list = auxiliary(nums)
+print (sorted_list)
+
+----------------------
+
+######################### 2019-10-24T22:33:58.381Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:33:58.434Z EDITED CODE : Person 2 #########################
+
+######################### 2019-10-24T22:33:58.446Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:33:59.949Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:34:00.013Z EDITED CODE : Person 1 #########################
+2019-10-24T22:34:00.109Z Person 2:  (bye)
+
+######################### 2019-10-24T22:34:00.294Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:34:02.530Z Person 1: And maybe more importantly, do you even need one?
+
+######################### 2019-10-24T22:34:09.636Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:34:50.010Z Person 0: this function is a part of another function in my program so i will need one
+2019-10-24T22:35:02.659Z Person 0: im going to have to use this sorted list to find the median vale
+2019-10-24T22:35:07.623Z Person 1: Do you know about pass by reference vs pass by value?
+2019-10-24T22:35:22.795Z Person 0: no what's that
+2019-10-24T22:35:52.958Z Person 1: Okay, so in Python, if you pass an int or a string to a function, you manipulate a copy of that value within the function.
+2019-10-24T22:35:55.566Z Person 1: That's pass by value.
+2019-10-24T22:36:10.350Z Person 0: okay
+2019-10-24T22:36:12.327Z Person 0: makes sense
+2019-10-24T22:36:16.520Z Person 0: and pass by reference?
+2019-10-24T22:36:38.063Z Person 3:  (hello)
+
+######################### 2019-10-24T22:36:38.424Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:36:39.556Z EDITED CODE : Person 3 #########################
+2019-10-24T22:36:50.594Z Person 1: If you pass a list, you're actually passing the reference to that list, the reference to its address in memory. So there's only one list, and if you change it in the function it is also changed outside.
+2019-10-24T22:36:54.972Z Person 1: Let me show you something
+
+######################### 2019-10-24T22:36:59.429Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:36:59.476Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:36:59.598Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:37:03.156Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:37:03.249Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:37:10.832Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:37:10.876Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:37:13.529Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:37:13.571Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:37:14.958Z EXECUTED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:37:14.996Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:37:22.490Z EXECUTED CODE : Person 1 #########################
+2019-10-24T22:37:35.929Z Person 0: oh wow
+2019-10-24T22:37:44.779Z Person 0: im just learning the things that lists can do in python
+2019-10-24T22:37:50.919Z Person 0: that'll be useful
+2019-10-24T22:37:52.362Z Person 0: thank you
+2019-10-24T22:39:16.117Z Person 0: by chance do you know how i'd go about getting the median value of a list
+2019-10-24T22:39:39.555Z Person 0: so now that i've sorted the list im supposed to use that to find the median
+2019-10-24T22:39:40.125Z Person 4:  (hello)
+
+######################### 2019-10-24T22:39:40.389Z EDITED CODE : Person 4 #########################
+
+######################### 2019-10-24T22:39:41.547Z EDITED CODE : Person 4 #########################
+2019-10-24T22:39:52.997Z Person 4:  (bye)
+
+######################### 2019-10-24T22:40:43.394Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:40:43.727Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:40:44.290Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:40:47.203Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:40:59.711Z Person 5:  (hello)
+
+######################### 2019-10-24T22:40:59.884Z EDITED CODE : Person 5 #########################
+
+######################### 2019-10-24T22:41:02.423Z EDITED CODE : Person 5 #########################
+2019-10-24T22:41:44.609Z Person 6:  (hello)
+
+######################### 2019-10-24T22:41:44.721Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:41:46.230Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:41:56.255Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:42:10.395Z Person 5:  (bye)
+2019-10-24T22:42:11.657Z Person 0: so the portion i'm working on right now is the median function
+
+######################### 2019-10-24T22:42:47.608Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:42:50.541Z Person 1: Yes
+2019-10-24T22:44:03.188Z Person 6: just divide the length of your sorted_list by 2 and that will give you the index of the median in the sorted list
+
+######################### 2019-10-24T22:44:21.607Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:21.698Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:27.370Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:27.398Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:28.888Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:28.918Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:33.674Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:33.702Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:36.060Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:36.087Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:36.886Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:44:37.336Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:44:39.334Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:39.356Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:40.469Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:40.504Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:41.626Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:44:42.472Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:44:47.731Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:47.828Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:48.848Z EDITED CODE : Person 1 #########################
+2019-10-24T22:44:49.440Z Person 6: us // instead of / for an integer divide
+
+######################### 2019-10-24T22:44:54.992Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:55.020Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:44:55.189Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:44:56.042Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:44:59.211Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:44:59.239Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:45:00.068Z EDITED CODE : Person 1 #########################
+
+######################### 2019-10-24T22:45:00.386Z EDITED CODE : Person 3 #########################
+2019-10-24T22:45:02.816Z Person 1:  (bye)
+
+######################### 2019-10-24T22:45:09.904Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:45:09.933Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:45:10.400Z EDITED CODE : Person 3 #########################
+2019-10-24T22:45:14.017Z Person 6: yes
+
+######################### 2019-10-24T22:45:14.569Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:45:14.597Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:45:15.747Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:45:15.781Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:45:18.667Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:45:18.761Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:45:22.588Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:45:22.616Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:45:24.014Z EDITED CODE : Person 3 #########################
+2019-10-24T22:45:26.923Z Person 0: like this?
+2019-10-24T22:45:32.305Z Person 6: yup
+
+######################### 2019-10-24T22:45:36.568Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:45:44.475Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:46:13.392Z Person 7:  (hello)
+
+######################### 2019-10-24T22:46:13.567Z EDITED CODE : Person 7 #########################
+
+######################### 2019-10-24T22:46:14.782Z EDITED CODE : Person 7 #########################
+2019-10-24T22:46:22.157Z Person 0: i think im looking to get the average of two numbers if its an even numbered list
+2019-10-24T22:46:36.567Z Person 0: or both number
+2019-10-24T22:46:37.104Z Person 7:  (bye)
+2019-10-24T22:46:46.463Z Person 0: yeah i need to get both numbers returned
+2019-10-24T22:46:53.397Z Person 6: then you will have to check if the length of the list is even
+
+######################### 2019-10-24T22:47:02.466Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:02.565Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:04.727Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:04.755Z EDITED CODE : Person 6 #########################
+2019-10-24T22:47:05.642Z Person 6: and do it a little different in that case
+
+######################### 2019-10-24T22:47:07.477Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:07.505Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:10.332Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:10.360Z EDITED CODE : Person 6 #########################
+2019-10-24T22:47:20.073Z Person 0: what would you suggest?
+
+######################### 2019-10-24T22:47:41.193Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:41.234Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:46.000Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:46.042Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:47.577Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:47.620Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:49.505Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:50.550Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:50.628Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:51.676Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:47:52.713Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:52.797Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:54.726Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:54.771Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:47:57.172Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:47:58.998Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:47:59.173Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:47:59.279Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:02.037Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:02.105Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:02.290Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:48:03.713Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:03.762Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:04.530Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:48:06.673Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:06.758Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:09.576Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:09.619Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:10.100Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:48:11.312Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:11.412Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:13.479Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:48:16.777Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:16.819Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:18.622Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:18.668Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:21.270Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:21.316Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:24.481Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:24.619Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:26.274Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:48:28.452Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:28.613Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:28.764Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:48:34.725Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:34.772Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:35.826Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:48:46.722Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:46.768Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:48.024Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:48:48.191Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:48:48.926Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:49:08.267Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:08.308Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:09.216Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:49:10.470Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:10.616Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:11.220Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:49:27.801Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:27.905Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:28.282Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:49:35.059Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:35.114Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:35.258Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:49:36.130Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:36.177Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:37.248Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:49:43.489Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:43.533Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:47.721Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:47.871Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:49.114Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:49:53.268Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:53.334Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:49:53.434Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:49:53.859Z EXECUTED CODE : Person 3 #########################
+2019-10-24T22:50:09.176Z Person 8:  (hello)
+
+######################### 2019-10-24T22:50:10.606Z EDITED CODE : Person 8 #########################
+2019-10-24T22:50:15.151Z Person 8:  (bye)
+
+######################### 2019-10-24T22:50:26.582Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:50:26.681Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:50:28.526Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:50:41.263Z EXECUTED CODE : Person 6 #########################
+2019-10-24T22:50:48.464Z Person 6: just a sec
+
+######################### 2019-10-24T22:50:54.687Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:50:54.842Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:50:56.394Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:51:00.164Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:51:00.205Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:51:02.351Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:51:06.842Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:51:06.925Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:51:07.364Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:51:08.032Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:51:14.924Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:51:15.039Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:51:15.894Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:51:17.381Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:51:17.495Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:51:17.894Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:51:20.280Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:51:20.361Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:51:21.188Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T22:51:22.784Z EXECUTED CODE : Person 6 #########################
+2019-10-24T22:51:32.120Z Person 6: try it
+
+######################### 2019-10-24T22:51:41.764Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:51:53.095Z Person 0: wow perfect!
+2019-10-24T22:51:54.546Z Person 0: thank you
+2019-10-24T22:51:59.321Z Person 6: :)
+2019-10-24T22:52:15.175Z Person 0: any chance you know anything about frequency tables?
+2019-10-24T22:52:24.091Z Person 0: i have to use one with my mode function
+2019-10-24T22:52:38.883Z Person 6: no, not really
+2019-10-24T22:53:13.635Z Person 0: its okay, thank you for all your help!
+2019-10-24T22:53:23.843Z Person 6: :)
+2019-10-24T22:53:29.564Z Person 0: just saved me hours of frustration ahaha
+
+######################### 2019-10-24T22:53:53.564Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:53:53.636Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T22:53:54.140Z EDITED CODE : Person 3 #########################
+2019-10-24T22:54:03.931Z Person 6: made a mistake, but I just fixed it
+2019-10-24T22:54:17.236Z Person 0: okay thank you
+2019-10-24T22:54:18.843Z Person 6: the result could be a float, for nedian, right?
+2019-10-24T22:54:24.380Z Person 6: median
+2019-10-24T22:54:27.570Z Person 0: yes
+2019-10-24T22:54:35.940Z Person 6: yea, try it again just to make sure
+
+######################### 2019-10-24T22:54:37.896Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T22:54:52.451Z EXECUTED CODE : Person 0 #########################
+2019-10-24T22:55:05.605Z Person 6: ya, good
+2019-10-24T22:55:05.687Z Person 0: yeah thats right
+2019-10-24T22:55:38.623Z Person 0: why does the len % 2 work without mentioning if it equals 1 or 0
+2019-10-24T22:56:04.161Z Person 6: because 0 equates to False and 1 equates to True
+2019-10-24T22:56:16.501Z Person 0: oh okay makes sense
+2019-10-24T22:56:24.695Z Person 9:  (hello)
+
+######################### 2019-10-24T22:56:25.197Z EDITED CODE : Person 9 #########################
+
+######################### 2019-10-24T22:56:26.451Z EDITED CODE : Person 9 #########################
+2019-10-24T22:56:32.357Z Person 9: fuck you stupid bitch
+2019-10-24T22:56:35.361Z Person 9: bye
+2019-10-24T22:56:36.334Z Person 9:  (bye)
+2019-10-24T22:56:37.518Z Person 6: just shorthand, but it means the same thing
+2019-10-24T22:56:46.423Z Person 0: got it makes sense
+2019-10-24T22:58:00.400Z Person 6: ok, good luck... l8tr
+2019-10-24T22:58:06.556Z Person 0: thank you
+2019-10-24T22:58:09.928Z Person 6:  (bye)
+
+----------------
+INITIAL State
+
+public class YourClassNameHere {
+public static void main(String[] args) {
+
+}
+}
+----------------------
+2019-10-24T22:59:16.818Z Person 10:  (hello)
+
+######################### 2019-10-24T22:59:17.033Z EDITED CODE : Person 10 #########################
+
+----------------2019-10-24T22:59:17.887Z CODE CHANGE -----------------------------
+import random
+
+#Mean function adds all the numbers in the list and divides by the amount of numbers
+def mean(numbers):
+totalsum = 0
+for num in numbers:
+totalsum = totalsum + num
+#   print (totalsum)
+mean_value = totalsum/len(numbers)
+return mean_value
+
+#Median function contains another fuction, auxilliary function, that sorts the numbers.
+#Using the ordered list, the "middle" value (median) can then be found.
+def median(numbers):
+sorted_list = auxiliary(numbers)
+print (sorted_list)
+if len(sorted_list) % 2:
+# odd
+median_index = len(sorted_list)//2
+median = sorted_list[median_index]
+else:
+# even
+median = sum(sorted_list[len(sorted_list)//2-1:len(sorted_list)//2+1]) / 2
+return median
+
+
+
+#Auxiliary function sorts the numbers in the list.
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+return L
+
+
+#Main Section
+
+#The string input by the user is cleaned of its commas and transformed into
+#a list. This section calls upon the four main functions of the program and
+#prints out readable results for the user.
+
+print ("This program produces the following descriptive statistics for a")
+print ("sample of widget scores: The mean median, mode, and standard deviation")
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+#print (len(nums),nums)
+
+mean = mean(nums)
+
+median = median(nums)
+
+#mode_string = mode(nums)
+
+#std_dev = std_dev(nums)
+
+print ("The mean for", len(nums), "values is", round(float(mean),2),".")
+print ("The median for", len(nums), "values is", median)
+print ("The mode(s) for", len(nums), "value is", mode_string)
+print ("The standard deviation for", len(nums), "value is", round(std_dev,2))
+
+
+
+
+----------------------
+
+######################### 2019-10-24T22:59:18.321Z EDITED CODE : Person 10 #########################
+2019-10-24T22:59:19.656Z Person 10:  (bye)
+2019-10-24T22:59:24.849Z Person 0:  (bye)
+
+----------------
+INITIAL State
+
+import random
+
+#Mean function adds all the numbers in the list and divides by the amount of numbers
+def mean(numbers):
+totalsum = 0
+for num in numbers:
+totalsum = totalsum + num
+mean_value = totalsum/len(numbers)
+return mean_value
+
+#Median function contains another fuction, auxilliary function, that sorts the numbers.
+#Using the ordered list, the "middle" value (median) can then be found.
+def median(numbers):
+sorted_list = auxiliary(numbers)
+print (sorted_list)
+if len(sorted_list) % 2:
+#odd
+median_index = len(sorted_list)//2
+median = sorted_list[median_index]
+else:
+#even
+low_median = sorted_list[len(sorted_list)//2-1]
+high_median = sorted_list[len(sorted_list)//2]
+median = (low_median + high_median)/2
+return median
+
+
+#Auxiliary function sorts the numbers in the list for the Median function.
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+return L
+
+#Mode function uses frequency table to determine the most common number in the list.
+#def mode(numbers):
+
+
+#Main Section
+
+#The string input by the user is cleaned of its commas and transformed into
+#a list. This section calls upon the four main functions of the program and
+#prints out readable results for the user.
+
+print ("This program produces the following descriptive statistics for a")
+print ("sample of widget scores: The mean median, mode, and standard deviation")
+
+number_of_scores = random.randint(5,10)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+#print (len(nums),nums)
+
+mean = mean(nums)
+
+median = median(nums)
+
+#mode_string = mode(nums)
+
+#std_dev = std_dev(nums)
+
+print ("The mean for", len(nums), "values is", round(float(mean),2),".")
+print ("The median for", len(nums), "values is", median)
+print ("The mode(s) for", len(nums), "value is", mode_string)
+print ("The standard deviation for", len(nums), "value is", round(std_dev,2))
+
+
+
+
+----------------------
+2019-10-24T23:18:39.434Z Person 0:  (hello)
+
+######################### 2019-10-24T23:18:39.976Z EDITED CODE : Person 0 #########################
+
+----------------2019-10-24T23:18:40.482Z CODE CHANGE -----------------------------
+import random
+
+#Mean function adds all the numbers in the list and divides by the amount of numbers
+def mean(numbers):
+totalsum = 0
+for num in numbers:
+totalsum = totalsum + num
+#   print (totalsum)
+mean_value = totalsum/len(numbers)
+return mean_value
+
+#Median function contains another fuction, auxilliary function, that sorts the numbers.
+#Using the ordered list, the "middle" value (median) can then be found.
+def median(numbers):
+sorted_list = auxiliary(numbers)
+print (sorted_list)
+if len(sorted_list) % 2:
+# odd
+median_index = len(sorted_list)//2
+median = sorted_list[median_index]
+else:
+# even
+median = sum(sorted_list[len(sorted_list)//2-1:len(sorted_list)//2+1]) / 2
+return median
+
+
+
+#Auxiliary function sorts the numbers in the list.
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+return L
+
+
+#Main Section
+
+#The string input by the user is cleaned of its commas and transformed into
+#a list. This section calls upon the four main functions of the program and
+#prints out readable results for the user.
+
+print ("This program produces the following descriptive statistics for a")
+print ("sample of widget scores: The mean median, mode, and standard deviation")
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+#print (len(nums),nums)
+
+mean = mean(nums)
+
+median = median(nums)
+
+#mode_string = mode(nums)
+
+#std_dev = std_dev(nums)
+
+print ("The mean for", len(nums), "values is", round(float(mean),2),".")
+print ("The median for", len(nums), "values is", median)
+print ("The mode(s) for", len(nums), "value is", mode_string)
+print ("The standard deviation for", len(nums), "value is", round(std_dev,2))
+----------------------
+
+######################### 2019-10-24T23:18:42.790Z EDITED CODE : Person 0 #########################
+2019-10-24T23:19:05.285Z Person 0:  (bye)
+
+----------------
+INITIAL State
+
+import random
+
+#Mean function adds all the numbers in the list and divides by the amount of numbers
+def mean(numbers):
+totalsum = 0
+for num in numbers:
+totalsum = totalsum + num
+mean_value = totalsum/len(numbers)
+return mean_value
+
+#Median function contains another fuction, auxilliary function, that sorts the numbers.
+#Using the ordered list, the "middle" value (median) can then be found.
+def median(numbers):
+sorted_list = auxiliary(numbers)
+print (sorted_list)
+if len(sorted_list) % 2:
+#odd
+median_index = len(sorted_list)//2
+median = sorted_list[median_index]
+else:
+#even
+low_median = sorted_list[len(sorted_list)//2-1]
+high_median = sorted_list[len(sorted_list)//2]
+median = (low_median + high_median)/2
+return median
+
+#Auxiliary function sorts the numbers in the list for the Median function.
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+return L
+
+#Mode function uses frequency table to determine the most common number in the list.
+#def mode(numbers):
+
+
+#Main Section
+
+#The string input by the user is cleaned of its commas and transformed into
+#a list. This section calls upon the four main functions of the program and
+#prints out readable results for the user.
+
+print ("This program produces the following descriptive statistics for a")
+print ("sample of widget scores: The mean median, mode, and standard deviation")
+
+number_of_scores = random.randint(5,10)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+#print (len(nums),nums)
+
+mean = mean(nums)
+
+median = median(nums)
+
+#mode_string = mode(nums)
+
+#std_dev = std_dev(nums)
+
+print ("The mean for", len(nums), "values is", round(float(mean),2),".")
+print ("The median for", len(nums), "values is", median)
+print ("The mode(s) for", len(nums), "value is", mode_string)
+print ("The standard deviation for", len(nums), "value is", round(std_dev,2))
+
+
+
+
+
+
+
+----------------------
+2019-10-24T23:22:05.842Z Person 0:  (hello)
+
+######################### 2019-10-24T23:22:06.893Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:06.983Z EXECUTED CODE : Person 0 #########################
+
+----------------2019-10-24T23:22:08.041Z CODE CHANGE -----------------------------
+import random
+
+#Mean function adds all the numbers in the list and divides by the amount of numbers
+def mean(numbers):
+totalsum = 0
+for num in numbers:
+totalsum = totalsum + num
+#   print (totalsum)
+mean_value = totalsum/len(numbers)
+return mean_value
+
+#Median function contains another fuction, auxilliary function, that sorts the numbers.
+#Using the ordered list, the "middle" value (median) can then be found.
+def median(numbers):
+sorted_list = auxiliary(numbers)
+print (sorted_list)
+if len(sorted_list) % 2:
+# odd
+median_index = len(sorted_list)//2
+median = sorted_list[median_index]
+else:
+# even
+median = sum(sorted_list[len(sorted_list)//2-1:len(sorted_list)//2+1]) / 2
+return median
+
+
+
+#Auxiliary function sorts the numbers in the list.
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+return L
+
+
+#Main Section
+
+#The string input by the user is cleaned of its commas and transformed into
+#a list. This section calls upon the four main functions of the program and
+#prints out readable results for the user.
+
+print ("This program produces the following descriptive statistics for a")
+print ("sample of widget scores: The mean median, mode, and standard deviation")
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+#print (len(nums),nums)
+
+mean = mean(nums)
+
+median = median(nums)
+
+#mode_string = mode(nums)
+
+#std_dev = std_dev(nums)
+
+print ("The mean for", len(nums), "values is", round(float(mean),2),".")
+print ("The median for", len(nums), "values is", median)
+print ("The mode(s) for", len(nums), "value is", mode_string)
+print ("The standard deviation for", len(nums), "value is", round(std_dev,2))
+
+
+
+
+----------------------
+
+######################### 2019-10-24T23:22:09.817Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:21.984Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:23.805Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:22:25.441Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:25.855Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:22:41.624Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:44.616Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:46.531Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:46.685Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:22:53.001Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:22:53.147Z EDITED CODE : Person 3 #########################
+2019-10-24T23:23:08.738Z Person 0: would you know how to create a function to find the mode of a list
+2019-10-24T23:23:27.746Z Person 6:  (hello)
+
+######################### 2019-10-24T23:23:29.224Z EDITED CODE : Person 6 #########################
+2019-10-24T23:23:45.045Z Person 0: hi
+2019-10-24T23:23:57.902Z Person 0: i was looking for some help on this mode function
+2019-10-24T23:24:27.547Z Person 6: just make a dictionary with the counts of all the numbers
+2019-10-24T23:25:13.650Z Person 0: im not quite sure how to go about that. my professor has been mentioning how a frequency table works but never showed us how to actually write the program for it
+2019-10-24T23:25:35.681Z Person 6: what is that function supposed to return?
+2019-10-24T23:25:51.652Z Person 0: the most common number within a given list of numbers
+2019-10-24T23:26:05.738Z Person 6: and what if there is a tie?
+2019-10-24T23:26:12.270Z Person 0: both numbers
+2019-10-24T23:26:50.339Z Person 6: you know how to create a dictionary?
+2019-10-24T23:27:05.948Z Person 0: no
+2019-10-24T23:27:21.027Z Person 6: have they talked about dictionaries in class?
+2019-10-24T23:28:25.367Z Person 0: don't think so, he's just been mentioning a frequency table which is like a row of boxes which represent the number of times each value occurs
+2019-10-24T23:28:38.437Z Person 0: like boxes representing numbers 1 through 9
+2019-10-24T23:29:11.947Z Person 11:  (hello)
+
+######################### 2019-10-24T23:29:19.125Z EDITED CODE : Person 11 #########################
+2019-10-24T23:29:19.397Z Person 12:  (hello)
+
+######################### 2019-10-24T23:29:20.790Z EDITED CODE : Person 12 #########################
+2019-10-24T23:29:27.639Z Person 12:  (bye)
+2019-10-24T23:29:29.272Z Person 6: os the numbers passed to the mode funtion are all guaranteed to be 1-9?
+2019-10-24T23:29:43.566Z Person 0: yeah
+2019-10-24T23:29:55.823Z Person 6: ok, you can just use a list then
+
+######################### 2019-10-24T23:30:09.665Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:09.714Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:14.476Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:14.574Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:15.195Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:30:18.914Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:18.978Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:19.437Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:30:19.685Z EDITED CODE : Person 11 #########################
+
+######################### 2019-10-24T23:30:23.140Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:23.276Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:23.689Z EDITED CODE : Person 11 #########################
+
+######################### 2019-10-24T23:30:24.996Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:25.038Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:25.183Z EDITED CODE : Person 11 #########################
+
+######################### 2019-10-24T23:30:26.283Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:26.326Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:27.519Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:30:28.217Z EDITED CODE : Person 11 #########################
+
+######################### 2019-10-24T23:30:30.632Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:30.710Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:35.268Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:35.310Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:36.193Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:30:37.763Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:37.809Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:39.540Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:39.635Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:40.727Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:30:41.101Z EDITED CODE : Person 11 #########################
+
+######################### 2019-10-24T23:30:42.976Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:43.039Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:44.165Z EDITED CODE : Person 11 #########################
+
+######################### 2019-10-24T23:30:44.169Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:30:45.732Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:45.774Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:47.185Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:30:47.205Z EDITED CODE : Person 11 #########################
+
+######################### 2019-10-24T23:30:50.605Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:50.648Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:51.642Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:51.686Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:53.629Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:53.689Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:30:57.388Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:30:57.430Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:31:00.233Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:31:00.344Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:31:00.872Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:31:01.687Z EDITED CODE : Person 11 #########################
+2019-10-24T23:31:19.068Z Person 13:  (hello)
+2019-10-24T23:31:19.922Z Person 6: those 3 lines create a frequency table with the counts
+
+######################### 2019-10-24T23:31:22.017Z EDITED CODE : Person 13 #########################
+2019-10-24T23:31:22.833Z Person 13:  (bye)
+2019-10-24T23:31:26.053Z Person 11:  (bye)
+
+######################### 2019-10-24T23:31:41.266Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:31:41.311Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:31:42.017Z EDITED CODE : Person 3 #########################
+2019-10-24T23:31:57.027Z Person 0: let me run it to visualize what it looks like
+2019-10-24T23:31:59.187Z Person 6: now you need to find the largest count in that list
+2019-10-24T23:32:04.219Z Person 0: yeah
+2019-10-24T23:32:10.449Z Person 6: lets print it out first though so we can see it
+
+######################### 2019-10-24T23:32:15.718Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:32:15.760Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:32:16.457Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:32:20.658Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:32:20.704Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:32:21.481Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:32:23.007Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:32:23.082Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:32:23.163Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:32:23.342Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:32:23.696Z EXECUTED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:32:33.866Z EXECUTED CODE : Person 0 #########################
+2019-10-24T23:33:08.178Z Person 6: what is mode_string?
+
+######################### 2019-10-24T23:33:20.553Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:33:20.601Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:33:21.458Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:33:21.554Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:33:21.557Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:33:21.739Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:33:22.158Z EXECUTED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:33:36.129Z EXECUTED CODE : Person 0 #########################
+2019-10-24T23:34:18.004Z Person 6: hmmm. that is not right
+2019-10-24T23:34:33.808Z Person 0: okay so now we locate the index with the largest number and then + 1 and thats the most common number?
+2019-10-24T23:34:43.308Z Person 6: hold on
+2019-10-24T23:34:46.455Z Person 0: kk
+2019-10-24T23:34:56.711Z Person 6: the nubmers are 1, 2, 2, 5
+right?
+2019-10-24T23:35:03.453Z Person 0: yeah
+2019-10-24T23:35:14.908Z Person 6: the counts are not right
+2019-10-24T23:35:17.573Z Person 0: so index 1 + 1 = mode of 2
+2019-10-24T23:35:25.817Z Person 14:  (hello)
+
+######################### 2019-10-24T23:35:26.008Z EDITED CODE : Person 14 #########################
+
+######################### 2019-10-24T23:35:26.084Z EDITED CODE : Person 14 #########################
+
+######################### 2019-10-24T23:35:26.093Z EXECUTED CODE : Person 14 #########################
+2019-10-24T23:35:31.183Z Person 14:  (bye)
+2019-10-24T23:35:37.472Z Person 0: its because the index starts at 0 rather than 1
+2019-10-24T23:35:45.446Z Person 6: I know
+2019-10-24T23:35:49.974Z Person 6: but I am accounting for that
+2019-10-24T23:35:50.576Z Person 0: it was right in regards to the count just the numbers were shifted
+2019-10-24T23:36:24.057Z Person 6: I am subtracing 1 from num to get the correct index
+
+######################### 2019-10-24T23:36:36.091Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:36:42.972Z EXECUTED CODE : Person 6 #########################
+2019-10-24T23:37:10.359Z Person 6: wait, that is right
+2019-10-24T23:37:42.918Z Person 0: yeah and then if we were to ask for the largest value and relate it to its index we just need to add 1 ?
+2019-10-24T23:37:49.016Z Person 6: yes
+2019-10-24T23:38:05.843Z Person 0: what would we do if there was two that were modes
+2019-10-24T23:38:30.252Z Person 6: so 2 is the largest count, and it is in index 1, so wee add 1 to that to get the larges value... 2
+2019-10-24T23:38:50.677Z Person 0: yes and then say the list was 1,1,2,2,5
+2019-10-24T23:38:56.674Z Person 0: the two most common would be both 1 and 2
+2019-10-24T23:39:14.877Z Person 6: that is what I asked you before... what if there is a tie?
+2019-10-24T23:39:15.314Z Person 0: how could we have the function return both values
+2019-10-24T23:39:28.888Z Person 0: i'll need both numbers to be returned
+2019-10-24T23:40:18.071Z Person 6: so, if it is possible that we could return more than one number... then we must always return a list of numbers... even if there is only one
+
+######################### 2019-10-24T23:41:17.559Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:17.622Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:18.655Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:18.716Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:19.745Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:41:25.785Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:25.827Z EDITED CODE : Person 0 #########################
+2019-10-24T23:41:26.282Z Person 0: okay, and then we'd have to switch the list to individual integers in the final print statement?
+
+######################### 2019-10-24T23:41:27.309Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:27.354Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:28.841Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:41:30.703Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:30.765Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:33.046Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:33.201Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:34.933Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:41:42.816Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:42.859Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:43.035Z EDITED CODE : Person 3 #########################
+
+######################### 2019-10-24T23:41:44.505Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:44.548Z EDITED CODE : Person 0 #########################
+2019-10-24T23:41:44.607Z Person 3:  (bye)
+
+######################### 2019-10-24T23:41:50.418Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:50.490Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:54.959Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:55.118Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:41:59.285Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:41:59.397Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:01.802Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:01.846Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:02.826Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:02.870Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:05.195Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:05.238Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:11.651Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:11.685Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:16.210Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:16.254Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:19.551Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:19.674Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:23.178Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:23.256Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:26.061Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:26.108Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:31.767Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:31.827Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:34.044Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:34.113Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:42:34.190Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:42:47.181Z EXECUTED CODE : Person 6 #########################
+2019-10-24T23:43:11.495Z Person 6: hmmm
+
+######################### 2019-10-24T23:43:13.139Z EXECUTED CODE : Person 0 #########################
+2019-10-24T23:43:19.528Z Person 0: it only asked for 4 numbers
+2019-10-24T23:43:22.762Z Person 0: so there was an error
+2019-10-24T23:43:26.599Z Person 0: lets try again
+
+######################### 2019-10-24T23:43:35.848Z EXECUTED CODE : Person 0 #########################
+2019-10-24T23:43:55.583Z Person 6: I screwed up
+
+######################### 2019-10-24T23:44:09.514Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:09.571Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:17.979Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:18.074Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:24.473Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:24.602Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:27.492Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:27.535Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:31.641Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:31.687Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:38.481Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:38.560Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:40.528Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:40.575Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:43.635Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:43.770Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:44.749Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:44.815Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:44:44.896Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:44:51.806Z EXECUTED CODE : Person 6 #########################
+2019-10-24T23:44:59.393Z Person 6: there we go
+2019-10-24T23:45:11.904Z Person 0: wow you really know your stuff
+2019-10-24T23:45:13.548Z Person 0: thank you
+2019-10-24T23:45:18.285Z Person 0: you've been a big help
+
+######################### 2019-10-24T23:45:18.393Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:45:25.738Z EXECUTED CODE : Person 6 #########################
+2019-10-24T23:45:46.498Z Person 6: ya, works with one or multiple modes
+2019-10-24T23:45:51.838Z Person 0: perfect!
+2019-10-24T23:49:34.762Z Person 0: if i was to want to write the mode numbers as numbers rather than in a list would that be possible?
+2019-10-24T23:50:04.163Z Person 0: so that the statement would say "the mode(s) for 4 values is 1 2"
+2019-10-24T23:53:35.603Z Person 6: you want to return a string of "1 2" ?
+2019-10-24T23:53:51.034Z Person 0: well a string of the numbers in the list of the modes
+
+######################### 2019-10-24T23:54:12.237Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:54:12.282Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:54:14.719Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:54:14.794Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:54:17.691Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:54:17.786Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:54:17.835Z EXECUTED CODE : Person 0 #########################
+2019-10-24T23:54:22.580Z Person 6: try it
+
+######################### 2019-10-24T23:54:29.041Z EXECUTED CODE : Person 0 #########################
+2019-10-24T23:54:49.326Z Person 6: oopss
+2019-10-24T23:54:58.215Z Person 0: missing a ) maybe
+
+######################### 2019-10-24T23:55:02.758Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:55:02.801Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:55:04.995Z EDITED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:55:05.054Z EDITED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:55:06.217Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:55:06.292Z EXECUTED CODE : Person 6 #########################
+
+######################### 2019-10-24T23:55:06.373Z EXECUTED CODE : Person 0 #########################
+
+######################### 2019-10-24T23:55:16.892Z EXECUTED CODE : Person 0 #########################
+2019-10-24T23:55:33.523Z Person 0: oh perfect!
+2019-10-24T23:55:36.830Z Person 6: easy peasy
+2019-10-24T23:55:41.593Z Person 0: for you ahaha
+2019-10-24T23:55:52.442Z Person 0: im struggling with lists and how to use them obviously ahaha
+2019-10-24T23:56:30.931Z Person 6: well, lists (array) are the most simple data structure
+2019-10-24T23:56:49.487Z Person 6: lists are essentially arrays
+2019-10-24T23:57:17.342Z Person 0: we started off with some others techniques and now with lists its definitely supposed to be easier im just still working on understanding it
+2019-10-25T00:12:24.371Z Person 6:  (bye)
+2019-10-25T00:12:40.240Z Person 0:  (bye)
+----------------
+FINAL STATE CODE
+
+import random
+
+#Mean function adds all the numbers in the list and divides by the amount of numbers
+def mean(numbers):
+totalsum = 0
+for num in numbers:
+totalsum = totalsum + num
+#   print (totalsum)
+mean_value = totalsum/len(numbers)
+return mean_value
+
+#Median function contains another fuction, auxilliary function, that sorts the numbers.
+#Using the ordered list, the "middle" value (median) can then be found.
+def median(numbers):
+sorted_list = auxiliary(numbers)
+print (sorted_list)
+if len(sorted_list) % 2:
+# odd
+median_index = len(sorted_list)//2
+median = sorted_list[median_index]
+else:
+# even
+median = sum(sorted_list[len(sorted_list)//2-1:len(sorted_list)//2+1]) / 2
+return median
+
+
+
+#Auxiliary function sorts the numbers in the list.
+def auxiliary(L):
+for j in range (0, len(L)-1):
+minVal = L[j]
+minIndex = j
+for k in range (j+1, len(L)):
+if L[k] < minVal:
+minVal = L[k]
+minIndex = k
+L[minIndex] = L[j]
+L[j] = minVal
+return L
+
+#Mode function uses frequency table to determine the most common number in the list.
+def mode(numbers):
+freq_table = [0] * 9
+for num in numbers:
+freq_table[num-1] += 1
+max_count = max(freq_table)
+return " ".join([str(i + 1) for i in range(len(freq_table)) if freq_table[i] == max_count])
+
+#Main Section
+
+#The string input by the user is cleaned of its commas and transformed into
+#a list. This section calls upon the four main functions of the program and
+#prints out readable results for the user.
+
+print ("This program produces the following descriptive statistics for a")
+print ("sample of widget scores: The mean median, mode, and standard deviation")
+
+number_of_scores = random.randint(1,5)
+print ("Input", number_of_scores,"widget scores.")
+nums = input("Input widget scores separated by commas: ")
+#print (len(nums),nums)
+nums = nums.split(",")
+#print (len(nums),nums)
+for n in range(number_of_scores):
+nums[n] = int(nums[n])
+#print (len(nums),nums)
+
+mean = mean(nums)
+
+median = median(nums)
+
+mode_string = mode(nums)
+
+#std_dev = std_dev(nums)
+
+print ("The mean for", len(nums), "values is", round(float(mean),2),".")
+print ("The median for", len(nums), "values is", median)
+print ("The mode(s) for", len(nums), "values is", mode_string)
+print ("The standard deviation for", len(nums), "value is", round(std_dev,2))
+
+
+
+
+----------------------

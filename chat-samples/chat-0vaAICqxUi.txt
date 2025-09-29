@@ -1,0 +1,122 @@
+----------------
+INITIAL STATE CODE
+
+allProperties = {'Lake':{'repairs':5, 'updgrades':6},
+'Meadow':{'repairs':2,'upgrades':1},
+'Beach':{'repairs':6, 'upgrades':0},
+'Country':{'repairs':1, 'upgrades':1}}
+
+def stats(properties,actions):
+totalactions = 0
+for k,v in properties.items():
+totalactions = totalactions + v.get(actions,0)
+return totalactions
+
+lookupaction = raw_input('What specific action are you looking for? Repairs or upgrades?')
+
+result = stats(allProperties,lookupaction)
+
+print(lookupaction + '------->' +str(result))
+
+
+
+
+----------------------
+2019-10-04T13:38:26.468Z PERSON 0 : (hello)
+2019-10-04T13:42:33.938Z PERSON 1 : (hello)
+2019-10-04T13:42:57.763Z PERSON 0 : hey
+2019-10-04T13:43:00.397Z PERSON 1 : Hello
+2019-10-04T13:43:01.214Z PERSON 0 : can you help me?
+2019-10-04T13:43:07.087Z PERSON 1 : yes sure
+2019-10-04T13:43:43.837Z PERSON 1 : can u briefly explain what u r trying to do
+2019-10-04T13:44:11.119Z PERSON 0 : I need to make the output as an aggregate, right now, the output is not an aggregated number. For example, If the user wants the total repairs or upgrades the output should be of everything
+2019-10-04T13:44:46.730Z PERSON 2 : (hello)
+2019-10-04T13:45:10.067Z PERSON 2 : (bye)
+2019-10-04T13:45:20.202Z PERSON 1 : so if lookupsction is repairs it would print the mean of all repairs
+2019-10-04T13:45:50.322Z PERSON 1 : (5+2+6+1)/4
+2019-10-04T13:45:51.618Z PERSON 1 : ?
+2019-10-04T13:46:11.167Z PERSON 1 : hey
+2019-10-04T13:46:12.973Z PERSON 1 : there
+2019-10-04T13:46:35.388Z PERSON 3 : (hello)
+2019-10-04T13:47:04.302Z PERSON 3 : (bye)
+2019-10-04T13:47:15.205Z PERSON 4 : (hello)
+2019-10-04T13:47:43.759Z PERSON 4 : (bye)
+2019-10-04T13:47:46.637Z PERSON 0 : sorry
+2019-10-04T13:47:56.811Z PERSON 0 : no
+2019-10-04T13:48:03.801Z PERSON 0 : it has to show all the repairs
+2019-10-04T13:48:19.161Z PERSON 0 : so 5+2+6+1
+2019-10-04T13:48:27.727Z PERSON 0 : so 15
+2019-10-04T13:48:29.955Z PERSON 0 : 14*
+2019-10-04T13:48:41.402Z PERSON 1 : ok it will just add all of them
+2019-10-04T13:48:55.477Z PERSON 1 : ok give me a min
+2019-10-04T13:49:02.223Z PERSON 0 : thank you a lot
+2019-10-04T13:49:38.493Z PERSON 5 : (hello)
+
+#########################  2019-10-04T13:49:50.508Z EXECUTED CODE : Person 1 #########################
+
+#########################  2019-10-04T13:50:09.138Z EXECUTED CODE : Person 1 #########################
+
+#########################  2019-10-04T13:50:25.778Z EXECUTED CODE : Person 1 #########################
+
+#########################  2019-10-04T13:50:34.518Z EXECUTED CODE : Person 1 #########################
+2019-10-04T13:50:37.950Z PERSON 5 : (bye)
+2019-10-04T13:50:47.129Z PERSON 1 : so it as expected?
+2019-10-04T13:50:52.358Z PERSON 1 : is it*
+2019-10-04T13:51:26.088Z PERSON 0 : exactly!! thanks a lot, will it do the same for upgrades?
+2019-10-04T13:51:35.738Z PERSON 1 : yes
+2019-10-04T13:51:40.358Z PERSON 1 : lets test it
+
+#########################  2019-10-04T13:51:46.388Z EXECUTED CODE : Person 1 #########################
+
+#########################  2019-10-04T13:52:01.768Z EXECUTED CODE : Person 1 #########################
+2019-10-04T13:52:37.741Z PERSON 0 : it works
+2019-10-04T13:52:45.080Z PERSON 0 : i already tried it in python
+2019-10-04T13:52:49.823Z PERSON 0 : thank you a lot!!!!
+2019-10-04T13:52:54.716Z PERSON 0 : you are very good
+2019-10-04T13:53:08.918Z PERSON 1 : you r always welcome
+2019-10-04T13:53:11.178Z PERSON 1 : thanks
+2019-10-04T13:53:22.514Z PERSON 6 : (hello)
+2019-10-04T13:53:38.238Z PERSON 1 : so. any more doubts? or should i leave
+2019-10-04T13:53:41.538Z PERSON 0 : why did you erase it?
+2019-10-04T13:53:42.265Z PERSON 6 : (bye)
+2019-10-04T13:53:48.586Z PERSON 1 : i didn't
+2019-10-04T13:53:58.048Z PERSON 0 : someone erased it
+2019-10-04T13:54:25.234Z PERSON 0 : that was all of the changes?
+2019-10-04T13:54:36.916Z PERSON 1 : no
+2019-10-04T13:54:41.796Z PERSON 1 : in line 10
+2019-10-04T13:54:50.704Z PERSON 0 : that guy just came, and erased everything
+2019-10-04T13:54:53.146Z PERSON 1 : now its okay
+
+#########################  2019-10-04T13:55:06.498Z EXECUTED CODE : Person 0 #########################
+
+#########################  2019-10-04T13:55:24.776Z EXECUTED CODE : Person 1 #########################
+
+#########################  2019-10-04T13:55:35.766Z EXECUTED CODE : Person 0 #########################
+2019-10-04T13:55:58.406Z PERSON 1 : updgrades
+
+#########################  2019-10-04T13:56:07.745Z EXECUTED CODE : Person 0 #########################
+
+#########################  2019-10-04T13:56:15.291Z EXECUTED CODE : Person 0 #########################
+2019-10-04T13:56:20.397Z PERSON 1 : wait
+2019-10-04T13:56:33.981Z PERSON 1 : in ur allProperties dictionary
+2019-10-04T13:56:54.016Z PERSON 1 : u hv some as updgrades and some as upgrades
+2019-10-04T13:57:03.716Z PERSON 1 : make it uniform
+2019-10-04T13:57:17.619Z PERSON 0 : solved it
+
+#########################  2019-10-04T13:57:19.482Z EXECUTED CODE : Person 0 #########################
+
+#########################  2019-10-04T13:57:23.703Z EXECUTED CODE : Person 0 #########################
+2019-10-04T13:57:27.536Z PERSON 1 : yes go ahead
+
+#########################  2019-10-04T13:57:38.802Z EXECUTED CODE : Person 0 #########################
+2019-10-04T13:57:54.978Z PERSON 0 : perfect
+2019-10-04T13:58:15.476Z PERSON 1 : yeah
+2019-10-04T13:58:25.956Z PERSON 1 : so done?
+2019-10-04T13:58:32.966Z PERSON 1 : should i leave?
+2019-10-04T13:59:26.352Z PERSON 0 : yes!! thank you
+2019-10-04T13:59:32.719Z PERSON 1 : (bye)
+
+#########################  2019-10-04T15:45:38.990Z EXECUTED CODE : Person 0 #########################
+
+#########################  2019-10-04T15:45:57.360Z EXECUTED CODE : Person 0 #########################
+2019-10-04T15:54:12.783Z PERSON 0 : (bye)
