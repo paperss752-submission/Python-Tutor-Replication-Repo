@@ -1,0 +1,215 @@
+code,outcome,count
+"Attitude, tone, or mood > expressNegativity > beingLost",F,159
+"Attitude, tone, or mood > expressNegativity > beingLost",S,91
+"Attitude, tone, or mood > expressNegativity > frustration",F,125
+"Attitude, tone, or mood > expressNegativity > frustration",S,39
+"Attitude, tone, or mood > expressNegativity > selfTalk",F,31
+"Attitude, tone, or mood > expressNegativity > selfTalk",S,38
+"Attitude, tone, or mood > expressPositivity > apology",F,34
+"Attitude, tone, or mood > expressPositivity > apology",S,49
+"Attitude, tone, or mood > expressPositivity > beingWrong",F,14
+"Attitude, tone, or mood > expressPositivity > beingWrong",S,45
+"Attitude, tone, or mood > expressPositivity > expressSatisfactionOrGratitude",F,82
+"Attitude, tone, or mood > expressPositivity > expressSatisfactionOrGratitude",S,307
+"Attitude, tone, or mood > expressPositivity > expressSupportingWords",F,110
+"Attitude, tone, or mood > expressPositivity > expressSupportingWords",S,257
+"Attitude, tone, or mood > expressPositivity > greeting",F,399
+"Attitude, tone, or mood > expressPositivity > greeting",S,378
+"Attitude, tone, or mood > expressTeachingPhilosophy",F,19
+"Attitude, tone, or mood > expressTeachingPhilosophy",S,20
+Big picture of an interaction > request > bugFix,F,63
+Big picture of an interaction > request > bugFix,S,88
+Big picture of an interaction > request > codeComprehension,F,13
+Big picture of an interaction > request > codeComprehension,S,31
+Big picture of an interaction > request > codeImprove,F,8
+Big picture of an interaction > request > codeImprove,S,9
+Big picture of an interaction > request > codeWrite,F,64
+Big picture of an interaction > request > codeWrite,S,88
+Big picture of an interaction > resolveRequest,F,147
+Big picture of an interaction > resolveRequest,S,214
+Big picture of an interaction > resolveRequest > failure,F,0
+Big picture of an interaction > resolveRequest > failure,S,0
+Big picture of an interaction > resolveRequest > success,F,0
+Big picture of an interaction > resolveRequest > success,S,0
+"Helping > (confirmation, codeError)",F,0
+"Helping > (confirmation, codeError)",S,0
+"Helping > (confirmation, codeSpecifications)",F,0
+"Helping > (confirmation, codeSpecifications)",S,0
+"Helping > (confirmation, higherLevelInstruction)",F,0
+"Helping > (confirmation, higherLevelInstruction)",S,0
+"Helping > (confirmation, platformRelated)",F,0
+"Helping > (confirmation, platformRelated)",S,0
+"Helping > (confirmation, rapportBuilding)",F,0
+"Helping > (confirmation, rapportBuilding)",S,0
+"Helping > (confirmation, sourceCode)",F,0
+"Helping > (confirmation, sourceCode)",S,0
+"Helping > (confirmation, testCases)",F,0
+"Helping > (confirmation, testCases)",S,0
+"Helping > (explain, codeError)",F,90
+"Helping > (explain, codeError)",S,121
+"Helping > (explain, codeSpecifications)",F,58
+"Helping > (explain, codeSpecifications)",S,94
+"Helping > (explain, higherLevelInstruction)",F,47
+"Helping > (explain, higherLevelInstruction)",S,126
+"Helping > (explain, platformRelated)",F,8
+"Helping > (explain, platformRelated)",S,13
+"Helping > (explain, rapportBuilding)",F,8
+"Helping > (explain, rapportBuilding)",S,1
+"Helping > (explain, sourceCode)",F,167
+"Helping > (explain, sourceCode)",S,302
+"Helping > (explain, testCases)",F,11
+"Helping > (explain, testCases)",S,18
+"Helping > (guideInteractively, codeError)",F,19
+"Helping > (guideInteractively, codeError)",S,11
+"Helping > (guideInteractively, codeSpecifications)",F,8
+"Helping > (guideInteractively, codeSpecifications)",S,11
+"Helping > (guideInteractively, higherLevelInstruction)",F,45
+"Helping > (guideInteractively, higherLevelInstruction)",S,30
+"Helping > (guideInteractively, platformRelated)",F,1
+"Helping > (guideInteractively, platformRelated)",S,3
+"Helping > (guideInteractively, rapportBuilding)",F,1
+"Helping > (guideInteractively, rapportBuilding)",S,2
+"Helping > (guideInteractively, sourceCode)",F,160
+"Helping > (guideInteractively, sourceCode)",S,226
+"Helping > (guideInteractively, testCases)",F,4
+"Helping > (guideInteractively, testCases)",S,8
+"Helping > (implement, codeError)",F,2
+"Helping > (implement, codeError)",S,1
+"Helping > (implement, codeSpecifications)",F,0
+"Helping > (implement, codeSpecifications)",S,2
+"Helping > (implement, higherLevelInstruction)",F,7
+"Helping > (implement, higherLevelInstruction)",S,5
+"Helping > (implement, platformRelated)",F,0
+"Helping > (implement, platformRelated)",S,0
+"Helping > (implement, rapportBuilding)",F,0
+"Helping > (implement, rapportBuilding)",S,0
+"Helping > (implement, sourceCode)",F,95
+"Helping > (implement, sourceCode)",S,264
+"Helping > (implement, testCases)",F,2
+"Helping > (implement, testCases)",S,1
+"Helping > (negativeConfirmation, codeError)",F,3
+"Helping > (negativeConfirmation, codeError)",S,3
+"Helping > (negativeConfirmation, codeSpecifications)",F,26
+"Helping > (negativeConfirmation, codeSpecifications)",S,12
+"Helping > (negativeConfirmation, higherLevelInstruction)",F,15
+"Helping > (negativeConfirmation, higherLevelInstruction)",S,18
+"Helping > (negativeConfirmation, platformRelated)",F,4
+"Helping > (negativeConfirmation, platformRelated)",S,11
+"Helping > (negativeConfirmation, rapportBuilding)",F,5
+"Helping > (negativeConfirmation, rapportBuilding)",S,28
+"Helping > (negativeConfirmation, sourceCode)",F,67
+"Helping > (negativeConfirmation, sourceCode)",S,57
+"Helping > (negativeConfirmation, testCases)",F,1
+"Helping > (negativeConfirmation, testCases)",S,4
+"Helping > (positiveConfirmation, codeError)",F,30
+"Helping > (positiveConfirmation, codeError)",S,48
+"Helping > (positiveConfirmation, codeSpecifications)",F,89
+"Helping > (positiveConfirmation, codeSpecifications)",S,138
+"Helping > (positiveConfirmation, higherLevelInstruction)",F,65
+"Helping > (positiveConfirmation, higherLevelInstruction)",S,76
+"Helping > (positiveConfirmation, platformRelated)",F,28
+"Helping > (positiveConfirmation, platformRelated)",S,25
+"Helping > (positiveConfirmation, rapportBuilding)",F,30
+"Helping > (positiveConfirmation, rapportBuilding)",S,46
+"Helping > (positiveConfirmation, sourceCode)",F,230
+"Helping > (positiveConfirmation, sourceCode)",S,411
+"Helping > (positiveConfirmation, testCases)",F,16
+"Helping > (positiveConfirmation, testCases)",S,22
+"Helping > (state, codeError)",F,245
+"Helping > (state, codeError)",S,262
+"Helping > (state, codeSpecifications)",F,289
+"Helping > (state, codeSpecifications)",S,385
+"Helping > (state, higherLevelInstruction)",F,117
+"Helping > (state, higherLevelInstruction)",S,206
+"Helping > (state, platformRelated)",F,87
+"Helping > (state, platformRelated)",S,85
+"Helping > (state, rapportBuilding)",F,132
+"Helping > (state, rapportBuilding)",S,187
+"Helping > (state, sourceCode)",F,536
+"Helping > (state, sourceCode)",S,812
+"Helping > (state, testCases)",F,51
+"Helping > (state, testCases)",S,84
+"Helping > (suggest, codeError)",F,5
+"Helping > (suggest, codeError)",S,2
+"Helping > (suggest, codeSpecifications)",F,7
+"Helping > (suggest, codeSpecifications)",S,4
+"Helping > (suggest, higherLevelInstruction)",F,51
+"Helping > (suggest, higherLevelInstruction)",S,66
+"Helping > (suggest, platformRelated)",F,3
+"Helping > (suggest, platformRelated)",S,5
+"Helping > (suggest, rapportBuilding)",F,1
+"Helping > (suggest, rapportBuilding)",S,0
+"Helping > (suggest, sourceCode)",F,119
+"Helping > (suggest, sourceCode)",S,224
+"Helping > (suggest, testCases)",F,8
+"Helping > (suggest, testCases)",S,2
+"Helping > (teachWithExtensions, codeError)",F,0
+"Helping > (teachWithExtensions, codeError)",S,1
+"Helping > (teachWithExtensions, codeSpecifications)",F,0
+"Helping > (teachWithExtensions, codeSpecifications)",S,0
+"Helping > (teachWithExtensions, higherLevelInstruction)",F,13
+"Helping > (teachWithExtensions, higherLevelInstruction)",S,51
+"Helping > (teachWithExtensions, platformRelated)",F,0
+"Helping > (teachWithExtensions, platformRelated)",S,0
+"Helping > (teachWithExtensions, rapportBuilding)",F,0
+"Helping > (teachWithExtensions, rapportBuilding)",S,0
+"Helping > (teachWithExtensions, sourceCode)",F,0
+"Helping > (teachWithExtensions, sourceCode)",S,20
+"Helping > (teachWithExtensions, testCases)",F,0
+"Helping > (teachWithExtensions, testCases)",S,0
+"Questioning > (checkForFollowing, codeError)",F,2
+"Questioning > (checkForFollowing, codeError)",S,6
+"Questioning > (checkForFollowing, codeSpecifications)",F,16
+"Questioning > (checkForFollowing, codeSpecifications)",S,3
+"Questioning > (checkForFollowing, higherLevelInstruction)",F,13
+"Questioning > (checkForFollowing, higherLevelInstruction)",S,12
+"Questioning > (checkForFollowing, platformRelated)",F,1
+"Questioning > (checkForFollowing, platformRelated)",S,1
+"Questioning > (checkForFollowing, rapportBuilding)",F,2
+"Questioning > (checkForFollowing, rapportBuilding)",S,3
+"Questioning > (checkForFollowing, sourceCode)",F,30
+"Questioning > (checkForFollowing, sourceCode)",S,85
+"Questioning > (checkForFollowing, testCases)",F,0
+"Questioning > (checkForFollowing, testCases)",S,0
+"Questioning > (checkIfCorrect, codeError)",F,11
+"Questioning > (checkIfCorrect, codeError)",S,4
+"Questioning > (checkIfCorrect, codeSpecifications)",F,71
+"Questioning > (checkIfCorrect, codeSpecifications)",S,80
+"Questioning > (checkIfCorrect, higherLevelInstruction)",F,24
+"Questioning > (checkIfCorrect, higherLevelInstruction)",S,21
+"Questioning > (checkIfCorrect, platformRelated)",F,0
+"Questioning > (checkIfCorrect, platformRelated)",S,3
+"Questioning > (checkIfCorrect, rapportBuilding)",F,4
+"Questioning > (checkIfCorrect, rapportBuilding)",S,7
+"Questioning > (checkIfCorrect, sourceCode)",F,200
+"Questioning > (checkIfCorrect, sourceCode)",S,226
+"Questioning > (checkIfCorrect, testCases)",F,9
+"Questioning > (checkIfCorrect, testCases)",S,22
+"Questioning > (content, codeError)",F,76
+"Questioning > (content, codeError)",S,89
+"Questioning > (content, codeSpecifications)",F,107
+"Questioning > (content, codeSpecifications)",S,134
+"Questioning > (content, higherLevelInstruction)",F,60
+"Questioning > (content, higherLevelInstruction)",S,91
+"Questioning > (content, platformRelated)",F,39
+"Questioning > (content, platformRelated)",S,39
+"Questioning > (content, rapportBuilding)",F,24
+"Questioning > (content, rapportBuilding)",S,36
+"Questioning > (content, sourceCode)",F,322
+"Questioning > (content, sourceCode)",S,384
+"Questioning > (content, testCases)",F,43
+"Questioning > (content, testCases)",S,20
+"Questioning > (personal, codeError)",F,0
+"Questioning > (personal, codeError)",S,0
+"Questioning > (personal, codeSpecifications)",F,0
+"Questioning > (personal, codeSpecifications)",S,0
+"Questioning > (personal, higherLevelInstruction)",F,0
+"Questioning > (personal, higherLevelInstruction)",S,2
+"Questioning > (personal, platformRelated)",F,1
+"Questioning > (personal, platformRelated)",S,1
+"Questioning > (personal, rapportBuilding)",F,48
+"Questioning > (personal, rapportBuilding)",S,64
+"Questioning > (personal, sourceCode)",F,0
+"Questioning > (personal, sourceCode)",S,0
+"Questioning > (personal, testCases)",F,0
+"Questioning > (personal, testCases)",S,0

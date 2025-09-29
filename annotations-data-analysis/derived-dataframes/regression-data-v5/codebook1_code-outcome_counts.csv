@@ -1,0 +1,95 @@
+code,outcome,count
+"Attitude, tone, or mood > expressNegativity > beingLost",F,159
+"Attitude, tone, or mood > expressNegativity > beingLost",S,91
+"Attitude, tone, or mood > expressNegativity > frustration",F,125
+"Attitude, tone, or mood > expressNegativity > frustration",S,39
+"Attitude, tone, or mood > expressNegativity > selfTalk",F,31
+"Attitude, tone, or mood > expressNegativity > selfTalk",S,38
+"Attitude, tone, or mood > expressPositivity > apology",F,34
+"Attitude, tone, or mood > expressPositivity > apology",S,49
+"Attitude, tone, or mood > expressPositivity > beingWrong",F,14
+"Attitude, tone, or mood > expressPositivity > beingWrong",S,45
+"Attitude, tone, or mood > expressPositivity > expressSatisfactionOrGratitude",F,82
+"Attitude, tone, or mood > expressPositivity > expressSatisfactionOrGratitude",S,307
+"Attitude, tone, or mood > expressPositivity > expressSupportingWords",F,110
+"Attitude, tone, or mood > expressPositivity > expressSupportingWords",S,257
+"Attitude, tone, or mood > expressPositivity > greeting",F,399
+"Attitude, tone, or mood > expressPositivity > greeting",S,378
+"Attitude, tone, or mood > expressTeachingPhilosophy",F,19
+"Attitude, tone, or mood > expressTeachingPhilosophy",S,20
+Big picture of an interaction > request > bugFix,F,63
+Big picture of an interaction > request > bugFix,S,88
+Big picture of an interaction > request > codeComprehension,F,13
+Big picture of an interaction > request > codeComprehension,S,31
+Big picture of an interaction > request > codeImprove,F,8
+Big picture of an interaction > request > codeImprove,S,9
+Big picture of an interaction > request > codeWrite,F,64
+Big picture of an interaction > request > codeWrite,S,88
+Big picture of an interaction > resolveRequest,F,147
+Big picture of an interaction > resolveRequest,S,214
+Big picture of an interaction > resolveRequest > failure,F,0
+Big picture of an interaction > resolveRequest > failure,S,0
+Big picture of an interaction > resolveRequest > success,F,0
+Big picture of an interaction > resolveRequest > success,S,0
+Explanations and help > communicationMechanism > explain,F,389
+Explanations and help > communicationMechanism > explain,S,675
+Explanations and help > communicationMechanism > guideInteractively,F,126
+Explanations and help > communicationMechanism > guideInteractively,S,203
+Explanations and help > communicationMechanism > implement,F,108
+Explanations and help > communicationMechanism > implement,S,274
+Explanations and help > communicationMechanism > negativeConfirmation,F,121
+Explanations and help > communicationMechanism > negativeConfirmation,S,139
+Explanations and help > communicationMechanism > positiveConfirmation,F,494
+Explanations and help > communicationMechanism > positiveConfirmation,S,778
+Explanations and help > communicationMechanism > state,F,1460
+Explanations and help > communicationMechanism > state,S,2024
+Explanations and help > communicationMechanism > suggest,F,194
+Explanations and help > communicationMechanism > suggest,S,304
+Explanations and help > communicationMechanism > teachWithExtensions,F,13
+Explanations and help > communicationMechanism > teachWithExtensions,S,72
+Explanations and help > confidenceLevel > phrasedAsCertain,F,2578
+Explanations and help > confidenceLevel > phrasedAsCertain,S,4120
+Explanations and help > confidenceLevel > phrasedAsUnsure,F,278
+Explanations and help > confidenceLevel > phrasedAsUnsure,S,294
+General message attributes > contentDomain > bug,F,402
+General message attributes > contentDomain > bug,S,471
+General message attributes > contentDomain > codeOpinion,F,63
+General message attributes > contentDomain > codeOpinion,S,178
+General message attributes > contentDomain > codeSpecifications,F,673
+General message attributes > contentDomain > codeSpecifications,S,864
+General message attributes > contentDomain > codingConcept,F,251
+General message attributes > contentDomain > codingConcept,S,484
+General message attributes > contentDomain > codingExperience,F,132
+General message attributes > contentDomain > codingExperience,S,158
+General message attributes > contentDomain > developmentStrategy,F,156
+General message attributes > contentDomain > developmentStrategy,S,134
+General message attributes > contentDomain > errorLocation,F,52
+General message attributes > contentDomain > errorLocation,S,33
+General message attributes > contentDomain > errorMsg,F,30
+General message attributes > contentDomain > errorMsg,S,43
+General message attributes > contentDomain > learningResources,F,51
+General message attributes > contentDomain > learningResources,S,87
+General message attributes > contentDomain > originalCode,F,457
+General message attributes > contentDomain > originalCode,S,449
+General message attributes > contentDomain > personalInfo,F,123
+General message attributes > contentDomain > personalInfo,S,216
+General message attributes > contentDomain > platformRelated,F,174
+General message attributes > contentDomain > platformRelated,S,185
+General message attributes > contentDomain > proposedNewCode,F,1413
+General message attributes > contentDomain > proposedNewCode,S,2386
+General message attributes > contentDomain > testCases,F,144
+General message attributes > contentDomain > testCases,S,181
+Questions > question > checkForFollowing,F,65
+Questions > question > checkForFollowing,S,110
+Questions > question > checkIfCorrect,F,319
+Questions > question > checkIfCorrect,S,364
+Questions > question > content,F,671
+Questions > question > content,S,793
+Questions > question > guiding,F,113
+Questions > question > guiding,S,88
+Questions > question > personal,F,53
+Questions > question > personal,S,76
+Questions > specificity > detailed,F,819
+Questions > specificity > detailed,S,1235
+Questions > specificity > vague,F,1057
+Questions > specificity > vague,S,1363

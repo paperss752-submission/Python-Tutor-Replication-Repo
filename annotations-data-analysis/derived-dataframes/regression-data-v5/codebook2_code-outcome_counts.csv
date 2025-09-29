@@ -1,0 +1,1797 @@
+code,outcome,count
+"Attitude, tone, or mood > expressNegativity > beingLost",F,159
+"Attitude, tone, or mood > expressNegativity > beingLost",S,91
+"Attitude, tone, or mood > expressNegativity > frustration",F,125
+"Attitude, tone, or mood > expressNegativity > frustration",S,39
+"Attitude, tone, or mood > expressNegativity > selfTalk",F,31
+"Attitude, tone, or mood > expressNegativity > selfTalk",S,38
+"Attitude, tone, or mood > expressPositivity > apology",F,34
+"Attitude, tone, or mood > expressPositivity > apology",S,49
+"Attitude, tone, or mood > expressPositivity > beingWrong",F,14
+"Attitude, tone, or mood > expressPositivity > beingWrong",S,45
+"Attitude, tone, or mood > expressPositivity > expressSatisfactionOrGratitude",F,82
+"Attitude, tone, or mood > expressPositivity > expressSatisfactionOrGratitude",S,307
+"Attitude, tone, or mood > expressPositivity > expressSupportingWords",F,110
+"Attitude, tone, or mood > expressPositivity > expressSupportingWords",S,257
+"Attitude, tone, or mood > expressPositivity > greeting",F,399
+"Attitude, tone, or mood > expressPositivity > greeting",S,378
+"Attitude, tone, or mood > expressTeachingPhilosophy",F,19
+"Attitude, tone, or mood > expressTeachingPhilosophy",S,20
+Big picture of an interaction > request > bugFix,F,63
+Big picture of an interaction > request > bugFix,S,88
+Big picture of an interaction > request > codeComprehension,F,13
+Big picture of an interaction > request > codeComprehension,S,31
+Big picture of an interaction > request > codeImprove,F,8
+Big picture of an interaction > request > codeImprove,S,9
+Big picture of an interaction > request > codeWrite,F,64
+Big picture of an interaction > request > codeWrite,S,88
+Big picture of an interaction > resolveRequest,F,147
+Big picture of an interaction > resolveRequest,S,214
+Big picture of an interaction > resolveRequest > failure,F,0
+Big picture of an interaction > resolveRequest > failure,S,0
+Big picture of an interaction > resolveRequest > success,F,0
+Big picture of an interaction > resolveRequest > success,S,0
+"Helping > (explain, phrasedAsCertain, bug, detailed)",F,48
+"Helping > (explain, phrasedAsCertain, bug, detailed)",S,68
+"Helping > (explain, phrasedAsCertain, bug, unknown)",F,4
+"Helping > (explain, phrasedAsCertain, bug, unknown)",S,1
+"Helping > (explain, phrasedAsCertain, bug, vague)",F,31
+"Helping > (explain, phrasedAsCertain, bug, vague)",S,33
+"Helping > (explain, phrasedAsCertain, codeOpinion, detailed)",F,0
+"Helping > (explain, phrasedAsCertain, codeOpinion, detailed)",S,5
+"Helping > (explain, phrasedAsCertain, codeOpinion, unknown)",F,0
+"Helping > (explain, phrasedAsCertain, codeOpinion, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, codeOpinion, vague)",F,0
+"Helping > (explain, phrasedAsCertain, codeOpinion, vague)",S,6
+"Helping > (explain, phrasedAsCertain, codeSpecifications, detailed)",F,36
+"Helping > (explain, phrasedAsCertain, codeSpecifications, detailed)",S,59
+"Helping > (explain, phrasedAsCertain, codeSpecifications, unknown)",F,3
+"Helping > (explain, phrasedAsCertain, codeSpecifications, unknown)",S,2
+"Helping > (explain, phrasedAsCertain, codeSpecifications, vague)",F,15
+"Helping > (explain, phrasedAsCertain, codeSpecifications, vague)",S,28
+"Helping > (explain, phrasedAsCertain, codingConcept, detailed)",F,22
+"Helping > (explain, phrasedAsCertain, codingConcept, detailed)",S,89
+"Helping > (explain, phrasedAsCertain, codingConcept, unknown)",F,4
+"Helping > (explain, phrasedAsCertain, codingConcept, unknown)",S,4
+"Helping > (explain, phrasedAsCertain, codingConcept, vague)",F,6
+"Helping > (explain, phrasedAsCertain, codingConcept, vague)",S,21
+"Helping > (explain, phrasedAsCertain, codingExperience, detailed)",F,2
+"Helping > (explain, phrasedAsCertain, codingExperience, detailed)",S,0
+"Helping > (explain, phrasedAsCertain, codingExperience, unknown)",F,0
+"Helping > (explain, phrasedAsCertain, codingExperience, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, codingExperience, vague)",F,3
+"Helping > (explain, phrasedAsCertain, codingExperience, vague)",S,1
+"Helping > (explain, phrasedAsCertain, developmentStrategy, detailed)",F,5
+"Helping > (explain, phrasedAsCertain, developmentStrategy, detailed)",S,3
+"Helping > (explain, phrasedAsCertain, developmentStrategy, unknown)",F,1
+"Helping > (explain, phrasedAsCertain, developmentStrategy, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, developmentStrategy, vague)",F,3
+"Helping > (explain, phrasedAsCertain, developmentStrategy, vague)",S,4
+"Helping > (explain, phrasedAsCertain, errorLocation, detailed)",F,0
+"Helping > (explain, phrasedAsCertain, errorLocation, detailed)",S,2
+"Helping > (explain, phrasedAsCertain, errorLocation, unknown)",F,0
+"Helping > (explain, phrasedAsCertain, errorLocation, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, errorLocation, vague)",F,0
+"Helping > (explain, phrasedAsCertain, errorLocation, vague)",S,0
+"Helping > (explain, phrasedAsCertain, errorMsg, detailed)",F,0
+"Helping > (explain, phrasedAsCertain, errorMsg, detailed)",S,4
+"Helping > (explain, phrasedAsCertain, errorMsg, unknown)",F,0
+"Helping > (explain, phrasedAsCertain, errorMsg, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, errorMsg, vague)",F,0
+"Helping > (explain, phrasedAsCertain, errorMsg, vague)",S,1
+"Helping > (explain, phrasedAsCertain, learningResources, detailed)",F,2
+"Helping > (explain, phrasedAsCertain, learningResources, detailed)",S,0
+"Helping > (explain, phrasedAsCertain, learningResources, unknown)",F,0
+"Helping > (explain, phrasedAsCertain, learningResources, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, learningResources, vague)",F,1
+"Helping > (explain, phrasedAsCertain, learningResources, vague)",S,2
+"Helping > (explain, phrasedAsCertain, originalCode, detailed)",F,27
+"Helping > (explain, phrasedAsCertain, originalCode, detailed)",S,40
+"Helping > (explain, phrasedAsCertain, originalCode, unknown)",F,4
+"Helping > (explain, phrasedAsCertain, originalCode, unknown)",S,2
+"Helping > (explain, phrasedAsCertain, originalCode, vague)",F,15
+"Helping > (explain, phrasedAsCertain, originalCode, vague)",S,16
+"Helping > (explain, phrasedAsCertain, personalInfo, detailed)",F,2
+"Helping > (explain, phrasedAsCertain, personalInfo, detailed)",S,0
+"Helping > (explain, phrasedAsCertain, personalInfo, unknown)",F,0
+"Helping > (explain, phrasedAsCertain, personalInfo, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, personalInfo, vague)",F,1
+"Helping > (explain, phrasedAsCertain, personalInfo, vague)",S,0
+"Helping > (explain, phrasedAsCertain, platformRelated, detailed)",F,3
+"Helping > (explain, phrasedAsCertain, platformRelated, detailed)",S,7
+"Helping > (explain, phrasedAsCertain, platformRelated, unknown)",F,1
+"Helping > (explain, phrasedAsCertain, platformRelated, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, platformRelated, vague)",F,4
+"Helping > (explain, phrasedAsCertain, platformRelated, vague)",S,5
+"Helping > (explain, phrasedAsCertain, proposedNewCode, detailed)",F,63
+"Helping > (explain, phrasedAsCertain, proposedNewCode, detailed)",S,162
+"Helping > (explain, phrasedAsCertain, proposedNewCode, unknown)",F,11
+"Helping > (explain, phrasedAsCertain, proposedNewCode, unknown)",S,12
+"Helping > (explain, phrasedAsCertain, proposedNewCode, vague)",F,27
+"Helping > (explain, phrasedAsCertain, proposedNewCode, vague)",S,46
+"Helping > (explain, phrasedAsCertain, testCases, detailed)",F,5
+"Helping > (explain, phrasedAsCertain, testCases, detailed)",S,11
+"Helping > (explain, phrasedAsCertain, testCases, unknown)",F,3
+"Helping > (explain, phrasedAsCertain, testCases, unknown)",S,0
+"Helping > (explain, phrasedAsCertain, testCases, vague)",F,1
+"Helping > (explain, phrasedAsCertain, testCases, vague)",S,6
+"Helping > (explain, phrasedAsUnsure, bug, detailed)",F,2
+"Helping > (explain, phrasedAsUnsure, bug, detailed)",S,7
+"Helping > (explain, phrasedAsUnsure, bug, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, bug, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, bug, vague)",F,5
+"Helping > (explain, phrasedAsUnsure, bug, vague)",S,5
+"Helping > (explain, phrasedAsUnsure, codeOpinion, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, codeOpinion, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, codeOpinion, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, codeOpinion, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, codeOpinion, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, codeOpinion, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, codeSpecifications, detailed)",F,4
+"Helping > (explain, phrasedAsUnsure, codeSpecifications, detailed)",S,2
+"Helping > (explain, phrasedAsUnsure, codeSpecifications, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, codeSpecifications, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, codeSpecifications, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, codeSpecifications, vague)",S,1
+"Helping > (explain, phrasedAsUnsure, codingConcept, detailed)",F,2
+"Helping > (explain, phrasedAsUnsure, codingConcept, detailed)",S,1
+"Helping > (explain, phrasedAsUnsure, codingConcept, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, codingConcept, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, codingConcept, vague)",F,1
+"Helping > (explain, phrasedAsUnsure, codingConcept, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, codingExperience, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, codingExperience, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, codingExperience, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, codingExperience, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, codingExperience, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, codingExperience, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, developmentStrategy, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, developmentStrategy, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, developmentStrategy, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, developmentStrategy, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, developmentStrategy, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, developmentStrategy, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, errorLocation, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, errorLocation, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, errorLocation, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, errorLocation, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, errorLocation, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, errorLocation, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, errorMsg, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, errorMsg, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, errorMsg, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, errorMsg, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, errorMsg, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, errorMsg, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, learningResources, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, learningResources, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, learningResources, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, learningResources, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, learningResources, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, learningResources, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, originalCode, detailed)",F,1
+"Helping > (explain, phrasedAsUnsure, originalCode, detailed)",S,3
+"Helping > (explain, phrasedAsUnsure, originalCode, unknown)",F,1
+"Helping > (explain, phrasedAsUnsure, originalCode, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, originalCode, vague)",F,2
+"Helping > (explain, phrasedAsUnsure, originalCode, vague)",S,1
+"Helping > (explain, phrasedAsUnsure, personalInfo, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, personalInfo, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, personalInfo, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, personalInfo, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, personalInfo, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, personalInfo, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, platformRelated, detailed)",F,0
+"Helping > (explain, phrasedAsUnsure, platformRelated, detailed)",S,0
+"Helping > (explain, phrasedAsUnsure, platformRelated, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, platformRelated, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, platformRelated, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, platformRelated, vague)",S,0
+"Helping > (explain, phrasedAsUnsure, proposedNewCode, detailed)",F,10
+"Helping > (explain, phrasedAsUnsure, proposedNewCode, detailed)",S,3
+"Helping > (explain, phrasedAsUnsure, proposedNewCode, unknown)",F,0
+"Helping > (explain, phrasedAsUnsure, proposedNewCode, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, proposedNewCode, vague)",F,1
+"Helping > (explain, phrasedAsUnsure, proposedNewCode, vague)",S,3
+"Helping > (explain, phrasedAsUnsure, testCases, detailed)",F,1
+"Helping > (explain, phrasedAsUnsure, testCases, detailed)",S,1
+"Helping > (explain, phrasedAsUnsure, testCases, unknown)",F,1
+"Helping > (explain, phrasedAsUnsure, testCases, unknown)",S,0
+"Helping > (explain, phrasedAsUnsure, testCases, vague)",F,0
+"Helping > (explain, phrasedAsUnsure, testCases, vague)",S,0
+"Helping > (explain, unknown, bug, detailed)",F,0
+"Helping > (explain, unknown, bug, detailed)",S,0
+"Helping > (explain, unknown, bug, unknown)",F,0
+"Helping > (explain, unknown, bug, unknown)",S,0
+"Helping > (explain, unknown, bug, vague)",F,0
+"Helping > (explain, unknown, bug, vague)",S,0
+"Helping > (explain, unknown, codeOpinion, detailed)",F,0
+"Helping > (explain, unknown, codeOpinion, detailed)",S,0
+"Helping > (explain, unknown, codeOpinion, unknown)",F,0
+"Helping > (explain, unknown, codeOpinion, unknown)",S,0
+"Helping > (explain, unknown, codeOpinion, vague)",F,0
+"Helping > (explain, unknown, codeOpinion, vague)",S,0
+"Helping > (explain, unknown, codeSpecifications, detailed)",F,0
+"Helping > (explain, unknown, codeSpecifications, detailed)",S,2
+"Helping > (explain, unknown, codeSpecifications, unknown)",F,0
+"Helping > (explain, unknown, codeSpecifications, unknown)",S,0
+"Helping > (explain, unknown, codeSpecifications, vague)",F,0
+"Helping > (explain, unknown, codeSpecifications, vague)",S,0
+"Helping > (explain, unknown, codingConcept, detailed)",F,0
+"Helping > (explain, unknown, codingConcept, detailed)",S,1
+"Helping > (explain, unknown, codingConcept, unknown)",F,0
+"Helping > (explain, unknown, codingConcept, unknown)",S,0
+"Helping > (explain, unknown, codingConcept, vague)",F,0
+"Helping > (explain, unknown, codingConcept, vague)",S,0
+"Helping > (explain, unknown, codingExperience, detailed)",F,0
+"Helping > (explain, unknown, codingExperience, detailed)",S,0
+"Helping > (explain, unknown, codingExperience, unknown)",F,0
+"Helping > (explain, unknown, codingExperience, unknown)",S,0
+"Helping > (explain, unknown, codingExperience, vague)",F,0
+"Helping > (explain, unknown, codingExperience, vague)",S,0
+"Helping > (explain, unknown, developmentStrategy, detailed)",F,0
+"Helping > (explain, unknown, developmentStrategy, detailed)",S,1
+"Helping > (explain, unknown, developmentStrategy, unknown)",F,0
+"Helping > (explain, unknown, developmentStrategy, unknown)",S,0
+"Helping > (explain, unknown, developmentStrategy, vague)",F,0
+"Helping > (explain, unknown, developmentStrategy, vague)",S,0
+"Helping > (explain, unknown, errorLocation, detailed)",F,0
+"Helping > (explain, unknown, errorLocation, detailed)",S,0
+"Helping > (explain, unknown, errorLocation, unknown)",F,0
+"Helping > (explain, unknown, errorLocation, unknown)",S,0
+"Helping > (explain, unknown, errorLocation, vague)",F,0
+"Helping > (explain, unknown, errorLocation, vague)",S,0
+"Helping > (explain, unknown, errorMsg, detailed)",F,0
+"Helping > (explain, unknown, errorMsg, detailed)",S,0
+"Helping > (explain, unknown, errorMsg, unknown)",F,0
+"Helping > (explain, unknown, errorMsg, unknown)",S,0
+"Helping > (explain, unknown, errorMsg, vague)",F,0
+"Helping > (explain, unknown, errorMsg, vague)",S,0
+"Helping > (explain, unknown, learningResources, detailed)",F,0
+"Helping > (explain, unknown, learningResources, detailed)",S,0
+"Helping > (explain, unknown, learningResources, unknown)",F,0
+"Helping > (explain, unknown, learningResources, unknown)",S,0
+"Helping > (explain, unknown, learningResources, vague)",F,0
+"Helping > (explain, unknown, learningResources, vague)",S,0
+"Helping > (explain, unknown, originalCode, detailed)",F,0
+"Helping > (explain, unknown, originalCode, detailed)",S,1
+"Helping > (explain, unknown, originalCode, unknown)",F,0
+"Helping > (explain, unknown, originalCode, unknown)",S,0
+"Helping > (explain, unknown, originalCode, vague)",F,0
+"Helping > (explain, unknown, originalCode, vague)",S,1
+"Helping > (explain, unknown, personalInfo, detailed)",F,0
+"Helping > (explain, unknown, personalInfo, detailed)",S,0
+"Helping > (explain, unknown, personalInfo, unknown)",F,0
+"Helping > (explain, unknown, personalInfo, unknown)",S,0
+"Helping > (explain, unknown, personalInfo, vague)",F,0
+"Helping > (explain, unknown, personalInfo, vague)",S,0
+"Helping > (explain, unknown, platformRelated, detailed)",F,0
+"Helping > (explain, unknown, platformRelated, detailed)",S,0
+"Helping > (explain, unknown, platformRelated, unknown)",F,0
+"Helping > (explain, unknown, platformRelated, unknown)",S,0
+"Helping > (explain, unknown, platformRelated, vague)",F,0
+"Helping > (explain, unknown, platformRelated, vague)",S,1
+"Helping > (explain, unknown, proposedNewCode, detailed)",F,4
+"Helping > (explain, unknown, proposedNewCode, detailed)",S,1
+"Helping > (explain, unknown, proposedNewCode, unknown)",F,0
+"Helping > (explain, unknown, proposedNewCode, unknown)",S,0
+"Helping > (explain, unknown, proposedNewCode, vague)",F,1
+"Helping > (explain, unknown, proposedNewCode, vague)",S,0
+"Helping > (explain, unknown, testCases, detailed)",F,0
+"Helping > (explain, unknown, testCases, detailed)",S,0
+"Helping > (explain, unknown, testCases, unknown)",F,0
+"Helping > (explain, unknown, testCases, unknown)",S,0
+"Helping > (explain, unknown, testCases, vague)",F,0
+"Helping > (explain, unknown, testCases, vague)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, bug, detailed)",F,3
+"Helping > (guideInteractively, phrasedAsCertain, bug, detailed)",S,5
+"Helping > (guideInteractively, phrasedAsCertain, bug, unknown)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, bug, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, bug, vague)",F,2
+"Helping > (guideInteractively, phrasedAsCertain, bug, vague)",S,2
+"Helping > (guideInteractively, phrasedAsCertain, codeOpinion, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codeOpinion, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, codeOpinion, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codeOpinion, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, codeOpinion, vague)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codeOpinion, vague)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, codeSpecifications, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codeSpecifications, detailed)",S,1
+"Helping > (guideInteractively, phrasedAsCertain, codeSpecifications, unknown)",F,2
+"Helping > (guideInteractively, phrasedAsCertain, codeSpecifications, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, codeSpecifications, vague)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, codeSpecifications, vague)",S,4
+"Helping > (guideInteractively, phrasedAsCertain, codingConcept, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codingConcept, detailed)",S,4
+"Helping > (guideInteractively, phrasedAsCertain, codingConcept, unknown)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, codingConcept, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, codingConcept, vague)",F,2
+"Helping > (guideInteractively, phrasedAsCertain, codingConcept, vague)",S,1
+"Helping > (guideInteractively, phrasedAsCertain, codingExperience, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codingExperience, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, codingExperience, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codingExperience, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, codingExperience, vague)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, codingExperience, vague)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, developmentStrategy, detailed)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, developmentStrategy, detailed)",S,2
+"Helping > (guideInteractively, phrasedAsCertain, developmentStrategy, unknown)",F,3
+"Helping > (guideInteractively, phrasedAsCertain, developmentStrategy, unknown)",S,1
+"Helping > (guideInteractively, phrasedAsCertain, developmentStrategy, vague)",F,6
+"Helping > (guideInteractively, phrasedAsCertain, developmentStrategy, vague)",S,5
+"Helping > (guideInteractively, phrasedAsCertain, errorLocation, detailed)",F,4
+"Helping > (guideInteractively, phrasedAsCertain, errorLocation, detailed)",S,1
+"Helping > (guideInteractively, phrasedAsCertain, errorLocation, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, errorLocation, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, errorLocation, vague)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, errorLocation, vague)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, errorMsg, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, errorMsg, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, errorMsg, unknown)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, errorMsg, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, errorMsg, vague)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, errorMsg, vague)",S,2
+"Helping > (guideInteractively, phrasedAsCertain, learningResources, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, learningResources, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, learningResources, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, learningResources, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, learningResources, vague)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, learningResources, vague)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, originalCode, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, originalCode, detailed)",S,1
+"Helping > (guideInteractively, phrasedAsCertain, originalCode, unknown)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, originalCode, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, originalCode, vague)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, originalCode, vague)",S,4
+"Helping > (guideInteractively, phrasedAsCertain, personalInfo, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, personalInfo, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, personalInfo, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, personalInfo, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, personalInfo, vague)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, personalInfo, vague)",S,1
+"Helping > (guideInteractively, phrasedAsCertain, platformRelated, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, platformRelated, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, platformRelated, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, platformRelated, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, platformRelated, vague)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, platformRelated, vague)",S,3
+"Helping > (guideInteractively, phrasedAsCertain, proposedNewCode, detailed)",F,50
+"Helping > (guideInteractively, phrasedAsCertain, proposedNewCode, detailed)",S,92
+"Helping > (guideInteractively, phrasedAsCertain, proposedNewCode, unknown)",F,4
+"Helping > (guideInteractively, phrasedAsCertain, proposedNewCode, unknown)",S,8
+"Helping > (guideInteractively, phrasedAsCertain, proposedNewCode, vague)",F,35
+"Helping > (guideInteractively, phrasedAsCertain, proposedNewCode, vague)",S,56
+"Helping > (guideInteractively, phrasedAsCertain, testCases, detailed)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, testCases, detailed)",S,4
+"Helping > (guideInteractively, phrasedAsCertain, testCases, unknown)",F,1
+"Helping > (guideInteractively, phrasedAsCertain, testCases, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsCertain, testCases, vague)",F,0
+"Helping > (guideInteractively, phrasedAsCertain, testCases, vague)",S,1
+"Helping > (guideInteractively, phrasedAsUnsure, bug, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, bug, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, bug, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, bug, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, bug, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, bug, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeOpinion, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeOpinion, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeOpinion, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeOpinion, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeOpinion, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeOpinion, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeSpecifications, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeSpecifications, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeSpecifications, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeSpecifications, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeSpecifications, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codeSpecifications, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingConcept, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingConcept, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingConcept, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingConcept, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingConcept, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingConcept, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingExperience, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingExperience, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingExperience, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingExperience, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingExperience, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, codingExperience, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, developmentStrategy, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, developmentStrategy, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, developmentStrategy, unknown)",F,1
+"Helping > (guideInteractively, phrasedAsUnsure, developmentStrategy, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, developmentStrategy, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, developmentStrategy, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorLocation, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorLocation, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorLocation, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorLocation, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorLocation, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorLocation, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorMsg, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorMsg, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorMsg, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorMsg, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorMsg, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, errorMsg, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, learningResources, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, learningResources, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, learningResources, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, learningResources, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, learningResources, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, learningResources, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, originalCode, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, originalCode, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, originalCode, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, originalCode, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, originalCode, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, originalCode, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, personalInfo, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, personalInfo, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, personalInfo, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, personalInfo, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, personalInfo, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, personalInfo, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, platformRelated, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, platformRelated, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, platformRelated, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, platformRelated, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, platformRelated, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, platformRelated, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, proposedNewCode, detailed)",F,1
+"Helping > (guideInteractively, phrasedAsUnsure, proposedNewCode, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, proposedNewCode, unknown)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, proposedNewCode, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, proposedNewCode, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, proposedNewCode, vague)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, testCases, detailed)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, testCases, detailed)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, testCases, unknown)",F,1
+"Helping > (guideInteractively, phrasedAsUnsure, testCases, unknown)",S,0
+"Helping > (guideInteractively, phrasedAsUnsure, testCases, vague)",F,0
+"Helping > (guideInteractively, phrasedAsUnsure, testCases, vague)",S,0
+"Helping > (guideInteractively, unknown, bug, detailed)",F,0
+"Helping > (guideInteractively, unknown, bug, detailed)",S,0
+"Helping > (guideInteractively, unknown, bug, unknown)",F,0
+"Helping > (guideInteractively, unknown, bug, unknown)",S,0
+"Helping > (guideInteractively, unknown, bug, vague)",F,0
+"Helping > (guideInteractively, unknown, bug, vague)",S,0
+"Helping > (guideInteractively, unknown, codeOpinion, detailed)",F,0
+"Helping > (guideInteractively, unknown, codeOpinion, detailed)",S,0
+"Helping > (guideInteractively, unknown, codeOpinion, unknown)",F,0
+"Helping > (guideInteractively, unknown, codeOpinion, unknown)",S,0
+"Helping > (guideInteractively, unknown, codeOpinion, vague)",F,0
+"Helping > (guideInteractively, unknown, codeOpinion, vague)",S,0
+"Helping > (guideInteractively, unknown, codeSpecifications, detailed)",F,0
+"Helping > (guideInteractively, unknown, codeSpecifications, detailed)",S,0
+"Helping > (guideInteractively, unknown, codeSpecifications, unknown)",F,0
+"Helping > (guideInteractively, unknown, codeSpecifications, unknown)",S,0
+"Helping > (guideInteractively, unknown, codeSpecifications, vague)",F,0
+"Helping > (guideInteractively, unknown, codeSpecifications, vague)",S,0
+"Helping > (guideInteractively, unknown, codingConcept, detailed)",F,0
+"Helping > (guideInteractively, unknown, codingConcept, detailed)",S,0
+"Helping > (guideInteractively, unknown, codingConcept, unknown)",F,0
+"Helping > (guideInteractively, unknown, codingConcept, unknown)",S,0
+"Helping > (guideInteractively, unknown, codingConcept, vague)",F,0
+"Helping > (guideInteractively, unknown, codingConcept, vague)",S,0
+"Helping > (guideInteractively, unknown, codingExperience, detailed)",F,0
+"Helping > (guideInteractively, unknown, codingExperience, detailed)",S,0
+"Helping > (guideInteractively, unknown, codingExperience, unknown)",F,0
+"Helping > (guideInteractively, unknown, codingExperience, unknown)",S,0
+"Helping > (guideInteractively, unknown, codingExperience, vague)",F,0
+"Helping > (guideInteractively, unknown, codingExperience, vague)",S,0
+"Helping > (guideInteractively, unknown, developmentStrategy, detailed)",F,0
+"Helping > (guideInteractively, unknown, developmentStrategy, detailed)",S,2
+"Helping > (guideInteractively, unknown, developmentStrategy, unknown)",F,0
+"Helping > (guideInteractively, unknown, developmentStrategy, unknown)",S,0
+"Helping > (guideInteractively, unknown, developmentStrategy, vague)",F,0
+"Helping > (guideInteractively, unknown, developmentStrategy, vague)",S,0
+"Helping > (guideInteractively, unknown, errorLocation, detailed)",F,0
+"Helping > (guideInteractively, unknown, errorLocation, detailed)",S,0
+"Helping > (guideInteractively, unknown, errorLocation, unknown)",F,0
+"Helping > (guideInteractively, unknown, errorLocation, unknown)",S,0
+"Helping > (guideInteractively, unknown, errorLocation, vague)",F,0
+"Helping > (guideInteractively, unknown, errorLocation, vague)",S,0
+"Helping > (guideInteractively, unknown, errorMsg, detailed)",F,0
+"Helping > (guideInteractively, unknown, errorMsg, detailed)",S,0
+"Helping > (guideInteractively, unknown, errorMsg, unknown)",F,0
+"Helping > (guideInteractively, unknown, errorMsg, unknown)",S,0
+"Helping > (guideInteractively, unknown, errorMsg, vague)",F,0
+"Helping > (guideInteractively, unknown, errorMsg, vague)",S,0
+"Helping > (guideInteractively, unknown, learningResources, detailed)",F,0
+"Helping > (guideInteractively, unknown, learningResources, detailed)",S,0
+"Helping > (guideInteractively, unknown, learningResources, unknown)",F,0
+"Helping > (guideInteractively, unknown, learningResources, unknown)",S,0
+"Helping > (guideInteractively, unknown, learningResources, vague)",F,0
+"Helping > (guideInteractively, unknown, learningResources, vague)",S,0
+"Helping > (guideInteractively, unknown, originalCode, detailed)",F,0
+"Helping > (guideInteractively, unknown, originalCode, detailed)",S,0
+"Helping > (guideInteractively, unknown, originalCode, unknown)",F,0
+"Helping > (guideInteractively, unknown, originalCode, unknown)",S,0
+"Helping > (guideInteractively, unknown, originalCode, vague)",F,0
+"Helping > (guideInteractively, unknown, originalCode, vague)",S,0
+"Helping > (guideInteractively, unknown, personalInfo, detailed)",F,0
+"Helping > (guideInteractively, unknown, personalInfo, detailed)",S,0
+"Helping > (guideInteractively, unknown, personalInfo, unknown)",F,0
+"Helping > (guideInteractively, unknown, personalInfo, unknown)",S,0
+"Helping > (guideInteractively, unknown, personalInfo, vague)",F,0
+"Helping > (guideInteractively, unknown, personalInfo, vague)",S,0
+"Helping > (guideInteractively, unknown, platformRelated, detailed)",F,0
+"Helping > (guideInteractively, unknown, platformRelated, detailed)",S,0
+"Helping > (guideInteractively, unknown, platformRelated, unknown)",F,0
+"Helping > (guideInteractively, unknown, platformRelated, unknown)",S,0
+"Helping > (guideInteractively, unknown, platformRelated, vague)",F,0
+"Helping > (guideInteractively, unknown, platformRelated, vague)",S,0
+"Helping > (guideInteractively, unknown, proposedNewCode, detailed)",F,1
+"Helping > (guideInteractively, unknown, proposedNewCode, detailed)",S,1
+"Helping > (guideInteractively, unknown, proposedNewCode, unknown)",F,1
+"Helping > (guideInteractively, unknown, proposedNewCode, unknown)",S,0
+"Helping > (guideInteractively, unknown, proposedNewCode, vague)",F,0
+"Helping > (guideInteractively, unknown, proposedNewCode, vague)",S,0
+"Helping > (guideInteractively, unknown, testCases, detailed)",F,0
+"Helping > (guideInteractively, unknown, testCases, detailed)",S,0
+"Helping > (guideInteractively, unknown, testCases, unknown)",F,0
+"Helping > (guideInteractively, unknown, testCases, unknown)",S,1
+"Helping > (guideInteractively, unknown, testCases, vague)",F,0
+"Helping > (guideInteractively, unknown, testCases, vague)",S,1
+"Helping > (implement, phrasedAsCertain, bug)",F,1
+"Helping > (implement, phrasedAsCertain, bug)",S,1
+"Helping > (implement, phrasedAsCertain, codeOpinion)",F,0
+"Helping > (implement, phrasedAsCertain, codeOpinion)",S,0
+"Helping > (implement, phrasedAsCertain, codeSpecifications)",F,0
+"Helping > (implement, phrasedAsCertain, codeSpecifications)",S,2
+"Helping > (implement, phrasedAsCertain, codingConcept)",F,1
+"Helping > (implement, phrasedAsCertain, codingConcept)",S,0
+"Helping > (implement, phrasedAsCertain, codingExperience)",F,0
+"Helping > (implement, phrasedAsCertain, codingExperience)",S,0
+"Helping > (implement, phrasedAsCertain, developmentStrategy)",F,6
+"Helping > (implement, phrasedAsCertain, developmentStrategy)",S,4
+"Helping > (implement, phrasedAsCertain, errorLocation)",F,0
+"Helping > (implement, phrasedAsCertain, errorLocation)",S,0
+"Helping > (implement, phrasedAsCertain, errorMsg)",F,0
+"Helping > (implement, phrasedAsCertain, errorMsg)",S,0
+"Helping > (implement, phrasedAsCertain, learningResources)",F,0
+"Helping > (implement, phrasedAsCertain, learningResources)",S,1
+"Helping > (implement, phrasedAsCertain, originalCode)",F,0
+"Helping > (implement, phrasedAsCertain, originalCode)",S,0
+"Helping > (implement, phrasedAsCertain, personalInfo)",F,0
+"Helping > (implement, phrasedAsCertain, personalInfo)",S,0
+"Helping > (implement, phrasedAsCertain, platformRelated)",F,0
+"Helping > (implement, phrasedAsCertain, platformRelated)",S,0
+"Helping > (implement, phrasedAsCertain, proposedNewCode)",F,85
+"Helping > (implement, phrasedAsCertain, proposedNewCode)",S,238
+"Helping > (implement, phrasedAsCertain, testCases)",F,2
+"Helping > (implement, phrasedAsCertain, testCases)",S,1
+"Helping > (implement, phrasedAsUnsure, bug)",F,0
+"Helping > (implement, phrasedAsUnsure, bug)",S,0
+"Helping > (implement, phrasedAsUnsure, codeOpinion)",F,0
+"Helping > (implement, phrasedAsUnsure, codeOpinion)",S,0
+"Helping > (implement, phrasedAsUnsure, codeSpecifications)",F,0
+"Helping > (implement, phrasedAsUnsure, codeSpecifications)",S,0
+"Helping > (implement, phrasedAsUnsure, codingConcept)",F,0
+"Helping > (implement, phrasedAsUnsure, codingConcept)",S,0
+"Helping > (implement, phrasedAsUnsure, codingExperience)",F,0
+"Helping > (implement, phrasedAsUnsure, codingExperience)",S,0
+"Helping > (implement, phrasedAsUnsure, developmentStrategy)",F,0
+"Helping > (implement, phrasedAsUnsure, developmentStrategy)",S,0
+"Helping > (implement, phrasedAsUnsure, errorLocation)",F,1
+"Helping > (implement, phrasedAsUnsure, errorLocation)",S,0
+"Helping > (implement, phrasedAsUnsure, errorMsg)",F,0
+"Helping > (implement, phrasedAsUnsure, errorMsg)",S,0
+"Helping > (implement, phrasedAsUnsure, learningResources)",F,0
+"Helping > (implement, phrasedAsUnsure, learningResources)",S,0
+"Helping > (implement, phrasedAsUnsure, originalCode)",F,1
+"Helping > (implement, phrasedAsUnsure, originalCode)",S,0
+"Helping > (implement, phrasedAsUnsure, personalInfo)",F,0
+"Helping > (implement, phrasedAsUnsure, personalInfo)",S,0
+"Helping > (implement, phrasedAsUnsure, platformRelated)",F,0
+"Helping > (implement, phrasedAsUnsure, platformRelated)",S,0
+"Helping > (implement, phrasedAsUnsure, proposedNewCode)",F,8
+"Helping > (implement, phrasedAsUnsure, proposedNewCode)",S,23
+"Helping > (implement, phrasedAsUnsure, testCases)",F,0
+"Helping > (implement, phrasedAsUnsure, testCases)",S,0
+"Helping > (implement, unknown, bug)",F,0
+"Helping > (implement, unknown, bug)",S,0
+"Helping > (implement, unknown, codeOpinion)",F,0
+"Helping > (implement, unknown, codeOpinion)",S,0
+"Helping > (implement, unknown, codeSpecifications)",F,0
+"Helping > (implement, unknown, codeSpecifications)",S,0
+"Helping > (implement, unknown, codingConcept)",F,0
+"Helping > (implement, unknown, codingConcept)",S,0
+"Helping > (implement, unknown, codingExperience)",F,0
+"Helping > (implement, unknown, codingExperience)",S,0
+"Helping > (implement, unknown, developmentStrategy)",F,0
+"Helping > (implement, unknown, developmentStrategy)",S,0
+"Helping > (implement, unknown, errorLocation)",F,0
+"Helping > (implement, unknown, errorLocation)",S,0
+"Helping > (implement, unknown, errorMsg)",F,0
+"Helping > (implement, unknown, errorMsg)",S,0
+"Helping > (implement, unknown, learningResources)",F,0
+"Helping > (implement, unknown, learningResources)",S,0
+"Helping > (implement, unknown, originalCode)",F,0
+"Helping > (implement, unknown, originalCode)",S,0
+"Helping > (implement, unknown, personalInfo)",F,0
+"Helping > (implement, unknown, personalInfo)",S,0
+"Helping > (implement, unknown, platformRelated)",F,0
+"Helping > (implement, unknown, platformRelated)",S,0
+"Helping > (implement, unknown, proposedNewCode)",F,1
+"Helping > (implement, unknown, proposedNewCode)",S,3
+"Helping > (implement, unknown, testCases)",F,0
+"Helping > (implement, unknown, testCases)",S,0
+"Helping > (negativeConfirmation, phrasedAsCertain, bug)",F,3
+"Helping > (negativeConfirmation, phrasedAsCertain, bug)",S,3
+"Helping > (negativeConfirmation, phrasedAsCertain, codeOpinion)",F,0
+"Helping > (negativeConfirmation, phrasedAsCertain, codeOpinion)",S,0
+"Helping > (negativeConfirmation, phrasedAsCertain, codeSpecifications)",F,20
+"Helping > (negativeConfirmation, phrasedAsCertain, codeSpecifications)",S,11
+"Helping > (negativeConfirmation, phrasedAsCertain, codingConcept)",F,8
+"Helping > (negativeConfirmation, phrasedAsCertain, codingConcept)",S,13
+"Helping > (negativeConfirmation, phrasedAsCertain, codingExperience)",F,2
+"Helping > (negativeConfirmation, phrasedAsCertain, codingExperience)",S,9
+"Helping > (negativeConfirmation, phrasedAsCertain, developmentStrategy)",F,3
+"Helping > (negativeConfirmation, phrasedAsCertain, developmentStrategy)",S,0
+"Helping > (negativeConfirmation, phrasedAsCertain, errorLocation)",F,0
+"Helping > (negativeConfirmation, phrasedAsCertain, errorLocation)",S,0
+"Helping > (negativeConfirmation, phrasedAsCertain, errorMsg)",F,0
+"Helping > (negativeConfirmation, phrasedAsCertain, errorMsg)",S,0
+"Helping > (negativeConfirmation, phrasedAsCertain, learningResources)",F,0
+"Helping > (negativeConfirmation, phrasedAsCertain, learningResources)",S,4
+"Helping > (negativeConfirmation, phrasedAsCertain, originalCode)",F,12
+"Helping > (negativeConfirmation, phrasedAsCertain, originalCode)",S,14
+"Helping > (negativeConfirmation, phrasedAsCertain, personalInfo)",F,3
+"Helping > (negativeConfirmation, phrasedAsCertain, personalInfo)",S,14
+"Helping > (negativeConfirmation, phrasedAsCertain, platformRelated)",F,4
+"Helping > (negativeConfirmation, phrasedAsCertain, platformRelated)",S,11
+"Helping > (negativeConfirmation, phrasedAsCertain, proposedNewCode)",F,40
+"Helping > (negativeConfirmation, phrasedAsCertain, proposedNewCode)",S,41
+"Helping > (negativeConfirmation, phrasedAsCertain, testCases)",F,1
+"Helping > (negativeConfirmation, phrasedAsCertain, testCases)",S,3
+"Helping > (negativeConfirmation, phrasedAsUnsure, bug)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, bug)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, codeOpinion)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, codeOpinion)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, codeSpecifications)",F,5
+"Helping > (negativeConfirmation, phrasedAsUnsure, codeSpecifications)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, codingConcept)",F,4
+"Helping > (negativeConfirmation, phrasedAsUnsure, codingConcept)",S,1
+"Helping > (negativeConfirmation, phrasedAsUnsure, codingExperience)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, codingExperience)",S,2
+"Helping > (negativeConfirmation, phrasedAsUnsure, developmentStrategy)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, developmentStrategy)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, errorLocation)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, errorLocation)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, errorMsg)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, errorMsg)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, learningResources)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, learningResources)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, originalCode)",F,4
+"Helping > (negativeConfirmation, phrasedAsUnsure, originalCode)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, personalInfo)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, personalInfo)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, platformRelated)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, platformRelated)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, proposedNewCode)",F,7
+"Helping > (negativeConfirmation, phrasedAsUnsure, proposedNewCode)",S,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, testCases)",F,0
+"Helping > (negativeConfirmation, phrasedAsUnsure, testCases)",S,1
+"Helping > (negativeConfirmation, unknown, bug)",F,0
+"Helping > (negativeConfirmation, unknown, bug)",S,0
+"Helping > (negativeConfirmation, unknown, codeOpinion)",F,0
+"Helping > (negativeConfirmation, unknown, codeOpinion)",S,0
+"Helping > (negativeConfirmation, unknown, codeSpecifications)",F,1
+"Helping > (negativeConfirmation, unknown, codeSpecifications)",S,1
+"Helping > (negativeConfirmation, unknown, codingConcept)",F,0
+"Helping > (negativeConfirmation, unknown, codingConcept)",S,0
+"Helping > (negativeConfirmation, unknown, codingExperience)",F,0
+"Helping > (negativeConfirmation, unknown, codingExperience)",S,2
+"Helping > (negativeConfirmation, unknown, developmentStrategy)",F,0
+"Helping > (negativeConfirmation, unknown, developmentStrategy)",S,0
+"Helping > (negativeConfirmation, unknown, errorLocation)",F,0
+"Helping > (negativeConfirmation, unknown, errorLocation)",S,0
+"Helping > (negativeConfirmation, unknown, errorMsg)",F,0
+"Helping > (negativeConfirmation, unknown, errorMsg)",S,0
+"Helping > (negativeConfirmation, unknown, learningResources)",F,0
+"Helping > (negativeConfirmation, unknown, learningResources)",S,0
+"Helping > (negativeConfirmation, unknown, originalCode)",F,2
+"Helping > (negativeConfirmation, unknown, originalCode)",S,0
+"Helping > (negativeConfirmation, unknown, personalInfo)",F,0
+"Helping > (negativeConfirmation, unknown, personalInfo)",S,1
+"Helping > (negativeConfirmation, unknown, platformRelated)",F,0
+"Helping > (negativeConfirmation, unknown, platformRelated)",S,0
+"Helping > (negativeConfirmation, unknown, proposedNewCode)",F,2
+"Helping > (negativeConfirmation, unknown, proposedNewCode)",S,2
+"Helping > (negativeConfirmation, unknown, testCases)",F,0
+"Helping > (negativeConfirmation, unknown, testCases)",S,0
+"Helping > (positiveConfirmation, phrasedAsCertain, bug)",F,20
+"Helping > (positiveConfirmation, phrasedAsCertain, bug)",S,43
+"Helping > (positiveConfirmation, phrasedAsCertain, codeOpinion)",F,5
+"Helping > (positiveConfirmation, phrasedAsCertain, codeOpinion)",S,16
+"Helping > (positiveConfirmation, phrasedAsCertain, codeSpecifications)",F,86
+"Helping > (positiveConfirmation, phrasedAsCertain, codeSpecifications)",S,134
+"Helping > (positiveConfirmation, phrasedAsCertain, codingConcept)",F,41
+"Helping > (positiveConfirmation, phrasedAsCertain, codingConcept)",S,50
+"Helping > (positiveConfirmation, phrasedAsCertain, codingExperience)",F,16
+"Helping > (positiveConfirmation, phrasedAsCertain, codingExperience)",S,14
+"Helping > (positiveConfirmation, phrasedAsCertain, developmentStrategy)",F,14
+"Helping > (positiveConfirmation, phrasedAsCertain, developmentStrategy)",S,9
+"Helping > (positiveConfirmation, phrasedAsCertain, errorLocation)",F,4
+"Helping > (positiveConfirmation, phrasedAsCertain, errorLocation)",S,1
+"Helping > (positiveConfirmation, phrasedAsCertain, errorMsg)",F,2
+"Helping > (positiveConfirmation, phrasedAsCertain, errorMsg)",S,3
+"Helping > (positiveConfirmation, phrasedAsCertain, learningResources)",F,3
+"Helping > (positiveConfirmation, phrasedAsCertain, learningResources)",S,7
+"Helping > (positiveConfirmation, phrasedAsCertain, originalCode)",F,55
+"Helping > (positiveConfirmation, phrasedAsCertain, originalCode)",S,60
+"Helping > (positiveConfirmation, phrasedAsCertain, personalInfo)",F,11
+"Helping > (positiveConfirmation, phrasedAsCertain, personalInfo)",S,30
+"Helping > (positiveConfirmation, phrasedAsCertain, platformRelated)",F,27
+"Helping > (positiveConfirmation, phrasedAsCertain, platformRelated)",S,25
+"Helping > (positiveConfirmation, phrasedAsCertain, proposedNewCode)",F,144
+"Helping > (positiveConfirmation, phrasedAsCertain, proposedNewCode)",S,299
+"Helping > (positiveConfirmation, phrasedAsCertain, testCases)",F,16
+"Helping > (positiveConfirmation, phrasedAsCertain, testCases)",S,20
+"Helping > (positiveConfirmation, phrasedAsUnsure, bug)",F,1
+"Helping > (positiveConfirmation, phrasedAsUnsure, bug)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, codeOpinion)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, codeOpinion)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, codeSpecifications)",F,1
+"Helping > (positiveConfirmation, phrasedAsUnsure, codeSpecifications)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, codingConcept)",F,4
+"Helping > (positiveConfirmation, phrasedAsUnsure, codingConcept)",S,7
+"Helping > (positiveConfirmation, phrasedAsUnsure, codingExperience)",F,2
+"Helping > (positiveConfirmation, phrasedAsUnsure, codingExperience)",S,1
+"Helping > (positiveConfirmation, phrasedAsUnsure, developmentStrategy)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, developmentStrategy)",S,2
+"Helping > (positiveConfirmation, phrasedAsUnsure, errorLocation)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, errorLocation)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, errorMsg)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, errorMsg)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, learningResources)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, learningResources)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, originalCode)",F,3
+"Helping > (positiveConfirmation, phrasedAsUnsure, originalCode)",S,7
+"Helping > (positiveConfirmation, phrasedAsUnsure, personalInfo)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, personalInfo)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, platformRelated)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, platformRelated)",S,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, proposedNewCode)",F,9
+"Helping > (positiveConfirmation, phrasedAsUnsure, proposedNewCode)",S,14
+"Helping > (positiveConfirmation, phrasedAsUnsure, testCases)",F,0
+"Helping > (positiveConfirmation, phrasedAsUnsure, testCases)",S,1
+"Helping > (positiveConfirmation, unknown, bug)",F,2
+"Helping > (positiveConfirmation, unknown, bug)",S,1
+"Helping > (positiveConfirmation, unknown, codeOpinion)",F,0
+"Helping > (positiveConfirmation, unknown, codeOpinion)",S,0
+"Helping > (positiveConfirmation, unknown, codeSpecifications)",F,2
+"Helping > (positiveConfirmation, unknown, codeSpecifications)",S,4
+"Helping > (positiveConfirmation, unknown, codingConcept)",F,1
+"Helping > (positiveConfirmation, unknown, codingConcept)",S,1
+"Helping > (positiveConfirmation, unknown, codingExperience)",F,1
+"Helping > (positiveConfirmation, unknown, codingExperience)",S,0
+"Helping > (positiveConfirmation, unknown, developmentStrategy)",F,1
+"Helping > (positiveConfirmation, unknown, developmentStrategy)",S,0
+"Helping > (positiveConfirmation, unknown, errorLocation)",F,1
+"Helping > (positiveConfirmation, unknown, errorLocation)",S,0
+"Helping > (positiveConfirmation, unknown, errorMsg)",F,0
+"Helping > (positiveConfirmation, unknown, errorMsg)",S,0
+"Helping > (positiveConfirmation, unknown, learningResources)",F,1
+"Helping > (positiveConfirmation, unknown, learningResources)",S,0
+"Helping > (positiveConfirmation, unknown, originalCode)",F,6
+"Helping > (positiveConfirmation, unknown, originalCode)",S,1
+"Helping > (positiveConfirmation, unknown, personalInfo)",F,0
+"Helping > (positiveConfirmation, unknown, personalInfo)",S,1
+"Helping > (positiveConfirmation, unknown, platformRelated)",F,1
+"Helping > (positiveConfirmation, unknown, platformRelated)",S,0
+"Helping > (positiveConfirmation, unknown, proposedNewCode)",F,8
+"Helping > (positiveConfirmation, unknown, proposedNewCode)",S,14
+"Helping > (positiveConfirmation, unknown, testCases)",F,0
+"Helping > (positiveConfirmation, unknown, testCases)",S,1
+"Helping > (state, phrasedAsCertain, bug)",F,166
+"Helping > (state, phrasedAsCertain, bug)",S,182
+"Helping > (state, phrasedAsCertain, codeOpinion)",F,50
+"Helping > (state, phrasedAsCertain, codeOpinion)",S,122
+"Helping > (state, phrasedAsCertain, codeSpecifications)",F,272
+"Helping > (state, phrasedAsCertain, codeSpecifications)",S,364
+"Helping > (state, phrasedAsCertain, codingConcept)",F,45
+"Helping > (state, phrasedAsCertain, codingConcept)",S,99
+"Helping > (state, phrasedAsCertain, codingExperience)",F,57
+"Helping > (state, phrasedAsCertain, codingExperience)",S,87
+"Helping > (state, phrasedAsCertain, developmentStrategy)",F,40
+"Helping > (state, phrasedAsCertain, developmentStrategy)",S,40
+"Helping > (state, phrasedAsCertain, errorLocation)",F,26
+"Helping > (state, phrasedAsCertain, errorLocation)",S,29
+"Helping > (state, phrasedAsCertain, errorMsg)",F,25
+"Helping > (state, phrasedAsCertain, errorMsg)",S,26
+"Helping > (state, phrasedAsCertain, learningResources)",F,23
+"Helping > (state, phrasedAsCertain, learningResources)",S,44
+"Helping > (state, phrasedAsCertain, originalCode)",F,125
+"Helping > (state, phrasedAsCertain, originalCode)",S,104
+"Helping > (state, phrasedAsCertain, personalInfo)",F,60
+"Helping > (state, phrasedAsCertain, personalInfo)",S,88
+"Helping > (state, phrasedAsCertain, platformRelated)",F,78
+"Helping > (state, phrasedAsCertain, platformRelated)",S,79
+"Helping > (state, phrasedAsCertain, proposedNewCode)",F,269
+"Helping > (state, phrasedAsCertain, proposedNewCode)",S,494
+"Helping > (state, phrasedAsCertain, testCases)",F,46
+"Helping > (state, phrasedAsCertain, testCases)",S,82
+"Helping > (state, phrasedAsUnsure, bug)",F,21
+"Helping > (state, phrasedAsUnsure, bug)",S,23
+"Helping > (state, phrasedAsUnsure, codeOpinion)",F,6
+"Helping > (state, phrasedAsUnsure, codeOpinion)",S,10
+"Helping > (state, phrasedAsUnsure, codeSpecifications)",F,16
+"Helping > (state, phrasedAsUnsure, codeSpecifications)",S,20
+"Helping > (state, phrasedAsUnsure, codingConcept)",F,6
+"Helping > (state, phrasedAsUnsure, codingConcept)",S,16
+"Helping > (state, phrasedAsUnsure, codingExperience)",F,11
+"Helping > (state, phrasedAsUnsure, codingExperience)",S,6
+"Helping > (state, phrasedAsUnsure, developmentStrategy)",F,1
+"Helping > (state, phrasedAsUnsure, developmentStrategy)",S,1
+"Helping > (state, phrasedAsUnsure, errorLocation)",F,5
+"Helping > (state, phrasedAsUnsure, errorLocation)",S,0
+"Helping > (state, phrasedAsUnsure, errorMsg)",F,1
+"Helping > (state, phrasedAsUnsure, errorMsg)",S,0
+"Helping > (state, phrasedAsUnsure, learningResources)",F,2
+"Helping > (state, phrasedAsUnsure, learningResources)",S,3
+"Helping > (state, phrasedAsUnsure, originalCode)",F,20
+"Helping > (state, phrasedAsUnsure, originalCode)",S,18
+"Helping > (state, phrasedAsUnsure, personalInfo)",F,2
+"Helping > (state, phrasedAsUnsure, personalInfo)",S,5
+"Helping > (state, phrasedAsUnsure, platformRelated)",F,9
+"Helping > (state, phrasedAsUnsure, platformRelated)",S,6
+"Helping > (state, phrasedAsUnsure, proposedNewCode)",F,63
+"Helping > (state, phrasedAsUnsure, proposedNewCode)",S,63
+"Helping > (state, phrasedAsUnsure, testCases)",F,4
+"Helping > (state, phrasedAsUnsure, testCases)",S,1
+"Helping > (state, unknown, bug)",F,1
+"Helping > (state, unknown, bug)",S,2
+"Helping > (state, unknown, codeOpinion)",F,0
+"Helping > (state, unknown, codeOpinion)",S,0
+"Helping > (state, unknown, codeSpecifications)",F,1
+"Helping > (state, unknown, codeSpecifications)",S,1
+"Helping > (state, unknown, codingConcept)",F,0
+"Helping > (state, unknown, codingConcept)",S,0
+"Helping > (state, unknown, codingExperience)",F,2
+"Helping > (state, unknown, codingExperience)",S,0
+"Helping > (state, unknown, developmentStrategy)",F,0
+"Helping > (state, unknown, developmentStrategy)",S,2
+"Helping > (state, unknown, errorLocation)",F,0
+"Helping > (state, unknown, errorLocation)",S,0
+"Helping > (state, unknown, errorMsg)",F,0
+"Helping > (state, unknown, errorMsg)",S,0
+"Helping > (state, unknown, learningResources)",F,0
+"Helping > (state, unknown, learningResources)",S,1
+"Helping > (state, unknown, originalCode)",F,0
+"Helping > (state, unknown, originalCode)",S,0
+"Helping > (state, unknown, personalInfo)",F,0
+"Helping > (state, unknown, personalInfo)",S,1
+"Helping > (state, unknown, platformRelated)",F,0
+"Helping > (state, unknown, platformRelated)",S,0
+"Helping > (state, unknown, proposedNewCode)",F,3
+"Helping > (state, unknown, proposedNewCode)",S,1
+"Helping > (state, unknown, testCases)",F,1
+"Helping > (state, unknown, testCases)",S,1
+"Helping > (suggest, phrasedAsCertain, bug, detailed)",F,0
+"Helping > (suggest, phrasedAsCertain, bug, detailed)",S,0
+"Helping > (suggest, phrasedAsCertain, bug, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, bug, unknown)",S,0
+"Helping > (suggest, phrasedAsCertain, bug, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, bug, vague)",S,2
+"Helping > (suggest, phrasedAsCertain, codeOpinion, detailed)",F,0
+"Helping > (suggest, phrasedAsCertain, codeOpinion, detailed)",S,2
+"Helping > (suggest, phrasedAsCertain, codeOpinion, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, codeOpinion, unknown)",S,0
+"Helping > (suggest, phrasedAsCertain, codeOpinion, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, codeOpinion, vague)",S,7
+"Helping > (suggest, phrasedAsCertain, codeSpecifications, detailed)",F,3
+"Helping > (suggest, phrasedAsCertain, codeSpecifications, detailed)",S,0
+"Helping > (suggest, phrasedAsCertain, codeSpecifications, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, codeSpecifications, unknown)",S,1
+"Helping > (suggest, phrasedAsCertain, codeSpecifications, vague)",F,4
+"Helping > (suggest, phrasedAsCertain, codeSpecifications, vague)",S,3
+"Helping > (suggest, phrasedAsCertain, codingConcept, detailed)",F,1
+"Helping > (suggest, phrasedAsCertain, codingConcept, detailed)",S,1
+"Helping > (suggest, phrasedAsCertain, codingConcept, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, codingConcept, unknown)",S,1
+"Helping > (suggest, phrasedAsCertain, codingConcept, vague)",F,3
+"Helping > (suggest, phrasedAsCertain, codingConcept, vague)",S,3
+"Helping > (suggest, phrasedAsCertain, codingExperience, detailed)",F,0
+"Helping > (suggest, phrasedAsCertain, codingExperience, detailed)",S,0
+"Helping > (suggest, phrasedAsCertain, codingExperience, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, codingExperience, unknown)",S,0
+"Helping > (suggest, phrasedAsCertain, codingExperience, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, codingExperience, vague)",S,0
+"Helping > (suggest, phrasedAsCertain, developmentStrategy, detailed)",F,13
+"Helping > (suggest, phrasedAsCertain, developmentStrategy, detailed)",S,4
+"Helping > (suggest, phrasedAsCertain, developmentStrategy, unknown)",F,2
+"Helping > (suggest, phrasedAsCertain, developmentStrategy, unknown)",S,3
+"Helping > (suggest, phrasedAsCertain, developmentStrategy, vague)",F,20
+"Helping > (suggest, phrasedAsCertain, developmentStrategy, vague)",S,33
+"Helping > (suggest, phrasedAsCertain, errorLocation, detailed)",F,1
+"Helping > (suggest, phrasedAsCertain, errorLocation, detailed)",S,0
+"Helping > (suggest, phrasedAsCertain, errorLocation, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, errorLocation, unknown)",S,0
+"Helping > (suggest, phrasedAsCertain, errorLocation, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, errorLocation, vague)",S,0
+"Helping > (suggest, phrasedAsCertain, errorMsg, detailed)",F,0
+"Helping > (suggest, phrasedAsCertain, errorMsg, detailed)",S,0
+"Helping > (suggest, phrasedAsCertain, errorMsg, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, errorMsg, unknown)",S,0
+"Helping > (suggest, phrasedAsCertain, errorMsg, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, errorMsg, vague)",S,0
+"Helping > (suggest, phrasedAsCertain, learningResources, detailed)",F,2
+"Helping > (suggest, phrasedAsCertain, learningResources, detailed)",S,1
+"Helping > (suggest, phrasedAsCertain, learningResources, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, learningResources, unknown)",S,3
+"Helping > (suggest, phrasedAsCertain, learningResources, vague)",F,5
+"Helping > (suggest, phrasedAsCertain, learningResources, vague)",S,11
+"Helping > (suggest, phrasedAsCertain, originalCode, detailed)",F,1
+"Helping > (suggest, phrasedAsCertain, originalCode, detailed)",S,1
+"Helping > (suggest, phrasedAsCertain, originalCode, unknown)",F,1
+"Helping > (suggest, phrasedAsCertain, originalCode, unknown)",S,1
+"Helping > (suggest, phrasedAsCertain, originalCode, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, originalCode, vague)",S,1
+"Helping > (suggest, phrasedAsCertain, personalInfo, detailed)",F,0
+"Helping > (suggest, phrasedAsCertain, personalInfo, detailed)",S,0
+"Helping > (suggest, phrasedAsCertain, personalInfo, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, personalInfo, unknown)",S,0
+"Helping > (suggest, phrasedAsCertain, personalInfo, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, personalInfo, vague)",S,0
+"Helping > (suggest, phrasedAsCertain, platformRelated, detailed)",F,2
+"Helping > (suggest, phrasedAsCertain, platformRelated, detailed)",S,1
+"Helping > (suggest, phrasedAsCertain, platformRelated, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, platformRelated, unknown)",S,1
+"Helping > (suggest, phrasedAsCertain, platformRelated, vague)",F,0
+"Helping > (suggest, phrasedAsCertain, platformRelated, vague)",S,3
+"Helping > (suggest, phrasedAsCertain, proposedNewCode, detailed)",F,39
+"Helping > (suggest, phrasedAsCertain, proposedNewCode, detailed)",S,79
+"Helping > (suggest, phrasedAsCertain, proposedNewCode, unknown)",F,9
+"Helping > (suggest, phrasedAsCertain, proposedNewCode, unknown)",S,9
+"Helping > (suggest, phrasedAsCertain, proposedNewCode, vague)",F,49
+"Helping > (suggest, phrasedAsCertain, proposedNewCode, vague)",S,94
+"Helping > (suggest, phrasedAsCertain, testCases, detailed)",F,1
+"Helping > (suggest, phrasedAsCertain, testCases, detailed)",S,2
+"Helping > (suggest, phrasedAsCertain, testCases, unknown)",F,0
+"Helping > (suggest, phrasedAsCertain, testCases, unknown)",S,0
+"Helping > (suggest, phrasedAsCertain, testCases, vague)",F,6
+"Helping > (suggest, phrasedAsCertain, testCases, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, bug, detailed)",F,2
+"Helping > (suggest, phrasedAsUnsure, bug, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, bug, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, bug, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, bug, vague)",F,2
+"Helping > (suggest, phrasedAsUnsure, bug, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, codeOpinion, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, codeOpinion, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, codeOpinion, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, codeOpinion, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, codeOpinion, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, codeOpinion, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, codeSpecifications, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, codeSpecifications, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, codeSpecifications, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, codeSpecifications, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, codeSpecifications, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, codeSpecifications, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, codingConcept, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, codingConcept, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, codingConcept, unknown)",F,1
+"Helping > (suggest, phrasedAsUnsure, codingConcept, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, codingConcept, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, codingConcept, vague)",S,2
+"Helping > (suggest, phrasedAsUnsure, codingExperience, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, codingExperience, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, codingExperience, unknown)",F,1
+"Helping > (suggest, phrasedAsUnsure, codingExperience, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, codingExperience, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, codingExperience, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, developmentStrategy, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, developmentStrategy, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, developmentStrategy, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, developmentStrategy, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, developmentStrategy, vague)",F,3
+"Helping > (suggest, phrasedAsUnsure, developmentStrategy, vague)",S,3
+"Helping > (suggest, phrasedAsUnsure, errorLocation, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, errorLocation, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, errorLocation, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, errorLocation, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, errorLocation, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, errorLocation, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, errorMsg, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, errorMsg, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, errorMsg, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, errorMsg, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, errorMsg, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, errorMsg, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, learningResources, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, learningResources, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, learningResources, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, learningResources, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, learningResources, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, learningResources, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, originalCode, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, originalCode, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, originalCode, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, originalCode, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, originalCode, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, originalCode, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, personalInfo, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, personalInfo, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, personalInfo, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, personalInfo, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, personalInfo, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, personalInfo, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, platformRelated, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, platformRelated, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, platformRelated, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, platformRelated, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, platformRelated, vague)",F,1
+"Helping > (suggest, phrasedAsUnsure, platformRelated, vague)",S,0
+"Helping > (suggest, phrasedAsUnsure, proposedNewCode, detailed)",F,3
+"Helping > (suggest, phrasedAsUnsure, proposedNewCode, detailed)",S,12
+"Helping > (suggest, phrasedAsUnsure, proposedNewCode, unknown)",F,3
+"Helping > (suggest, phrasedAsUnsure, proposedNewCode, unknown)",S,2
+"Helping > (suggest, phrasedAsUnsure, proposedNewCode, vague)",F,11
+"Helping > (suggest, phrasedAsUnsure, proposedNewCode, vague)",S,15
+"Helping > (suggest, phrasedAsUnsure, testCases, detailed)",F,0
+"Helping > (suggest, phrasedAsUnsure, testCases, detailed)",S,0
+"Helping > (suggest, phrasedAsUnsure, testCases, unknown)",F,0
+"Helping > (suggest, phrasedAsUnsure, testCases, unknown)",S,0
+"Helping > (suggest, phrasedAsUnsure, testCases, vague)",F,0
+"Helping > (suggest, phrasedAsUnsure, testCases, vague)",S,0
+"Helping > (suggest, unknown, bug, detailed)",F,0
+"Helping > (suggest, unknown, bug, detailed)",S,0
+"Helping > (suggest, unknown, bug, unknown)",F,0
+"Helping > (suggest, unknown, bug, unknown)",S,0
+"Helping > (suggest, unknown, bug, vague)",F,0
+"Helping > (suggest, unknown, bug, vague)",S,0
+"Helping > (suggest, unknown, codeOpinion, detailed)",F,0
+"Helping > (suggest, unknown, codeOpinion, detailed)",S,0
+"Helping > (suggest, unknown, codeOpinion, unknown)",F,0
+"Helping > (suggest, unknown, codeOpinion, unknown)",S,0
+"Helping > (suggest, unknown, codeOpinion, vague)",F,0
+"Helping > (suggest, unknown, codeOpinion, vague)",S,0
+"Helping > (suggest, unknown, codeSpecifications, detailed)",F,0
+"Helping > (suggest, unknown, codeSpecifications, detailed)",S,0
+"Helping > (suggest, unknown, codeSpecifications, unknown)",F,0
+"Helping > (suggest, unknown, codeSpecifications, unknown)",S,0
+"Helping > (suggest, unknown, codeSpecifications, vague)",F,0
+"Helping > (suggest, unknown, codeSpecifications, vague)",S,0
+"Helping > (suggest, unknown, codingConcept, detailed)",F,0
+"Helping > (suggest, unknown, codingConcept, detailed)",S,0
+"Helping > (suggest, unknown, codingConcept, unknown)",F,0
+"Helping > (suggest, unknown, codingConcept, unknown)",S,0
+"Helping > (suggest, unknown, codingConcept, vague)",F,0
+"Helping > (suggest, unknown, codingConcept, vague)",S,0
+"Helping > (suggest, unknown, codingExperience, detailed)",F,0
+"Helping > (suggest, unknown, codingExperience, detailed)",S,0
+"Helping > (suggest, unknown, codingExperience, unknown)",F,0
+"Helping > (suggest, unknown, codingExperience, unknown)",S,0
+"Helping > (suggest, unknown, codingExperience, vague)",F,0
+"Helping > (suggest, unknown, codingExperience, vague)",S,0
+"Helping > (suggest, unknown, developmentStrategy, detailed)",F,0
+"Helping > (suggest, unknown, developmentStrategy, detailed)",S,0
+"Helping > (suggest, unknown, developmentStrategy, unknown)",F,0
+"Helping > (suggest, unknown, developmentStrategy, unknown)",S,0
+"Helping > (suggest, unknown, developmentStrategy, vague)",F,0
+"Helping > (suggest, unknown, developmentStrategy, vague)",S,1
+"Helping > (suggest, unknown, errorLocation, detailed)",F,0
+"Helping > (suggest, unknown, errorLocation, detailed)",S,0
+"Helping > (suggest, unknown, errorLocation, unknown)",F,0
+"Helping > (suggest, unknown, errorLocation, unknown)",S,0
+"Helping > (suggest, unknown, errorLocation, vague)",F,0
+"Helping > (suggest, unknown, errorLocation, vague)",S,0
+"Helping > (suggest, unknown, errorMsg, detailed)",F,0
+"Helping > (suggest, unknown, errorMsg, detailed)",S,0
+"Helping > (suggest, unknown, errorMsg, unknown)",F,0
+"Helping > (suggest, unknown, errorMsg, unknown)",S,0
+"Helping > (suggest, unknown, errorMsg, vague)",F,0
+"Helping > (suggest, unknown, errorMsg, vague)",S,0
+"Helping > (suggest, unknown, learningResources, detailed)",F,0
+"Helping > (suggest, unknown, learningResources, detailed)",S,0
+"Helping > (suggest, unknown, learningResources, unknown)",F,0
+"Helping > (suggest, unknown, learningResources, unknown)",S,0
+"Helping > (suggest, unknown, learningResources, vague)",F,1
+"Helping > (suggest, unknown, learningResources, vague)",S,0
+"Helping > (suggest, unknown, originalCode, detailed)",F,0
+"Helping > (suggest, unknown, originalCode, detailed)",S,0
+"Helping > (suggest, unknown, originalCode, unknown)",F,0
+"Helping > (suggest, unknown, originalCode, unknown)",S,0
+"Helping > (suggest, unknown, originalCode, vague)",F,0
+"Helping > (suggest, unknown, originalCode, vague)",S,0
+"Helping > (suggest, unknown, personalInfo, detailed)",F,0
+"Helping > (suggest, unknown, personalInfo, detailed)",S,0
+"Helping > (suggest, unknown, personalInfo, unknown)",F,0
+"Helping > (suggest, unknown, personalInfo, unknown)",S,0
+"Helping > (suggest, unknown, personalInfo, vague)",F,0
+"Helping > (suggest, unknown, personalInfo, vague)",S,0
+"Helping > (suggest, unknown, platformRelated, detailed)",F,0
+"Helping > (suggest, unknown, platformRelated, detailed)",S,0
+"Helping > (suggest, unknown, platformRelated, unknown)",F,0
+"Helping > (suggest, unknown, platformRelated, unknown)",S,0
+"Helping > (suggest, unknown, platformRelated, vague)",F,0
+"Helping > (suggest, unknown, platformRelated, vague)",S,0
+"Helping > (suggest, unknown, proposedNewCode, detailed)",F,0
+"Helping > (suggest, unknown, proposedNewCode, detailed)",S,0
+"Helping > (suggest, unknown, proposedNewCode, unknown)",F,0
+"Helping > (suggest, unknown, proposedNewCode, unknown)",S,0
+"Helping > (suggest, unknown, proposedNewCode, vague)",F,3
+"Helping > (suggest, unknown, proposedNewCode, vague)",S,1
+"Helping > (suggest, unknown, testCases, detailed)",F,0
+"Helping > (suggest, unknown, testCases, detailed)",S,0
+"Helping > (suggest, unknown, testCases, unknown)",F,1
+"Helping > (suggest, unknown, testCases, unknown)",S,0
+"Helping > (suggest, unknown, testCases, vague)",F,0
+"Helping > (suggest, unknown, testCases, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, bug, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, bug, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, bug, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, bug, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, bug, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, bug, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeOpinion, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeOpinion, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeOpinion, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeOpinion, unknown)",S,3
+"Helping > (teachWithExtensions, phrasedAsCertain, codeOpinion, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeOpinion, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeSpecifications, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeSpecifications, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeSpecifications, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeSpecifications, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeSpecifications, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codeSpecifications, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codingConcept, detailed)",F,1
+"Helping > (teachWithExtensions, phrasedAsCertain, codingConcept, detailed)",S,24
+"Helping > (teachWithExtensions, phrasedAsCertain, codingConcept, unknown)",F,5
+"Helping > (teachWithExtensions, phrasedAsCertain, codingConcept, unknown)",S,19
+"Helping > (teachWithExtensions, phrasedAsCertain, codingConcept, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codingConcept, vague)",S,2
+"Helping > (teachWithExtensions, phrasedAsCertain, codingExperience, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codingExperience, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codingExperience, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codingExperience, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codingExperience, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, codingExperience, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, developmentStrategy, detailed)",F,1
+"Helping > (teachWithExtensions, phrasedAsCertain, developmentStrategy, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, developmentStrategy, unknown)",F,2
+"Helping > (teachWithExtensions, phrasedAsCertain, developmentStrategy, unknown)",S,2
+"Helping > (teachWithExtensions, phrasedAsCertain, developmentStrategy, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, developmentStrategy, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorLocation, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorLocation, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorLocation, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorLocation, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorLocation, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorLocation, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorMsg, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorMsg, detailed)",S,1
+"Helping > (teachWithExtensions, phrasedAsCertain, errorMsg, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorMsg, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorMsg, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, errorMsg, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, learningResources, detailed)",F,2
+"Helping > (teachWithExtensions, phrasedAsCertain, learningResources, detailed)",S,2
+"Helping > (teachWithExtensions, phrasedAsCertain, learningResources, unknown)",F,1
+"Helping > (teachWithExtensions, phrasedAsCertain, learningResources, unknown)",S,1
+"Helping > (teachWithExtensions, phrasedAsCertain, learningResources, vague)",F,1
+"Helping > (teachWithExtensions, phrasedAsCertain, learningResources, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, originalCode, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, originalCode, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, originalCode, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, originalCode, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, originalCode, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, originalCode, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, personalInfo, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, personalInfo, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, personalInfo, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, personalInfo, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, personalInfo, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, personalInfo, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, platformRelated, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, platformRelated, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, platformRelated, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, platformRelated, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, platformRelated, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, platformRelated, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, proposedNewCode, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, proposedNewCode, detailed)",S,9
+"Helping > (teachWithExtensions, phrasedAsCertain, proposedNewCode, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, proposedNewCode, unknown)",S,6
+"Helping > (teachWithExtensions, phrasedAsCertain, proposedNewCode, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, proposedNewCode, vague)",S,2
+"Helping > (teachWithExtensions, phrasedAsCertain, testCases, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, testCases, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, testCases, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, testCases, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsCertain, testCases, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsCertain, testCases, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, bug, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, bug, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, bug, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, bug, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, bug, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, bug, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeOpinion, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeOpinion, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeOpinion, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeOpinion, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeOpinion, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeOpinion, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeSpecifications, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeSpecifications, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeSpecifications, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeSpecifications, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeSpecifications, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codeSpecifications, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingConcept, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingConcept, detailed)",S,1
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingConcept, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingConcept, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingConcept, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingConcept, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingExperience, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingExperience, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingExperience, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingExperience, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingExperience, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, codingExperience, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, developmentStrategy, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, developmentStrategy, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, developmentStrategy, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, developmentStrategy, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, developmentStrategy, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, developmentStrategy, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorLocation, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorLocation, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorLocation, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorLocation, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorLocation, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorLocation, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorMsg, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorMsg, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorMsg, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorMsg, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorMsg, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, errorMsg, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, learningResources, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, learningResources, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, learningResources, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, learningResources, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, learningResources, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, learningResources, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, originalCode, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, originalCode, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, originalCode, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, originalCode, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, originalCode, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, originalCode, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, personalInfo, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, personalInfo, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, personalInfo, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, personalInfo, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, personalInfo, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, personalInfo, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, platformRelated, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, platformRelated, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, platformRelated, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, platformRelated, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, platformRelated, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, platformRelated, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, proposedNewCode, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, proposedNewCode, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, proposedNewCode, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, proposedNewCode, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, proposedNewCode, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, proposedNewCode, vague)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, testCases, detailed)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, testCases, detailed)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, testCases, unknown)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, testCases, unknown)",S,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, testCases, vague)",F,0
+"Helping > (teachWithExtensions, phrasedAsUnsure, testCases, vague)",S,0
+"Helping > (teachWithExtensions, unknown, bug, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, bug, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, bug, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, bug, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, bug, vague)",F,0
+"Helping > (teachWithExtensions, unknown, bug, vague)",S,0
+"Helping > (teachWithExtensions, unknown, codeOpinion, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, codeOpinion, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, codeOpinion, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, codeOpinion, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, codeOpinion, vague)",F,0
+"Helping > (teachWithExtensions, unknown, codeOpinion, vague)",S,0
+"Helping > (teachWithExtensions, unknown, codeSpecifications, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, codeSpecifications, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, codeSpecifications, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, codeSpecifications, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, codeSpecifications, vague)",F,0
+"Helping > (teachWithExtensions, unknown, codeSpecifications, vague)",S,0
+"Helping > (teachWithExtensions, unknown, codingConcept, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, codingConcept, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, codingConcept, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, codingConcept, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, codingConcept, vague)",F,0
+"Helping > (teachWithExtensions, unknown, codingConcept, vague)",S,0
+"Helping > (teachWithExtensions, unknown, codingExperience, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, codingExperience, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, codingExperience, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, codingExperience, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, codingExperience, vague)",F,0
+"Helping > (teachWithExtensions, unknown, codingExperience, vague)",S,0
+"Helping > (teachWithExtensions, unknown, developmentStrategy, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, developmentStrategy, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, developmentStrategy, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, developmentStrategy, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, developmentStrategy, vague)",F,0
+"Helping > (teachWithExtensions, unknown, developmentStrategy, vague)",S,0
+"Helping > (teachWithExtensions, unknown, errorLocation, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, errorLocation, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, errorLocation, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, errorLocation, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, errorLocation, vague)",F,0
+"Helping > (teachWithExtensions, unknown, errorLocation, vague)",S,0
+"Helping > (teachWithExtensions, unknown, errorMsg, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, errorMsg, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, errorMsg, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, errorMsg, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, errorMsg, vague)",F,0
+"Helping > (teachWithExtensions, unknown, errorMsg, vague)",S,0
+"Helping > (teachWithExtensions, unknown, learningResources, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, learningResources, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, learningResources, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, learningResources, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, learningResources, vague)",F,0
+"Helping > (teachWithExtensions, unknown, learningResources, vague)",S,0
+"Helping > (teachWithExtensions, unknown, originalCode, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, originalCode, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, originalCode, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, originalCode, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, originalCode, vague)",F,0
+"Helping > (teachWithExtensions, unknown, originalCode, vague)",S,0
+"Helping > (teachWithExtensions, unknown, personalInfo, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, personalInfo, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, personalInfo, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, personalInfo, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, personalInfo, vague)",F,0
+"Helping > (teachWithExtensions, unknown, personalInfo, vague)",S,0
+"Helping > (teachWithExtensions, unknown, platformRelated, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, platformRelated, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, platformRelated, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, platformRelated, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, platformRelated, vague)",F,0
+"Helping > (teachWithExtensions, unknown, platformRelated, vague)",S,0
+"Helping > (teachWithExtensions, unknown, proposedNewCode, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, proposedNewCode, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, proposedNewCode, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, proposedNewCode, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, proposedNewCode, vague)",F,0
+"Helping > (teachWithExtensions, unknown, proposedNewCode, vague)",S,0
+"Helping > (teachWithExtensions, unknown, testCases, detailed)",F,0
+"Helping > (teachWithExtensions, unknown, testCases, detailed)",S,0
+"Helping > (teachWithExtensions, unknown, testCases, unknown)",F,0
+"Helping > (teachWithExtensions, unknown, testCases, unknown)",S,0
+"Helping > (teachWithExtensions, unknown, testCases, vague)",F,0
+"Helping > (teachWithExtensions, unknown, testCases, vague)",S,0
+"Questioning > (bug, detailed, checkForFollowing)",F,0
+"Questioning > (bug, detailed, checkForFollowing)",S,0
+"Questioning > (bug, detailed, checkIfCorrect)",F,1
+"Questioning > (bug, detailed, checkIfCorrect)",S,1
+"Questioning > (bug, detailed, content)",F,10
+"Questioning > (bug, detailed, content)",S,7
+"Questioning > (bug, detailed, guiding)",F,2
+"Questioning > (bug, detailed, guiding)",S,0
+"Questioning > (bug, detailed, personal)",F,0
+"Questioning > (bug, detailed, personal)",S,0
+"Questioning > (bug, unknown, checkForFollowing)",F,0
+"Questioning > (bug, unknown, checkForFollowing)",S,0
+"Questioning > (bug, unknown, checkIfCorrect)",F,0
+"Questioning > (bug, unknown, checkIfCorrect)",S,0
+"Questioning > (bug, unknown, content)",F,0
+"Questioning > (bug, unknown, content)",S,0
+"Questioning > (bug, unknown, guiding)",F,0
+"Questioning > (bug, unknown, guiding)",S,0
+"Questioning > (bug, unknown, personal)",F,0
+"Questioning > (bug, unknown, personal)",S,0
+"Questioning > (bug, vague, checkForFollowing)",F,2
+"Questioning > (bug, vague, checkForFollowing)",S,6
+"Questioning > (bug, vague, checkIfCorrect)",F,6
+"Questioning > (bug, vague, checkIfCorrect)",S,3
+"Questioning > (bug, vague, content)",F,61
+"Questioning > (bug, vague, content)",S,76
+"Questioning > (bug, vague, guiding)",F,4
+"Questioning > (bug, vague, guiding)",S,1
+"Questioning > (bug, vague, personal)",F,0
+"Questioning > (bug, vague, personal)",S,0
+"Questioning > (codeOpinion, detailed, checkForFollowing)",F,0
+"Questioning > (codeOpinion, detailed, checkForFollowing)",S,0
+"Questioning > (codeOpinion, detailed, checkIfCorrect)",F,0
+"Questioning > (codeOpinion, detailed, checkIfCorrect)",S,0
+"Questioning > (codeOpinion, detailed, content)",F,0
+"Questioning > (codeOpinion, detailed, content)",S,1
+"Questioning > (codeOpinion, detailed, guiding)",F,0
+"Questioning > (codeOpinion, detailed, guiding)",S,0
+"Questioning > (codeOpinion, detailed, personal)",F,0
+"Questioning > (codeOpinion, detailed, personal)",S,0
+"Questioning > (codeOpinion, unknown, checkForFollowing)",F,0
+"Questioning > (codeOpinion, unknown, checkForFollowing)",S,0
+"Questioning > (codeOpinion, unknown, checkIfCorrect)",F,0
+"Questioning > (codeOpinion, unknown, checkIfCorrect)",S,0
+"Questioning > (codeOpinion, unknown, content)",F,0
+"Questioning > (codeOpinion, unknown, content)",S,0
+"Questioning > (codeOpinion, unknown, guiding)",F,0
+"Questioning > (codeOpinion, unknown, guiding)",S,0
+"Questioning > (codeOpinion, unknown, personal)",F,0
+"Questioning > (codeOpinion, unknown, personal)",S,0
+"Questioning > (codeOpinion, vague, checkForFollowing)",F,0
+"Questioning > (codeOpinion, vague, checkForFollowing)",S,0
+"Questioning > (codeOpinion, vague, checkIfCorrect)",F,0
+"Questioning > (codeOpinion, vague, checkIfCorrect)",S,4
+"Questioning > (codeOpinion, vague, content)",F,2
+"Questioning > (codeOpinion, vague, content)",S,2
+"Questioning > (codeOpinion, vague, guiding)",F,0
+"Questioning > (codeOpinion, vague, guiding)",S,0
+"Questioning > (codeOpinion, vague, personal)",F,0
+"Questioning > (codeOpinion, vague, personal)",S,0
+"Questioning > (codeSpecifications, detailed, checkForFollowing)",F,1
+"Questioning > (codeSpecifications, detailed, checkForFollowing)",S,0
+"Questioning > (codeSpecifications, detailed, checkIfCorrect)",F,51
+"Questioning > (codeSpecifications, detailed, checkIfCorrect)",S,55
+"Questioning > (codeSpecifications, detailed, content)",F,37
+"Questioning > (codeSpecifications, detailed, content)",S,45
+"Questioning > (codeSpecifications, detailed, guiding)",F,3
+"Questioning > (codeSpecifications, detailed, guiding)",S,4
+"Questioning > (codeSpecifications, detailed, personal)",F,0
+"Questioning > (codeSpecifications, detailed, personal)",S,0
+"Questioning > (codeSpecifications, unknown, checkForFollowing)",F,0
+"Questioning > (codeSpecifications, unknown, checkForFollowing)",S,0
+"Questioning > (codeSpecifications, unknown, checkIfCorrect)",F,1
+"Questioning > (codeSpecifications, unknown, checkIfCorrect)",S,1
+"Questioning > (codeSpecifications, unknown, content)",F,0
+"Questioning > (codeSpecifications, unknown, content)",S,1
+"Questioning > (codeSpecifications, unknown, guiding)",F,0
+"Questioning > (codeSpecifications, unknown, guiding)",S,0
+"Questioning > (codeSpecifications, unknown, personal)",F,0
+"Questioning > (codeSpecifications, unknown, personal)",S,0
+"Questioning > (codeSpecifications, vague, checkForFollowing)",F,15
+"Questioning > (codeSpecifications, vague, checkForFollowing)",S,3
+"Questioning > (codeSpecifications, vague, checkIfCorrect)",F,19
+"Questioning > (codeSpecifications, vague, checkIfCorrect)",S,24
+"Questioning > (codeSpecifications, vague, content)",F,70
+"Questioning > (codeSpecifications, vague, content)",S,88
+"Questioning > (codeSpecifications, vague, guiding)",F,2
+"Questioning > (codeSpecifications, vague, guiding)",S,2
+"Questioning > (codeSpecifications, vague, personal)",F,0
+"Questioning > (codeSpecifications, vague, personal)",S,0
+"Questioning > (codingConcept, detailed, checkForFollowing)",F,7
+"Questioning > (codingConcept, detailed, checkForFollowing)",S,5
+"Questioning > (codingConcept, detailed, checkIfCorrect)",F,15
+"Questioning > (codingConcept, detailed, checkIfCorrect)",S,12
+"Questioning > (codingConcept, detailed, content)",F,16
+"Questioning > (codingConcept, detailed, content)",S,28
+"Questioning > (codingConcept, detailed, guiding)",F,11
+"Questioning > (codingConcept, detailed, guiding)",S,12
+"Questioning > (codingConcept, detailed, personal)",F,0
+"Questioning > (codingConcept, detailed, personal)",S,0
+"Questioning > (codingConcept, unknown, checkForFollowing)",F,0
+"Questioning > (codingConcept, unknown, checkForFollowing)",S,0
+"Questioning > (codingConcept, unknown, checkIfCorrect)",F,0
+"Questioning > (codingConcept, unknown, checkIfCorrect)",S,1
+"Questioning > (codingConcept, unknown, content)",F,0
+"Questioning > (codingConcept, unknown, content)",S,1
+"Questioning > (codingConcept, unknown, guiding)",F,0
+"Questioning > (codingConcept, unknown, guiding)",S,0
+"Questioning > (codingConcept, unknown, personal)",F,0
+"Questioning > (codingConcept, unknown, personal)",S,0
+"Questioning > (codingConcept, vague, checkForFollowing)",F,2
+"Questioning > (codingConcept, vague, checkForFollowing)",S,6
+"Questioning > (codingConcept, vague, checkIfCorrect)",F,4
+"Questioning > (codingConcept, vague, checkIfCorrect)",S,4
+"Questioning > (codingConcept, vague, content)",F,25
+"Questioning > (codingConcept, vague, content)",S,49
+"Questioning > (codingConcept, vague, guiding)",F,12
+"Questioning > (codingConcept, vague, guiding)",S,2
+"Questioning > (codingConcept, vague, personal)",F,0
+"Questioning > (codingConcept, vague, personal)",S,1
+"Questioning > (codingExperience, detailed, checkForFollowing)",F,1
+"Questioning > (codingExperience, detailed, checkForFollowing)",S,0
+"Questioning > (codingExperience, detailed, checkIfCorrect)",F,0
+"Questioning > (codingExperience, detailed, checkIfCorrect)",S,0
+"Questioning > (codingExperience, detailed, content)",F,9
+"Questioning > (codingExperience, detailed, content)",S,9
+"Questioning > (codingExperience, detailed, guiding)",F,0
+"Questioning > (codingExperience, detailed, guiding)",S,0
+"Questioning > (codingExperience, detailed, personal)",F,5
+"Questioning > (codingExperience, detailed, personal)",S,1
+"Questioning > (codingExperience, unknown, checkForFollowing)",F,0
+"Questioning > (codingExperience, unknown, checkForFollowing)",S,0
+"Questioning > (codingExperience, unknown, checkIfCorrect)",F,0
+"Questioning > (codingExperience, unknown, checkIfCorrect)",S,0
+"Questioning > (codingExperience, unknown, content)",F,0
+"Questioning > (codingExperience, unknown, content)",S,0
+"Questioning > (codingExperience, unknown, guiding)",F,0
+"Questioning > (codingExperience, unknown, guiding)",S,0
+"Questioning > (codingExperience, unknown, personal)",F,0
+"Questioning > (codingExperience, unknown, personal)",S,0
+"Questioning > (codingExperience, vague, checkForFollowing)",F,1
+"Questioning > (codingExperience, vague, checkForFollowing)",S,1
+"Questioning > (codingExperience, vague, checkIfCorrect)",F,2
+"Questioning > (codingExperience, vague, checkIfCorrect)",S,3
+"Questioning > (codingExperience, vague, content)",F,11
+"Questioning > (codingExperience, vague, content)",S,19
+"Questioning > (codingExperience, vague, guiding)",F,1
+"Questioning > (codingExperience, vague, guiding)",S,1
+"Questioning > (codingExperience, vague, personal)",F,5
+"Questioning > (codingExperience, vague, personal)",S,2
+"Questioning > (developmentStrategy, detailed, checkForFollowing)",F,0
+"Questioning > (developmentStrategy, detailed, checkForFollowing)",S,0
+"Questioning > (developmentStrategy, detailed, checkIfCorrect)",F,1
+"Questioning > (developmentStrategy, detailed, checkIfCorrect)",S,1
+"Questioning > (developmentStrategy, detailed, content)",F,3
+"Questioning > (developmentStrategy, detailed, content)",S,2
+"Questioning > (developmentStrategy, detailed, guiding)",F,3
+"Questioning > (developmentStrategy, detailed, guiding)",S,0
+"Questioning > (developmentStrategy, detailed, personal)",F,0
+"Questioning > (developmentStrategy, detailed, personal)",S,0
+"Questioning > (developmentStrategy, unknown, checkForFollowing)",F,0
+"Questioning > (developmentStrategy, unknown, checkForFollowing)",S,0
+"Questioning > (developmentStrategy, unknown, checkIfCorrect)",F,0
+"Questioning > (developmentStrategy, unknown, checkIfCorrect)",S,0
+"Questioning > (developmentStrategy, unknown, content)",F,0
+"Questioning > (developmentStrategy, unknown, content)",S,0
+"Questioning > (developmentStrategy, unknown, guiding)",F,0
+"Questioning > (developmentStrategy, unknown, guiding)",S,0
+"Questioning > (developmentStrategy, unknown, personal)",F,0
+"Questioning > (developmentStrategy, unknown, personal)",S,0
+"Questioning > (developmentStrategy, vague, checkForFollowing)",F,3
+"Questioning > (developmentStrategy, vague, checkForFollowing)",S,0
+"Questioning > (developmentStrategy, vague, checkIfCorrect)",F,2
+"Questioning > (developmentStrategy, vague, checkIfCorrect)",S,3
+"Questioning > (developmentStrategy, vague, content)",F,12
+"Questioning > (developmentStrategy, vague, content)",S,6
+"Questioning > (developmentStrategy, vague, guiding)",F,5
+"Questioning > (developmentStrategy, vague, guiding)",S,1
+"Questioning > (developmentStrategy, vague, personal)",F,0
+"Questioning > (developmentStrategy, vague, personal)",S,0
+"Questioning > (errorLocation, detailed, checkForFollowing)",F,0
+"Questioning > (errorLocation, detailed, checkForFollowing)",S,0
+"Questioning > (errorLocation, detailed, checkIfCorrect)",F,2
+"Questioning > (errorLocation, detailed, checkIfCorrect)",S,0
+"Questioning > (errorLocation, detailed, content)",F,0
+"Questioning > (errorLocation, detailed, content)",S,0
+"Questioning > (errorLocation, detailed, guiding)",F,0
+"Questioning > (errorLocation, detailed, guiding)",S,0
+"Questioning > (errorLocation, detailed, personal)",F,0
+"Questioning > (errorLocation, detailed, personal)",S,0
+"Questioning > (errorLocation, unknown, checkForFollowing)",F,0
+"Questioning > (errorLocation, unknown, checkForFollowing)",S,0
+"Questioning > (errorLocation, unknown, checkIfCorrect)",F,0
+"Questioning > (errorLocation, unknown, checkIfCorrect)",S,0
+"Questioning > (errorLocation, unknown, content)",F,0
+"Questioning > (errorLocation, unknown, content)",S,0
+"Questioning > (errorLocation, unknown, guiding)",F,0
+"Questioning > (errorLocation, unknown, guiding)",S,0
+"Questioning > (errorLocation, unknown, personal)",F,0
+"Questioning > (errorLocation, unknown, personal)",S,0
+"Questioning > (errorLocation, vague, checkForFollowing)",F,0
+"Questioning > (errorLocation, vague, checkForFollowing)",S,0
+"Questioning > (errorLocation, vague, checkIfCorrect)",F,2
+"Questioning > (errorLocation, vague, checkIfCorrect)",S,0
+"Questioning > (errorLocation, vague, content)",F,4
+"Questioning > (errorLocation, vague, content)",S,0
+"Questioning > (errorLocation, vague, guiding)",F,2
+"Questioning > (errorLocation, vague, guiding)",S,0
+"Questioning > (errorLocation, vague, personal)",F,0
+"Questioning > (errorLocation, vague, personal)",S,0
+"Questioning > (errorMsg, detailed, checkForFollowing)",F,0
+"Questioning > (errorMsg, detailed, checkForFollowing)",S,0
+"Questioning > (errorMsg, detailed, checkIfCorrect)",F,0
+"Questioning > (errorMsg, detailed, checkIfCorrect)",S,0
+"Questioning > (errorMsg, detailed, content)",F,0
+"Questioning > (errorMsg, detailed, content)",S,2
+"Questioning > (errorMsg, detailed, guiding)",F,0
+"Questioning > (errorMsg, detailed, guiding)",S,0
+"Questioning > (errorMsg, detailed, personal)",F,0
+"Questioning > (errorMsg, detailed, personal)",S,0
+"Questioning > (errorMsg, unknown, checkForFollowing)",F,0
+"Questioning > (errorMsg, unknown, checkForFollowing)",S,0
+"Questioning > (errorMsg, unknown, checkIfCorrect)",F,0
+"Questioning > (errorMsg, unknown, checkIfCorrect)",S,0
+"Questioning > (errorMsg, unknown, content)",F,0
+"Questioning > (errorMsg, unknown, content)",S,0
+"Questioning > (errorMsg, unknown, guiding)",F,0
+"Questioning > (errorMsg, unknown, guiding)",S,0
+"Questioning > (errorMsg, unknown, personal)",F,0
+"Questioning > (errorMsg, unknown, personal)",S,0
+"Questioning > (errorMsg, vague, checkForFollowing)",F,0
+"Questioning > (errorMsg, vague, checkForFollowing)",S,0
+"Questioning > (errorMsg, vague, checkIfCorrect)",F,0
+"Questioning > (errorMsg, vague, checkIfCorrect)",S,0
+"Questioning > (errorMsg, vague, content)",F,1
+"Questioning > (errorMsg, vague, content)",S,4
+"Questioning > (errorMsg, vague, guiding)",F,0
+"Questioning > (errorMsg, vague, guiding)",S,0
+"Questioning > (errorMsg, vague, personal)",F,0
+"Questioning > (errorMsg, vague, personal)",S,0
+"Questioning > (learningResources, detailed, checkForFollowing)",F,0
+"Questioning > (learningResources, detailed, checkForFollowing)",S,0
+"Questioning > (learningResources, detailed, checkIfCorrect)",F,2
+"Questioning > (learningResources, detailed, checkIfCorrect)",S,0
+"Questioning > (learningResources, detailed, content)",F,2
+"Questioning > (learningResources, detailed, content)",S,2
+"Questioning > (learningResources, detailed, guiding)",F,0
+"Questioning > (learningResources, detailed, guiding)",S,0
+"Questioning > (learningResources, detailed, personal)",F,0
+"Questioning > (learningResources, detailed, personal)",S,1
+"Questioning > (learningResources, unknown, checkForFollowing)",F,0
+"Questioning > (learningResources, unknown, checkForFollowing)",S,0
+"Questioning > (learningResources, unknown, checkIfCorrect)",F,0
+"Questioning > (learningResources, unknown, checkIfCorrect)",S,0
+"Questioning > (learningResources, unknown, content)",F,0
+"Questioning > (learningResources, unknown, content)",S,0
+"Questioning > (learningResources, unknown, guiding)",F,0
+"Questioning > (learningResources, unknown, guiding)",S,0
+"Questioning > (learningResources, unknown, personal)",F,0
+"Questioning > (learningResources, unknown, personal)",S,0
+"Questioning > (learningResources, vague, checkForFollowing)",F,1
+"Questioning > (learningResources, vague, checkForFollowing)",S,1
+"Questioning > (learningResources, vague, checkIfCorrect)",F,0
+"Questioning > (learningResources, vague, checkIfCorrect)",S,0
+"Questioning > (learningResources, vague, content)",F,2
+"Questioning > (learningResources, vague, content)",S,3
+"Questioning > (learningResources, vague, guiding)",F,0
+"Questioning > (learningResources, vague, guiding)",S,0
+"Questioning > (learningResources, vague, personal)",F,0
+"Questioning > (learningResources, vague, personal)",S,0
+"Questioning > (originalCode, detailed, checkForFollowing)",F,4
+"Questioning > (originalCode, detailed, checkForFollowing)",S,1
+"Questioning > (originalCode, detailed, checkIfCorrect)",F,31
+"Questioning > (originalCode, detailed, checkIfCorrect)",S,24
+"Questioning > (originalCode, detailed, content)",F,23
+"Questioning > (originalCode, detailed, content)",S,19
+"Questioning > (originalCode, detailed, guiding)",F,2
+"Questioning > (originalCode, detailed, guiding)",S,8
+"Questioning > (originalCode, detailed, personal)",F,0
+"Questioning > (originalCode, detailed, personal)",S,0
+"Questioning > (originalCode, unknown, checkForFollowing)",F,0
+"Questioning > (originalCode, unknown, checkForFollowing)",S,0
+"Questioning > (originalCode, unknown, checkIfCorrect)",F,0
+"Questioning > (originalCode, unknown, checkIfCorrect)",S,0
+"Questioning > (originalCode, unknown, content)",F,0
+"Questioning > (originalCode, unknown, content)",S,0
+"Questioning > (originalCode, unknown, guiding)",F,0
+"Questioning > (originalCode, unknown, guiding)",S,0
+"Questioning > (originalCode, unknown, personal)",F,0
+"Questioning > (originalCode, unknown, personal)",S,0
+"Questioning > (originalCode, vague, checkForFollowing)",F,4
+"Questioning > (originalCode, vague, checkForFollowing)",S,14
+"Questioning > (originalCode, vague, checkIfCorrect)",F,20
+"Questioning > (originalCode, vague, checkIfCorrect)",S,18
+"Questioning > (originalCode, vague, content)",F,89
+"Questioning > (originalCode, vague, content)",S,86
+"Questioning > (originalCode, vague, guiding)",F,2
+"Questioning > (originalCode, vague, guiding)",S,4
+"Questioning > (originalCode, vague, personal)",F,0
+"Questioning > (originalCode, vague, personal)",S,0
+"Questioning > (personalInfo, detailed, checkForFollowing)",F,0
+"Questioning > (personalInfo, detailed, checkForFollowing)",S,1
+"Questioning > (personalInfo, detailed, checkIfCorrect)",F,2
+"Questioning > (personalInfo, detailed, checkIfCorrect)",S,3
+"Questioning > (personalInfo, detailed, content)",F,0
+"Questioning > (personalInfo, detailed, content)",S,6
+"Questioning > (personalInfo, detailed, guiding)",F,0
+"Questioning > (personalInfo, detailed, guiding)",S,0
+"Questioning > (personalInfo, detailed, personal)",F,5
+"Questioning > (personalInfo, detailed, personal)",S,23
+"Questioning > (personalInfo, unknown, checkForFollowing)",F,0
+"Questioning > (personalInfo, unknown, checkForFollowing)",S,0
+"Questioning > (personalInfo, unknown, checkIfCorrect)",F,0
+"Questioning > (personalInfo, unknown, checkIfCorrect)",S,0
+"Questioning > (personalInfo, unknown, content)",F,0
+"Questioning > (personalInfo, unknown, content)",S,0
+"Questioning > (personalInfo, unknown, guiding)",F,0
+"Questioning > (personalInfo, unknown, guiding)",S,0
+"Questioning > (personalInfo, unknown, personal)",F,0
+"Questioning > (personalInfo, unknown, personal)",S,0
+"Questioning > (personalInfo, vague, checkForFollowing)",F,0
+"Questioning > (personalInfo, vague, checkForFollowing)",S,1
+"Questioning > (personalInfo, vague, checkIfCorrect)",F,0
+"Questioning > (personalInfo, vague, checkIfCorrect)",S,1
+"Questioning > (personalInfo, vague, content)",F,4
+"Questioning > (personalInfo, vague, content)",S,2
+"Questioning > (personalInfo, vague, guiding)",F,0
+"Questioning > (personalInfo, vague, guiding)",S,0
+"Questioning > (personalInfo, vague, personal)",F,33
+"Questioning > (personalInfo, vague, personal)",S,38
+"Questioning > (platformRelated, detailed, checkForFollowing)",F,0
+"Questioning > (platformRelated, detailed, checkForFollowing)",S,0
+"Questioning > (platformRelated, detailed, checkIfCorrect)",F,0
+"Questioning > (platformRelated, detailed, checkIfCorrect)",S,0
+"Questioning > (platformRelated, detailed, content)",F,3
+"Questioning > (platformRelated, detailed, content)",S,1
+"Questioning > (platformRelated, detailed, guiding)",F,0
+"Questioning > (platformRelated, detailed, guiding)",S,0
+"Questioning > (platformRelated, detailed, personal)",F,1
+"Questioning > (platformRelated, detailed, personal)",S,0
+"Questioning > (platformRelated, unknown, checkForFollowing)",F,0
+"Questioning > (platformRelated, unknown, checkForFollowing)",S,0
+"Questioning > (platformRelated, unknown, checkIfCorrect)",F,0
+"Questioning > (platformRelated, unknown, checkIfCorrect)",S,0
+"Questioning > (platformRelated, unknown, content)",F,0
+"Questioning > (platformRelated, unknown, content)",S,0
+"Questioning > (platformRelated, unknown, guiding)",F,0
+"Questioning > (platformRelated, unknown, guiding)",S,0
+"Questioning > (platformRelated, unknown, personal)",F,0
+"Questioning > (platformRelated, unknown, personal)",S,0
+"Questioning > (platformRelated, vague, checkForFollowing)",F,1
+"Questioning > (platformRelated, vague, checkForFollowing)",S,1
+"Questioning > (platformRelated, vague, checkIfCorrect)",F,0
+"Questioning > (platformRelated, vague, checkIfCorrect)",S,3
+"Questioning > (platformRelated, vague, content)",F,36
+"Questioning > (platformRelated, vague, content)",S,38
+"Questioning > (platformRelated, vague, guiding)",F,0
+"Questioning > (platformRelated, vague, guiding)",S,0
+"Questioning > (platformRelated, vague, personal)",F,0
+"Questioning > (platformRelated, vague, personal)",S,1
+"Questioning > (proposedNewCode, detailed, checkForFollowing)",F,2
+"Questioning > (proposedNewCode, detailed, checkForFollowing)",S,2
+"Questioning > (proposedNewCode, detailed, checkIfCorrect)",F,69
+"Questioning > (proposedNewCode, detailed, checkIfCorrect)",S,84
+"Questioning > (proposedNewCode, detailed, content)",F,60
+"Questioning > (proposedNewCode, detailed, content)",S,78
+"Questioning > (proposedNewCode, detailed, guiding)",F,29
+"Questioning > (proposedNewCode, detailed, guiding)",S,34
+"Questioning > (proposedNewCode, detailed, personal)",F,0
+"Questioning > (proposedNewCode, detailed, personal)",S,0
+"Questioning > (proposedNewCode, unknown, checkForFollowing)",F,0
+"Questioning > (proposedNewCode, unknown, checkForFollowing)",S,3
+"Questioning > (proposedNewCode, unknown, checkIfCorrect)",F,4
+"Questioning > (proposedNewCode, unknown, checkIfCorrect)",S,7
+"Questioning > (proposedNewCode, unknown, content)",F,1
+"Questioning > (proposedNewCode, unknown, content)",S,1
+"Questioning > (proposedNewCode, unknown, guiding)",F,1
+"Questioning > (proposedNewCode, unknown, guiding)",S,0
+"Questioning > (proposedNewCode, unknown, personal)",F,0
+"Questioning > (proposedNewCode, unknown, personal)",S,0
+"Questioning > (proposedNewCode, vague, checkForFollowing)",F,20
+"Questioning > (proposedNewCode, vague, checkForFollowing)",S,65
+"Questioning > (proposedNewCode, vague, checkIfCorrect)",F,76
+"Questioning > (proposedNewCode, vague, checkIfCorrect)",S,89
+"Questioning > (proposedNewCode, vague, content)",F,147
+"Questioning > (proposedNewCode, vague, content)",S,197
+"Questioning > (proposedNewCode, vague, guiding)",F,32
+"Questioning > (proposedNewCode, vague, guiding)",S,18
+"Questioning > (proposedNewCode, vague, personal)",F,0
+"Questioning > (proposedNewCode, vague, personal)",S,0
+"Questioning > (testCases, detailed, checkForFollowing)",F,0
+"Questioning > (testCases, detailed, checkForFollowing)",S,0
+"Questioning > (testCases, detailed, checkIfCorrect)",F,8
+"Questioning > (testCases, detailed, checkIfCorrect)",S,17
+"Questioning > (testCases, detailed, content)",F,17
+"Questioning > (testCases, detailed, content)",S,8
+"Questioning > (testCases, detailed, guiding)",F,1
+"Questioning > (testCases, detailed, guiding)",S,1
+"Questioning > (testCases, detailed, personal)",F,0
+"Questioning > (testCases, detailed, personal)",S,0
+"Questioning > (testCases, unknown, checkForFollowing)",F,0
+"Questioning > (testCases, unknown, checkForFollowing)",S,0
+"Questioning > (testCases, unknown, checkIfCorrect)",F,0
+"Questioning > (testCases, unknown, checkIfCorrect)",S,0
+"Questioning > (testCases, unknown, content)",F,0
+"Questioning > (testCases, unknown, content)",S,0
+"Questioning > (testCases, unknown, guiding)",F,0
+"Questioning > (testCases, unknown, guiding)",S,0
+"Questioning > (testCases, unknown, personal)",F,0
+"Questioning > (testCases, unknown, personal)",S,0
+"Questioning > (testCases, vague, checkForFollowing)",F,0
+"Questioning > (testCases, vague, checkForFollowing)",S,0
+"Questioning > (testCases, vague, checkIfCorrect)",F,1
+"Questioning > (testCases, vague, checkIfCorrect)",S,5
+"Questioning > (testCases, vague, content)",F,26
+"Questioning > (testCases, vague, content)",S,12
+"Questioning > (testCases, vague, guiding)",F,0
+"Questioning > (testCases, vague, guiding)",S,0
+"Questioning > (testCases, vague, personal)",F,0
+"Questioning > (testCases, vague, personal)",S,0

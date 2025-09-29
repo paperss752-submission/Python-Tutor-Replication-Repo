@@ -1,0 +1,50 @@
+,guid,color,isCodable,name,lvl_1,lvl_2,lvl_3
+0,5BA47239-2ED6-447E-8476-C2D85F4F5B8B,#006EFF,true,Big picture of an interaction > request > codeComprehension,Big picture of an interaction,request,codeComprehension
+1,B92EFB9D-A123-4FF0-BE14-0093C1AF66F7,#006EFF,true,Big picture of an interaction > request > codeImprove,Big picture of an interaction,request,codeImprove
+2,11E0D7E1-25AB-4FCA-89E9-0D9DEC42FDAB,#006EFF,true,Big picture of an interaction > request > bugFix,Big picture of an interaction,request,bugFix
+3,B8E7DC44-543D-43C7-94F9-549CA3CC1B6A,#006EFF,true,Big picture of an interaction > request > codeWrite,Big picture of an interaction,request,codeWrite
+4,A67775FE-BE6E-4CE5-A506-094AD37A0177,#006EFF,true,Big picture of an interaction > resolveRequest > failure,Big picture of an interaction,resolveRequest,failure
+5,C8FACF99-1ED1-4498-B9D0-F978D0F6C83E,#006EFF,true,Big picture of an interaction > resolveRequest > success,Big picture of an interaction,resolveRequest,success
+6,A64C5184-4DB7-4263-A5FF-C342F2ECD671,#8C32A0,true,Explanations and help > confidenceLevel > phrasedAsUnsure,Explanations and help,confidenceLevel,phrasedAsUnsure
+7,C3888D97-94AA-4521-BAAA-F1F6AB2CF96A,#8C32A0,true,Explanations and help > confidenceLevel > phrasedAsQuestion,Explanations and help,confidenceLevel,phrasedAsQuestion
+8,E35A8596-D7AB-4540-918D-BF869846C5CB,#8C32A0,true,Explanations and help > confidenceLevel > phrasedAsCertain,Explanations and help,confidenceLevel,phrasedAsCertain
+9,F5118719-52BC-4694-928B-6618419F596B,#8C32A0,true,Explanations and help > communicationMechanism > explain,Explanations and help,communicationMechanism,explain
+10,AE184BD2-6DF4-492B-B4FE-F7D446C30B51,#8C32A0,true,Explanations and help > communicationMechanism > positiveConfirmation,Explanations and help,communicationMechanism,positiveConfirmation
+11,8A2434C0-CAD2-42B7-8438-73E9066B7EC5,#8C32A0,true,Explanations and help > communicationMechanism > negativeConfirmation,Explanations and help,communicationMechanism,negativeConfirmation
+12,47A85B93-33D7-403D-A0AD-E2396DDC0474,#8C32A0,true,Explanations and help > communicationMechanism > guideInteractively,Explanations and help,communicationMechanism,guideInteractively
+13,CBC2A761-D76A-454D-B746-CC7CC056D0D8,#8C32A0,true,Explanations and help > communicationMechanism > suggest,Explanations and help,communicationMechanism,suggest
+14,7C3B0402-6F4F-47B8-8360-6BCC4EB1A94D,#8C32A0,true,Explanations and help > communicationMechanism > state,Explanations and help,communicationMechanism,state
+15,07E06FC1-375D-4486-987E-3822A943D48F,#8C32A0,true,Explanations and help > communicationMechanism > teachWithExtensions,Explanations and help,communicationMechanism,teachWithExtensions
+16,7BA8BB75-1C87-4C29-B421-A47F3AADE828,#8C32A0,true,Explanations and help > communicationMechanism > implement,Explanations and help,communicationMechanism,implement
+17,FF9A0AB3-3FDA-4EA2-907D-792F183109FC,#F00082,true,Questions > specificity > vague,Questions,specificity,vague
+18,AF54E626-5DB3-4DC7-86BB-2595F87B171C,#F00082,true,Questions > specificity > detailed,Questions,specificity,detailed
+19,4FF70B3A-7C4C-41F7-8588-46D728150616,#F00082,true,Questions > question > checkForFollowing,Questions,question,checkForFollowing
+20,6C367D66-7EBE-4C5C-BD16-7D332FA53A55,#F00082,true,Questions > question > content,Questions,question,content
+21,3EE7B6B2-7D7A-410B-A647-DD3BE0C8FB1C,#F00082,true,Questions > question > guiding,Questions,question,guiding
+22,7B68ECBA-2749-4776-B260-A81487335047,#F00082,true,Questions > question > personal,Questions,question,personal
+23,534411C7-5244-44CF-92D4-81179EDF168D,#F00082,true,Questions > question > checkIfCorrect,Questions,question,checkIfCorrect
+24,47320667-5DDF-4B6A-8DDC-20BAD1851788,#FFBE00,true,"Attitude, tone, or mood > expressPositivity > greeting","Attitude, tone, or mood",expressPositivity,greeting
+25,EC6C793C-8E51-4B79-B5DE-3A9EA0CAE555,#FFBE00,true,"Attitude, tone, or mood > expressPositivity > apology","Attitude, tone, or mood",expressPositivity,apology
+26,D7EE21DB-DE94-4B0D-8DC0-D159B3A69F4E,#FFBE00,true,"Attitude, tone, or mood > expressPositivity > expressSupportingWords","Attitude, tone, or mood",expressPositivity,expressSupportingWords
+27,B95E9AC5-E717-4361-80A4-22B34F5B0474,#FFBE00,true,"Attitude, tone, or mood > expressPositivity > expressSatisfactionOrGratitude","Attitude, tone, or mood",expressPositivity,expressSatisfactionOrGratitude
+28,E7E423D9-ECAD-4536-AC5A-3213E261D1D9,#FFBE00,true,"Attitude, tone, or mood > expressPositivity > beingWrong","Attitude, tone, or mood",expressPositivity,beingWrong
+29,1D36394A-82EF-4784-BFC1-23AFD339254D,#FFBE00,true,"Attitude, tone, or mood > expressTeachingPhilosophy","Attitude, tone, or mood",expressTeachingPhilosophy,
+30,AD7BB2CA-8600-43A2-9523-FD0C795352B5,#FFBE00,true,"Attitude, tone, or mood > expressNegativity > beingLost","Attitude, tone, or mood",expressNegativity,beingLost
+31,03D4D909-0886-4D64-8D63-DEA715A5E6CC,#FFBE00,true,"Attitude, tone, or mood > expressNegativity > frustration","Attitude, tone, or mood",expressNegativity,frustration
+32,AC2D0B8E-E075-427C-B088-9232AC122638,#FFBE00,true,"Attitude, tone, or mood > expressNegativity > selfTalk","Attitude, tone, or mood",expressNegativity,selfTalk
+33,F55C95CE-40B0-4DD2-9BBC-F43CC6850DEE,#FFBE00,true,"Attitude, tone, or mood > expressNegativity > aggression","Attitude, tone, or mood",expressNegativity,aggression
+34,A7D3D09C-73A1-49CF-94AD-2B79256F6683,#6E6E6E,true,General message attributes > contentDomain > learningResources,General message attributes,contentDomain,learningResources
+35,25ECCA20-6EF2-40D5-9361-A6094FFE4E50,#6E6E6E,true,General message attributes > contentDomain > personalInfo,General message attributes,contentDomain,personalInfo
+36,FC4651D6-27F7-46CE-B171-988BD1F2AD2D,#6E6E6E,true,General message attributes > contentDomain > developmentStrategy,General message attributes,contentDomain,developmentStrategy
+37,EE8FDA12-3B2A-42EF-9E7B-01EAF8BD413C,#6E6E6E,true,General message attributes > contentDomain > originalCode,General message attributes,contentDomain,originalCode
+38,9A3D8A4B-D071-4D25-AF2F-8A2C7A8D11B3,#6E6E6E,true,General message attributes > contentDomain > errorMsg,General message attributes,contentDomain,errorMsg
+39,BFD873C7-3D7A-421E-9E25-7C0E38009C2D,#6E6E6E,true,General message attributes > contentDomain > codingConcept,General message attributes,contentDomain,codingConcept
+40,F338EC25-DCC3-47BE-969C-14DE2ABF384C,#6E6E6E,true,General message attributes > contentDomain > bug,General message attributes,contentDomain,bug
+41,9E1FD033-5597-4ABA-9225-72AFE3B60E72,#6E6E6E,true,General message attributes > contentDomain > proposedNewCode,General message attributes,contentDomain,proposedNewCode
+42,FE2A4EFB-EDEF-42B9-B78B-5B48F734B831,#6E6E6E,true,General message attributes > contentDomain > errorLine,General message attributes,contentDomain,errorLine
+43,FF6B2DBF-2318-46A8-B600-5B15F0E1D6BB,#6E6E6E,true,General message attributes > contentDomain > testCases,General message attributes,contentDomain,testCases
+44,820D1EF9-CEE5-48A0-959F-4EEC7973D3B2,#6E6E6E,true,General message attributes > contentDomain > codingExperience,General message attributes,contentDomain,codingExperience
+45,B9D21ADA-4B70-4294-BA8C-4B6EC19F4A74,#6E6E6E,true,General message attributes > contentDomain > codeSpecifications,General message attributes,contentDomain,codeSpecifications
+46,F39AF85B-6F0A-46DD-A2F4-1DC2B72EDB4C,#6E6E6E,true,General message attributes > contentDomain > platformRelated,General message attributes,contentDomain,platformRelated
+47,6E130CFC-AD61-4559-822F-B37A19E2629B,#6E6E6E,true,General message attributes > contentDomain > codeOpinion,General message attributes,contentDomain,codeOpinion
+48,E6837857-0AC3-48A2-91C4-ADFE86F60F23,#6E6E6E,true,General message attributes > contentDomain > errorLocation,General message attributes,contentDomain,errorLocation
